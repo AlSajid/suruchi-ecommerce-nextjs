@@ -23,17 +23,18 @@ export default function QuickView() {
 												<a
 													className='product__media--preview__items--link glightbox'
 													data-gallery='product-media-preview'
-													href='assets/img/product/big-product1.jpg'>
+													href='/images/products/big-product1.jpg'>
 													<Image
 														className='product__media--preview__items--img'
-														src='assets/img/product/big-product1.jpg'
+														src='/images/products/big-product1.jpg'
 														alt='product-media-img'
+														width={282}
 													/>
 												</a>
 												<div className='product__media--view__icon'>
 													<a
 														className='product__media--view__icon--link glightbox'
-														href='assets/img/product/big-product1.jpg'
+														href='/images/products/big-product1.jpg'
 														data-gallery='product-media-preview'>
 														<svg
 															className='product__media--view__icon--svg'
@@ -64,17 +65,17 @@ export default function QuickView() {
 												<a
 													className='product__media--preview__items--link glightbox'
 													data-gallery='product-media-preview'
-													href='assets/img/product/big-product2.jpg'>
+													href='/images/products/big-product2.jpg'>
 													<Image
 														className='product__media--preview__items--img'
-														src='assets/img/product/big-product2.jpg'
+														src='/images/products/big-product2.jpg'
 														alt='product-media-img'
 													/>
 												</a>
 												<div className='product__media--view__icon'>
 													<a
 														className='product__media--view__icon--link glightbox'
-														href='assets/img/product/big-product2.jpg'
+														href='/images/products/big-product2.jpg'
 														data-gallery='product-media-preview'>
 														<svg
 															className='product__media--view__icon--svg'
@@ -105,17 +106,17 @@ export default function QuickView() {
 												<a
 													className='product__media--preview__items--link glightbox'
 													data-gallery='product-media-preview'
-													href='assets/img/product/big-product3.jpg'>
+													href='/images/products/big-product3.jpg'>
 													<Image
 														className='product__media--preview__items--img'
-														src='assets/img/product/big-product3.jpg'
+														src='/images/products/big-product3.jpg'
 														alt='product-media-img'
 													/>
 												</a>
 												<div className='product__media--view__icon'>
 													<a
 														className='product__media--view__icon--link glightbox'
-														href='assets/img/product/big-product3.jpg'
+														href='/images/products/big-product3.jpg'
 														data-gallery='product-media-preview'>
 														<svg
 															className='product__media--view__icon--svg'
@@ -146,17 +147,17 @@ export default function QuickView() {
 												<a
 													className='product__media--preview__items--link glightbox'
 													data-gallery='product-media-preview'
-													href='assets/img/product/big-product4.jpg'>
+													href='/images/products/big-product4.jpg'>
 													<Image
 														className='product__media--preview__items--img'
-														src='assets/img/product/big-product4.jpg'
+														src='/images/products/big-product4.jpg'
 														alt='product-media-img'
 													/>
 												</a>
 												<div className='product__media--view__icon'>
 													<a
 														className='product__media--view__icon--link glightbox'
-														href='assets/img/product/big-product4.jpg'
+														href='/images/products/big-product4.jpg'
 														data-gallery='product-media-preview'>
 														<svg
 															className='product__media--view__icon--svg'
@@ -187,17 +188,17 @@ export default function QuickView() {
 												<a
 													className='product__media--preview__items--link glightbox'
 													data-gallery='product-media-preview'
-													href='assets/img/product/big-product5.jpg'>
+													href='/images/products/big-product5.jpg'>
 													<Image
 														className='product__media--preview__items--img'
-														src='assets/img/product/big-product5.jpg'
+														src='/images/products/big-product5.jpg'
 														alt='product-media-img'
 													/>
 												</a>
 												<div className='product__media--view__icon'>
 													<a
 														className='product__media--view__icon--link glightbox'
-														href='assets/img/product/big-product5.jpg'
+														href='/images/products/big-product5.jpg'
 														data-gallery='product-media-preview'>
 														<svg
 															className='product__media--view__icon--svg'
@@ -228,17 +229,17 @@ export default function QuickView() {
 												<a
 													className='product__media--preview__items--link glightbox'
 													data-gallery='product-media-preview'
-													href='assets/img/product/big-product6.jpg'>
+													href='/images/products/big-product6.jpg'>
 													<Image
 														className='product__media--preview__items--img'
-														src='assets/img/product/big-product6.jpg'
+														src='/images/products/big-product6.jpg'
 														alt='product-media-img'
 													/>
 												</a>
 												<div className='product__media--view__icon'>
 													<a
 														className='product__media--view__icon--link glightbox'
-														href='assets/img/product/big-product6.jpg'
+														href='/images/products/big-product6.jpg'
 														data-gallery='product-media-preview'>
 														<svg
 															className='product__media--view__icon--svg'
@@ -272,7 +273,7 @@ export default function QuickView() {
 											<div className='product__media--nav__items'>
 												<Image
 													className='product__media--nav__items--img'
-													src='assets/img/product/small-product7.png'
+													src='/images/products/small-product7.png'
 													alt='product-nav-img'
 												/>
 											</div>
@@ -281,7 +282,7 @@ export default function QuickView() {
 											<div className='product__media--nav__items'>
 												<Image
 													className='product__media--nav__items--img'
-													src='assets/img/product/small-product8.png'
+													src='/images/products/small-product8.png'
 													alt='product-nav-img'
 												/>
 											</div>
@@ -290,7 +291,7 @@ export default function QuickView() {
 											<div className='product__media--nav__items'>
 												<Image
 													className='product__media--nav__items--img'
-													src='assets/img/product/small-product9.png'
+													src='/images/products/small-product9.png'
 													alt='product-nav-img'
 												/>
 											</div>
@@ -299,7 +300,7 @@ export default function QuickView() {
 											<div className='product__media--nav__items'>
 												<Image
 													className='product__media--nav__items--img'
-													src='assets/img/product/small-product10.png'
+													src='/images/products/small-product10.png'
 													alt='product-nav-img'
 												/>
 											</div>
@@ -308,7 +309,7 @@ export default function QuickView() {
 											<div className='product__media--nav__items'>
 												<Image
 													className='product__media--nav__items--img'
-													src='assets/img/product/small-product11.png'
+													src='/images/products/small-product11.png'
 													alt='product-nav-img'
 												/>
 											</div>
@@ -317,7 +318,7 @@ export default function QuickView() {
 											<div className='product__media--nav__items'>
 												<Image
 													className='product__media--nav__items--img'
-													src='assets/img/product/small-product12.png'
+													src='/images/products/small-product12.png'
 													alt='product-nav-img'
 												/>
 											</div>
@@ -441,7 +442,9 @@ export default function QuickView() {
 													title='Red'>
 													<Image
 														className='variant__color--value__img'
-														src='assets/img/product/product1.png'
+														src='/images/products/'
+														width={282}
+														height={310}
 														alt='variant-color-img'
 													/>
 												</label>
@@ -452,7 +455,9 @@ export default function QuickView() {
 													title='Black'>
 													<Image
 														className='variant__color--value__img'
-														src='assets/img/product/product2.png'
+														src='/images/products/'
+														width={282}
+														height={310}
 														alt='variant-color-img'
 													/>
 												</label>
@@ -463,7 +468,7 @@ export default function QuickView() {
 													title='Pink'>
 													<Image
 														className='variant__color--value__img'
-														src='assets/img/product/product3.png'
+														src='/images/products/product3.png'
 														alt='variant-color-img'
 													/>
 												</label>
@@ -474,7 +479,7 @@ export default function QuickView() {
 													title='Orange'>
 													<Image
 														className='variant__color--value__img'
-														src='assets/img/product/product4.png'
+														src='/images/products/product4.png'
 														alt='variant-color-img'
 													/>
 												</label>

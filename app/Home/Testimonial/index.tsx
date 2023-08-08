@@ -14,8 +14,10 @@ export default function Testimonial() {
 								<div className='testimonial__items--thumbnail'>
 									<Image
 										className='testimonial__items--thumbnail__img border-radius-50'
-										src='assets/img/other/testimonial-thumb1.png'
+										src='/images/others/testimonial-thumb1.png'
 										alt='testimonial-img'
+										width={80}
+										height={80}
 									/>
 								</div>
 								<div className='testimonial__items--content'>
@@ -116,8 +118,10 @@ export default function Testimonial() {
 								<div className='testimonial__items--thumbnail'>
 									<Image
 										className='testimonial__items--thumbnail__img border-radius-50'
-										src='assets/img/other/testimonial-thumb2.png'
+										src='/images/others/testimonial-thumb2.png'
 										alt='testimonial-img'
+										width={80}
+										height={80}
 									/>
 								</div>
 								<div className='testimonial__items--content'>
@@ -218,8 +222,10 @@ export default function Testimonial() {
 								<div className='testimonial__items--thumbnail'>
 									<Image
 										className='testimonial__items--thumbnail__img border-radius-50'
-										src='assets/img/other/testimonial-thumb3.png'
+										src='/images/others/testimonial-thumb3.png'
 										alt='testimonial-img'
+										width={80}
+										height={80}
 									/>
 								</div>
 								<div className='testimonial__items--content'>
@@ -320,8 +326,10 @@ export default function Testimonial() {
 								<div className='testimonial__items--thumbnail'>
 									<Image
 										className='testimonial__items--thumbnail__img border-radius-50'
-										src='assets/img/other/testimonial-thumb1.png'
+										src='/images/others/testimonial-thumb1.png'
 										alt='testimonial-img'
+										width={80}
+										height={80}
 									/>
 								</div>
 								<div className='testimonial__items--content'>

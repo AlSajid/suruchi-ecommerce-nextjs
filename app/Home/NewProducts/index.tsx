@@ -37,12 +37,16 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product1.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product2.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 											</a>
@@ -244,13 +248,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product3.png'
+													src='/images/products/product3.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product4.png'
+													src='/images/products/product4.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -451,13 +459,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product5.png'
+													src='/images/products/product5.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product11.png'
+													src='/images/products/product11.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -658,13 +670,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product6.png'
+													src='/images/products/product6.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product7.png'
+													src='/images/products/product7.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -865,13 +881,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product8.png'
+													src='/images/products/product8.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product15.png'
+													src='/images/products/product15.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -1072,13 +1092,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product9.png'
+													src='/images/products/product9.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product10.png'
+													src='/images/products/product10.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -1279,13 +1303,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product12.png'
+													src='/images/products/product12.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product13.png'
+													src='/images/products/product13.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -1486,13 +1514,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product11.png'
+													src='/images/products/product11.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product8.png'
+													src='/images/products/product8.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -1693,13 +1725,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product14.png'
+													src='/images/products/product14.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product15.png'
+													src='/images/products/product15.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -1900,12 +1936,16 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product2.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product1.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 											</a>
@@ -2113,13 +2153,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product8.png'
+													src='/images/products/product8.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product15.png'
+													src='/images/products/product15.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -2320,13 +2364,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product9.png'
+													src='/images/products/product9.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product10.png'
+													src='/images/products/product10.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -2527,13 +2575,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product12.png'
+													src='/images/products/product12.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product13.png'
+													src='/images/products/product13.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -2734,13 +2786,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product11.png'
+													src='/images/products/product11.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product8.png'
+													src='/images/products/product8.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -2941,13 +2997,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product14.png'
+													src='/images/products/product14.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product15.png'
+													src='/images/products/product15.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -3148,12 +3208,16 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product2.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product1.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 											</a>
@@ -3355,12 +3419,16 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product1.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product2.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 											</a>
@@ -3562,13 +3630,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product3.png'
+													src='/images/products/product3.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product4.png'
+													src='/images/products/product4.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -3769,13 +3841,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product5.png'
+													src='/images/products/product5.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product11.png'
+													src='/images/products/product11.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -3976,13 +4052,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product6.png'
+													src='/images/products/product6.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product7.png'
+													src='/images/products/product7.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -4189,13 +4269,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product6.png'
+													src='/images/products/product6.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product7.png'
+													src='/images/products/product7.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -4396,13 +4480,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product8.png'
+													src='/images/products/product8.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product15.png'
+													src='/images/products/product15.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -4603,13 +4691,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product9.png'
+													src='/images/products/product9.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product10.png'
+													src='/images/products/product10.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -4810,13 +4902,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product12.png'
+													src='/images/products/product12.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product13.png'
+													src='/images/products/product13.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -5017,12 +5113,16 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product1.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product2.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 											</a>
@@ -5224,13 +5324,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product3.png'
+													src='/images/products/product3.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product4.png'
+													src='/images/products/product4.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -5431,13 +5535,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product5.png'
+													src='/images/products/product5.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product11.png'
+													src='/images/products/product11.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -5638,13 +5746,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product11.png'
+													src='/images/products/product11.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product8.png'
+													src='/images/products/product8.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -5845,13 +5957,17 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product14.png'
+													src='/images/products/product14.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product15.png'
+													src='/images/products/product15.png'
 													alt='product-img'
+													width={282}
+													height={310}
 												/>
 											</a>
 											<div className='product__badge'>
@@ -6052,12 +6168,16 @@ export default function NewProducts() {
 											<a className='product__items--link' href='product-details.html'>
 												<Image
 													className='product__items--img product__primary--img'
-													src='assets/img/product/product2.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 												<Image
 													className='product__items--img product__secondary--img'
-													src='assets/img/product/product1.png'
+													src='/images/products/'
+													width={282}
+													height={310}
 													alt='product-img'
 												/>
 											</a>

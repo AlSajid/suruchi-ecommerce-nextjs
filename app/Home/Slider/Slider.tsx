@@ -17,6 +17,8 @@ export default function Slider() {
 														className='slider__text--shape__icon'
 														src='/images/icons/text-shape-icon.png'
 														alt='text-shape-icon'
+														width={25}
+														height={21}
 													/>{' '}
 													New Collection
 												</p>
@@ -61,6 +63,8 @@ export default function Slider() {
 														className='slider__text--shape__icon'
 														src='/images/icons/text-shape-icon.png'
 														alt='text-shape-icon'
+														width={25}
+														height={21}
 													/>{' '}
 													New Collection
 												</p>
@@ -105,6 +109,8 @@ export default function Slider() {
 														className='slider__text--shape__icon'
 														src='/images/icons/text-shape-icon.png'
 														alt='text-shape-icon'
+														width={25}
+														height={21}
 													/>
 													New Collection
 												</p>

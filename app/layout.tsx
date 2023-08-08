@@ -1,9 +1,12 @@
+//bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import Footer from '@/components/Footer'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
-import Preloader from '@/components/Preloader'
+import Preloader from '@/app/loading'
 import QuickView from '@/components/QuickView/QuickView'
 import Newsletter from '@/components/Newsletter'
 import ScrollToTop from '@/components/ScrollToTop'
@@ -19,13 +22,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang='en'>
 			<body className={inter.className}>
-				<Preloader />
 				<Header />
 				{children}
-				<Footer />
+				{/* <Footer />
 				<QuickView />
 				<Newsletter />
-				<ScrollToTop />
+				<ScrollToTop /> */}
 			</body>
 		</html>
 	)

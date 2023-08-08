@@ -30,7 +30,7 @@ export default function Page () {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div class="cart__thumbnail">
-                                                            <a href="product-details.html"><img class="border-radius-5" src="assets/img/product/product1.png" alt="cart-product"></a>
+                                                            <a href="product-details.html"><img class="border-radius-5" src="/images/products/product1.png" alt="cart-product"></a>
                                                         </div>
                                                         <div class="cart__content">
                                                             <h4 class="cart__content--title"><a href="product-details.html">Fresh-whole-fish</a></h4>
@@ -62,7 +62,7 @@ export default function Page () {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div class="cart__thumbnail">
-                                                            <a href="product-details.html"><img class="border-radius-5" src="assets/img/product/product2.png" alt="cart-product"></a>
+                                                            <a href="product-details.html"><img class="border-radius-5" src="/images/products/product2.png" alt="cart-product"></a>
                                                         </div>
                                                         <div class="cart__content">
                                                             <h4 class="cart__content--title"><a href="product-details.html">Vegetable-healthy</a></h4>
@@ -94,7 +94,7 @@ export default function Page () {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div class="cart__thumbnail">
-                                                            <a href="product-details.html"><img class="border-radius-5" src="assets/img/product/product3.png" alt="cart-product"></a>
+                                                            <a href="product-details.html"><img class="border-radius-5" src="/images/products/product3.png" alt="cart-product"></a>
                                                         </div>
                                                         <div class="cart__content">
                                                             <h4 class="cart__content--title"><a href="product-details.html">Raw-onions-surface</a></h4>
@@ -126,7 +126,7 @@ export default function Page () {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div class="cart__thumbnail">
-                                                            <a href="product-details.html"><img class="border-radius-5" src="assets/img/product/product4.png" alt="cart-product"></a>
+                                                            <a href="product-details.html"><img class="border-radius-5" src="/images/products/product4.png" alt="cart-product"></a>
                                                         </div>
                                                         <div class="cart__content">
                                                             <h4 class="cart__content--title"><a href="product-details.html">Oversize Cotton Dress</a></h4>
@@ -218,8 +218,8 @@ export default function Page () {
                             <div class="product__items ">
                                 <div class="product__items--thumbnail">
                                     <a class="product__items--link" href="product-details.html">
-                                        <img class="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img">
-                                        <img class="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img">
+                                        <img class="product__items--img product__primary--img" src="/images/products/product1.png" alt="product-img">
+                                        <img class="product__items--img product__secondary--img" src="/images/products/product2.png" alt="product-img">
                                     </a>
                                     <div class="product__badge">
                                         <span class="product__badge--items sale">Sale</span>
@@ -306,8 +306,8 @@ export default function Page () {
                             <div class="product__items ">
                                 <div class="product__items--thumbnail">
                                     <a class="product__items--link" href="product-details.html">
-                                        <img class="product__items--img product__primary--img" src="assets/img/product/product3.png" alt="product-img">
-                                        <img class="product__items--img product__secondary--img" src="assets/img/product/product4.png" alt="product-img">
+                                        <img class="product__items--img product__primary--img" src="/images/products/product3.png" alt="product-img">
+                                        <img class="product__items--img product__secondary--img" src="/images/products/product4.png" alt="product-img">
                                     </a>
                                     <div class="product__badge">
                                         <span class="product__badge--items sale">Sale</span>
@@ -394,8 +394,8 @@ export default function Page () {
                             <div class="product__items ">
                                 <div class="product__items--thumbnail">
                                     <a class="product__items--link" href="product-details.html">
-                                        <img class="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img">
-                                        <img class="product__items--img product__secondary--img" src="assets/img/product/product11.png" alt="product-img">
+                                        <img class="product__items--img product__primary--img" src="/images/products/product5.png" alt="product-img">
+                                        <img class="product__items--img product__secondary--img" src="/images/products/product11.png" alt="product-img">
                                     </a>
                                     <div class="product__badge">
                                         <span class="product__badge--items sale">Sale</span>
@@ -482,8 +482,8 @@ export default function Page () {
                             <div class="product__items ">
                                 <div class="product__items--thumbnail">
                                     <a class="product__items--link" href="product-details.html">
-                                        <img class="product__items--img product__primary--img" src="assets/img/product/product8.png" alt="product-img">
-                                        <img class="product__items--img product__secondary--img" src="assets/img/product/product15.png" alt="product-img">
+                                        <img class="product__items--img product__primary--img" src="/images/products/product8.png" alt="product-img">
+                                        <img class="product__items--img product__secondary--img" src="/images/products/product15.png" alt="product-img">
                                     </a>
                                     <div class="product__badge">
                                         <span class="product__badge--items sale">Sale</span>
@@ -570,8 +570,8 @@ export default function Page () {
                             <div class="product__items ">
                                 <div class="product__items--thumbnail">
                                     <a class="product__items--link" href="product-details.html">
-                                        <img class="product__items--img product__primary--img" src="assets/img/product/product12.png" alt="product-img">
-                                        <img class="product__items--img product__secondary--img" src="assets/img/product/product13.png" alt="product-img">
+                                        <img class="product__items--img product__primary--img" src="/images/products/product12.png" alt="product-img">
+                                        <img class="product__items--img product__secondary--img" src="/images/products/product13.png" alt="product-img">
                                     </a>
                                     <div class="product__badge">
                                         <span class="product__badge--items sale">Sale</span>
@@ -658,8 +658,8 @@ export default function Page () {
                             <div class="product__items ">
                                         <div class="product__items--thumbnail">
                                             <a class="product__items--link" href="product-details.html">
-                                                <img class="product__items--img product__primary--img" src="assets/img/product/product14.png" alt="product-img">
-                                                <img class="product__items--img product__secondary--img" src="assets/img/product/product15.png" alt="product-img">
+                                                <img class="product__items--img product__primary--img" src="/images/products/product14.png" alt="product-img">
+                                                <img class="product__items--img product__secondary--img" src="/images/products/product15.png" alt="product-img">
                                             </a>
                                             <div class="product__badge">
                                                 <span class="product__badge--items sale">Sale</span>
@@ -747,8 +747,8 @@ export default function Page () {
                             <div class="product__items ">
                                 <div class="product__items--thumbnail">
                                     <a class="product__items--link" href="product-details.html">
-                                        <img class="product__items--img product__primary--img" src="assets/img/product/product11.png" alt="product-img">
-                                        <img class="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img">
+                                        <img class="product__items--img product__primary--img" src="/images/products/product11.png" alt="product-img">
+                                        <img class="product__items--img product__secondary--img" src="/images/products/product8.png" alt="product-img">
                                     </a>
                                     <div class="product__badge">
                                         <span class="product__badge--items sale">Sale</span>
@@ -846,19 +846,19 @@ export default function Page () {
                     <div class="col">
                         <div class="brand__logo--section__inner d-flex justify-content-center align-items-center">
                             <div class="brand__logo--items">
-                                <img class="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo1.png" alt="brand logo">
+                                <img class="brand__logo--items__thumbnail--img display-block" src="/images/logo/brand-logo1.png" alt="brand logo">
                             </div>
                             <div class="brand__logo--items">
-                                <img class="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo2.png" alt="brand logo">
+                                <img class="brand__logo--items__thumbnail--img display-block" src="/images/logo/brand-logo2.png" alt="brand logo">
                             </div>
                             <div class="brand__logo--items">
-                                <img class="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo3.png" alt="brand logo">
+                                <img class="brand__logo--items__thumbnail--img display-block" src="/images/logo/brand-logo3.png" alt="brand logo">
                             </div>
                             <div class="brand__logo--items">
-                                <img class="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo4.png" alt="brand logo">
+                                <img class="brand__logo--items__thumbnail--img display-block" src="/images/logo/brand-logo4.png" alt="brand logo">
                             </div>
                             <div class="brand__logo--items">
-                                <img class="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo5.png" alt="brand logo">
+                                <img class="brand__logo--items__thumbnail--img display-block" src="/images/logo/brand-logo5.png" alt="brand logo">
                             </div>
                         </div>
                     </div>
@@ -873,7 +873,7 @@ export default function Page () {
                 <div class="shipping__section2--inner shipping__style3--inner d-flex justify-content-between">
                     <div class="shipping__items2 d-flex align-items-center">
                         <div class="shipping__items2--icon">
-                            <img src="assets/img/other/shipping1.png" alt="">
+                            <img src="/images/others/shipping1.png" alt="">
                         </div>
                         <div class="shipping__items2--content">
                             <h2 class="shipping__items2--content__title h3">Shipping</h2>
@@ -882,7 +882,7 @@ export default function Page () {
                     </div>
                     <div class="shipping__items2 d-flex align-items-center">
                         <div class="shipping__items2--icon">
-                            <img src="assets/img/other/shipping2.png" alt="">
+                            <img src="/images/others/shipping2.png" alt="">
                         </div>
                         <div class="shipping__items2--content">
                             <h2 class="shipping__items2--content__title h3">Payment</h2>
@@ -891,7 +891,7 @@ export default function Page () {
                     </div>
                     <div class="shipping__items2 d-flex align-items-center">
                         <div class="shipping__items2--icon">
-                            <img src="assets/img/other/shipping3.png" alt="">
+                            <img src="/images/others/shipping3.png" alt="">
                         </div>
                         <div class="shipping__items2--content">
                             <h2 class="shipping__items2--content__title h3">Return</h2>
@@ -900,7 +900,7 @@ export default function Page () {
                     </div>
                     <div class="shipping__items2 d-flex align-items-center">
                         <div class="shipping__items2--icon">
-                            <img src="assets/img/other/shipping4.png" alt="">
+                            <img src="/images/others/shipping4.png" alt="">
                         </div>
                         <div class="shipping__items2--content">
                             <h2 class="shipping__items2--content__title h3">Support</h2>

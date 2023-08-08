@@ -15,8 +15,10 @@ export default function Blogs() {
 									<a className='blog__thumbnail--link' href='blog-details.html'>
 										<Image
 											className='blog__thumbnail--img'
-											src='assets/img/blog/blog1.png'
+											src='/images/blogs/blog1.png'
 											alt='blog-img'
+											width={360}
+											height={313}
 										/>
 									</a>
 								</div>
@@ -39,8 +41,10 @@ export default function Blogs() {
 									<a className='blog__thumbnail--link' href='blog-details.html'>
 										<Image
 											className='blog__thumbnail--img'
-											src='assets/img/blog/blog2.png'
+											src='/images/blogs/blog2.png'
 											alt='blog-img'
+											width={360}
+											height={313}
 										/>
 									</a>
 								</div>
@@ -63,8 +67,10 @@ export default function Blogs() {
 									<a className='blog__thumbnail--link' href='blog-details.html'>
 										<Image
 											className='blog__thumbnail--img'
-											src='assets/img/blog/blog3.png'
+											src='/images/blogs/blog3.png'
 											alt='blog-img'
+											width={360}
+											height={313}
 										/>
 									</a>
 								</div>
@@ -87,8 +93,10 @@ export default function Blogs() {
 									<a className='blog__thumbnail--link' href='blog-details.html'>
 										<Image
 											className='blog__thumbnail--img'
-											src='assets/img/blog/blog4.png'
+											src='/images/blogs/blog4.png'
 											alt='blog-img'
+											width={360}
+											height={313}
 										/>
 									</a>
 								</div>
@@ -111,8 +119,10 @@ export default function Blogs() {
 									<a className='blog__thumbnail--link' href='blog-details.html'>
 										<Image
 											className='blog__thumbnail--img'
-											src='assets/img/blog/blog2.png'
+											src='/images/blogs/blog2.png'
 											alt='blog-img'
+											width={360}
+											height={313}
 										/>
 									</a>
 								</div>

@@ -10,8 +10,10 @@ export default function Banners2() {
 							<a className='banner__items--thumbnail ' href='shop.html'>
 								<Image
 									className='banner__items--thumbnail__img banner__img--max__height'
-									src='assets/img/banner/banner5.png'
+									src='/images/banners/banner5.png'
 									alt='banner-img'
+									width={746}
+									height={281}
 								/>
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle d-none d-lg-block'>
@@ -32,8 +34,10 @@ export default function Banners2() {
 							<a className='banner__items--thumbnail ' href='shop.html'>
 								<Image
 									className='banner__items--thumbnail__img banner__img--max__height'
-									src='assets/img/banner/banner6.png'
+									src='/images/banners/banner6.png'
 									alt='banner-img'
+									width={746}
+									height={281}
 								/>
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle d-none d-lg-block'>

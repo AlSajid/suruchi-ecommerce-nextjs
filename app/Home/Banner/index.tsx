@@ -10,8 +10,10 @@ export default function Banner() {
 							<a className='banner__items--thumbnail display-block' href='shop.html'>
 								<Image
 									className='banner__items--thumbnail__img banner__img--height__md display-block'
-									src='assets/img/banner/banner-bg2.png'
+									src='/images/banners/banner-bg2.png'
 									alt='banner-img'
+									width={1531}
+									height={400}
 								/>
 								<div className='banner__content--style2'>
 									<h2 className='banner__content--style2__title text-white'>

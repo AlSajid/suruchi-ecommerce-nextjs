@@ -245,7 +245,12 @@ export default function Footer() {
 										className='instagram__thumbnail--img'
 										target='_blank'
 										href='https://www.instagram.com/p/CZkF3TLBTT7'>
-										<Image src='assets/img/other/instagram1.webp' alt='instagram' />
+										<Image
+											src='/images/others/instagram1.webp'
+											alt='instagram'
+											width={256}
+											height={312}
+										/>
 									</a>
 								</div>
 								<div className='instagram__thumbnail'>
@@ -253,7 +258,12 @@ export default function Footer() {
 										className='instagram__thumbnail--img'
 										target='_blank'
 										href='https://www.instagram.com/p/CZkF60sBxhN'>
-										<Image src='assets/img/other/instagram2.webp' alt='instagram' />
+										<Image
+											src='/images/others/instagram2.webp'
+											alt='instagram'
+											width={256}
+											height={312}
+										/>
 									</a>
 								</div>
 								<div className='instagram__thumbnail'>
@@ -261,7 +271,12 @@ export default function Footer() {
 										className='instagram__thumbnail--img'
 										target='_blank'
 										href='https://www.instagram.com/p/CZkF90ZB6HG'>
-										<Image src='assets/img/other/instagram3.webp' alt='instagram' />
+										<Image
+											src='/images/others/instagram3.webp'
+											alt='instagram'
+											width={256}
+											height={312}
+										/>
 									</a>
 								</div>
 							</div>
@@ -271,7 +286,12 @@ export default function Footer() {
 										className='instagram__thumbnail--img'
 										target='_blank'
 										href='https://www.instagram.com/p/CZkGAe6BQeu'>
-										<Image src='assets/img/other/instagram4.webp' alt='instagram' />
+										<Image
+											src='/images/others/instagram4.webp'
+											alt='instagram'
+											width={256}
+											height={312}
+										/>
 									</a>
 								</div>
 								<div className='instagram__thumbnail'>
@@ -279,7 +299,12 @@ export default function Footer() {
 										className='instagram__thumbnail--img'
 										target='_blank'
 										href='https://www.instagram.com/p/CZkGCWcBbv9'>
-										<Image src='assets/img/other/instagram5.webp' alt='instagram' />
+										<Image
+											src='/images/others/instagram5.webp'
+											alt='instagram'
+											width={256}
+											height={312}
+										/>
 									</a>
 								</div>
 								<div className='instagram__thumbnail'>
@@ -287,7 +312,12 @@ export default function Footer() {
 										className='instagram__thumbnail--img'
 										target='_blank'
 										href='https://www.instagram.com/p/CZkGFDMhoid'>
-										<Image src='assets/img/other/instagram6.webp' alt='instagram' />
+										<Image
+											src='/images/others/instagram6.webp'
+											alt='instagram'
+											width={256}
+											height={312}
+										/>
 									</a>
 								</div>
 							</div>
@@ -342,8 +372,10 @@ export default function Footer() {
 					<div className='footer__payment text-right'>
 						<Image
 							className='display-block'
-							src='assets/img/other/payment-visa-card.png'
+							src='/images/others/payment-visa-card.png'
 							alt='visa-card'
+							width={410}
+							height={35}
 						/>
 					</div>
 				</div>

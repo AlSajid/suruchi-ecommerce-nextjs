@@ -6,12 +6,7 @@ export default function OffCanvas() {
 			<div className='offcanvas__inner'>
 				<div className='offcanvas__logo'>
 					<a className='offcanvas__logo_link' href='index.html'>
-						<Image
-							src='assets/img/logo/nav-log.png'
-							alt='Grocee Logo'
-							width='158'
-							height='36'
-						/>
+						<Image src='/images/logo/nav-log.png' alt='Grocee Logo' width='158' height='36' />
 					</a>
 					<button className='offcanvas__close--btn' data-offcanvas>
 						close
@@ -302,8 +297,10 @@ export default function OffCanvas() {
 								<a className='offcanvas__language--switcher' href='#'>
 									<Image
 										className='language__switcher--icon__img'
-										src='assets/img/icon/language-icon.png'
+										src='/images/icons/language-icon.png'
 										alt='currency'
+										width={15}
+										height={15}
 									/>
 									<span>English</span>
 									<svg
@@ -341,7 +338,12 @@ export default function OffCanvas() {
 							</li>
 							<li className='language__currency--list'>
 								<a className='offcanvas__account--currency__menu' href='#'>
-									<Image src='assets/img/icon/usd-icon.png' alt='currency' />
+									<Image
+										src='/images/icons/usd-icon.png'
+										alt='currency'
+										width={12}
+										height={12}
+									/>
 									<span>$ US Dollar</span>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'

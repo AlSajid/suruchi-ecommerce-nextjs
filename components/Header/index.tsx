@@ -18,16 +18,20 @@ export default function Header() {
 								<li className='header__shipping--text text-white d-sm-2-none'>
 									<Image
 										className='header__shipping--text__icon'
-										src='assets/img/icon/bus.png'
+										src='/images/icons/bus.png'
 										alt='bus-icon'
+										width={19}
+										height={13}
 									/>{' '}
 									Track Your Order
 								</li>
 								<li className='header__shipping--text text-white d-sm-2-none'>
 									<Image
 										className='header__shipping--text__icon'
-										src='assets/img/icon/email.png'
+										src='/images/icons/email.png'
 										alt='email-icon'
+										width={15}
+										height={11}
 									/>
 									<a className='header__shipping--text__link' href='mailto:demo@gmail.com'>
 										demo@gmail.com
@@ -41,8 +45,10 @@ export default function Header() {
 									<a className='language__switcher text-white' href='#'>
 										<Image
 											className='language__switcher--icon__img'
-											src='assets/img/icon/language-icon.png'
+											src='/images/icons/language-icon.png'
 											alt='currency'
+											width={15}
+											height={15}
 										/>
 										<span>English</span>
 										<svg
@@ -80,7 +86,12 @@ export default function Header() {
 								</li>
 								<li className='language__currency--list'>
 									<a className='account__currency--link text-white' href='#'>
-										<Image src='assets/img/icon/usd-icon.png' alt='currency' />
+										<Image
+											src='/images/icons/usd-icon.png'
+											alt='currency'
+											width={12}
+											height={12}
+										/>
 										<span>$ US Dollar</span>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
@@ -155,8 +166,10 @@ export default function Header() {
 								<a className='main__logo--link' href='index.html'>
 									<Image
 										className='main__logo--img'
-										src='assets/img/logo/nav-log.png'
+										src='/images/logo/nav-log.png'
 										alt='logo-img'
+										width={157}
+										height={36}
 									/>
 								</a>
 							</h1>
@@ -1089,8 +1102,10 @@ export default function Header() {
 						<p className='header__discount--text'>
 							<Image
 								className='header__discount--icon__img'
-								src='assets/img/icon/lamp.png'
+								src='/images/icons/lamp.png'
 								alt='lamp-img'
+								width={29}
+								height={29}
 							/>
 							Special up to 60% Off all item
 						</p>

@@ -10,8 +10,10 @@ export default function Banners1() {
 							<a className='banner__items--thumbnail position__relative' href='shop.html'>
 								<Image
 									className='banner__items--thumbnail__img'
-									src='assets/img/banner/banner1.png'
+									src='/images/banners/banner1.png'
 									alt='banner-img'
+									width={620}
+									height={688}
 								/>
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle'>17% Discount</span>
@@ -46,8 +48,10 @@ export default function Banners1() {
 										href='shop.html'>
 										<Image
 											className='banner__items--thumbnail__img'
-											src='assets/img/banner/banner2.png'
+											src='/images/banners/banner2.png'
 											alt='banner-img'
+											width={425}
+											height={337}
 										/>
 										<div className='banner__items--content'>
 											<span className='banner__items--content__subtitle text__secondary'>
@@ -82,8 +86,10 @@ export default function Banners1() {
 										href='shop.html'>
 										<Image
 											className='banner__items--thumbnail__img'
-											src='assets/img/banner/banner3.png'
+											src='/images/banners/banner3.png'
 											alt='banner-img'
+											width={426}
+											height={337}
 										/>
 										<div className='banner__items--content'>
 											<span className='banner__items--content__subtitle'>
@@ -116,8 +122,10 @@ export default function Banners1() {
 							<a className='banner__items--thumbnail position__relative' href='shop.html'>
 								<Image
 									className='banner__items--thumbnail__img banner__img--max__height'
-									src='assets/img/banner/banner4.png'
+									src='/images/banners/banner4.png'
 									alt='banner-img'
+									width={881}
+									height={322}
 								/>
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle'>25% Discount</span>

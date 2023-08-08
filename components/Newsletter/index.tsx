@@ -19,7 +19,7 @@ export default function Newsletter() {
 					<div className='newsletter__popup--thumbnail'>
 						<Image
 							className='newsletter__popup--thumbnail__img display-block'
-							src='assets/img/banner/newsletter-popup-thumb2.png'
+							src='/images/banners/newsletter-popup-thumb2.png'
 							alt='newsletter-popup-thumb'
 						/>
 					</div>

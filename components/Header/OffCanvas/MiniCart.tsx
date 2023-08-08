@@ -31,7 +31,7 @@ export default function MiniCart() {
 				<div className='minicart__product--items d-flex'>
 					<div className='minicart__thumb'>
 						<a href='product-details.html'>
-							<Image src='assets/img/product/product1.png' alt='product-img' />
+							<Image src='/images/products/' width={282} height={310} alt='product-img' />
 						</a>
 					</div>
 					<div className='minicart__text'>
@@ -76,7 +76,7 @@ export default function MiniCart() {
 				<div className='minicart__product--items d-flex'>
 					<div className='minicart__thumb'>
 						<a href='product-details.html'>
-							<Image src='assets/img/product/product2.png' alt='prduct-img' />
+							<Image src='/images/products/' width={282} height={310} alt='prduct-img' />
 						</a>
 					</div>
 					<div className='minicart__text'>
