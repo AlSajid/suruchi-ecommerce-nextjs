@@ -25,15 +25,15 @@ export default function Search() {
 								d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
 								fill='none'
 								stroke='currentColor'
-								stroke-miterlimit='10'
-								stroke-width='32'
+								strokeMiterlimit='10'
+								strokeWidth='32'
 							/>
 							<path
 								fill='none'
 								stroke='currentColor'
-								stroke-linecap='round'
-								stroke-miterlimit='10'
-								stroke-width='32'
+								strokeLinecap='round'
+								strokeMiterlimit='10'
+								strokeWidth='32'
 								d='M338.29 338.29L448 448'
 							/>
 						</svg>{' '}
@@ -53,9 +53,9 @@ export default function Search() {
 					<path
 						fill='currentColor'
 						stroke='currentColor'
-						stroke-linecap='round'
+						strokeLinecap='round'
 						stroke-linejoin='round'
-						stroke-width='32'
+						strokeWidth='32'
 						d='M368 368L144 144M368 144L144 368'
 					/>
 				</svg>

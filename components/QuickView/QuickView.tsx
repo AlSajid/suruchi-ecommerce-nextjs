@@ -46,14 +46,14 @@ export default function QuickView() {
 																d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
 																fill='none'
 																stroke='currentColor'
-																stroke-miterlimit='10'
-																stroke-width='32'></path>
+																strokeMiterlimit='10'
+																strokeWidth='32'></path>
 															<path
 																fill='none'
 																stroke='currentColor'
-																stroke-linecap='round'
-																stroke-miterlimit='10'
-																stroke-width='32'
+																strokeLinecap='round'
+																strokeMiterlimit='10'
+																strokeWidth='32'
 																d='M338.29 338.29L448 448'></path>
 														</svg>
 													</a>
@@ -87,14 +87,14 @@ export default function QuickView() {
 																d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
 																fill='none'
 																stroke='currentColor'
-																stroke-miterlimit='10'
-																stroke-width='32'></path>
+																strokeMiterlimit='10'
+																strokeWidth='32'></path>
 															<path
 																fill='none'
 																stroke='currentColor'
-																stroke-linecap='round'
-																stroke-miterlimit='10'
-																stroke-width='32'
+																strokeLinecap='round'
+																strokeMiterlimit='10'
+																strokeWidth='32'
 																d='M338.29 338.29L448 448'></path>
 														</svg>
 													</a>
@@ -128,14 +128,14 @@ export default function QuickView() {
 																d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
 																fill='none'
 																stroke='currentColor'
-																stroke-miterlimit='10'
-																stroke-width='32'></path>
+																strokeMiterlimit='10'
+																strokeWidth='32'></path>
 															<path
 																fill='none'
 																stroke='currentColor'
-																stroke-linecap='round'
-																stroke-miterlimit='10'
-																stroke-width='32'
+																strokeLinecap='round'
+																strokeMiterlimit='10'
+																strokeWidth='32'
 																d='M338.29 338.29L448 448'></path>
 														</svg>
 													</a>
@@ -169,14 +169,14 @@ export default function QuickView() {
 																d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
 																fill='none'
 																stroke='currentColor'
-																stroke-miterlimit='10'
-																stroke-width='32'></path>
+																strokeMiterlimit='10'
+																strokeWidth='32'></path>
 															<path
 																fill='none'
 																stroke='currentColor'
-																stroke-linecap='round'
-																stroke-miterlimit='10'
-																stroke-width='32'
+																strokeLinecap='round'
+																strokeMiterlimit='10'
+																strokeWidth='32'
 																d='M338.29 338.29L448 448'></path>
 														</svg>
 													</a>
@@ -210,14 +210,14 @@ export default function QuickView() {
 																d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
 																fill='none'
 																stroke='currentColor'
-																stroke-miterlimit='10'
-																stroke-width='32'></path>
+																strokeMiterlimit='10'
+																strokeWidth='32'></path>
 															<path
 																fill='none'
 																stroke='currentColor'
-																stroke-linecap='round'
-																stroke-miterlimit='10'
-																stroke-width='32'
+																strokeLinecap='round'
+																strokeMiterlimit='10'
+																strokeWidth='32'
 																d='M338.29 338.29L448 448'></path>
 														</svg>
 													</a>
@@ -251,14 +251,14 @@ export default function QuickView() {
 																d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
 																fill='none'
 																stroke='currentColor'
-																stroke-miterlimit='10'
-																stroke-width='32'></path>
+																strokeMiterlimit='10'
+																strokeWidth='32'></path>
 															<path
 																fill='none'
 																stroke='currentColor'
-																stroke-linecap='round'
-																stroke-miterlimit='10'
-																stroke-width='32'
+																strokeLinecap='round'
+																strokeMiterlimit='10'
+																strokeWidth='32'
 																d='M338.29 338.29L448 448'></path>
 														</svg>
 													</a>
@@ -548,9 +548,9 @@ export default function QuickView() {
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
 														fill='none'
 														stroke='currentColor'
-														stroke-linecap='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
-														stroke-width='32'
+														strokeWidth='32'
 													/>
 												</svg>
 												Add to Wishlist

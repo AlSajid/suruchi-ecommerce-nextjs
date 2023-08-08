@@ -9,9 +9,9 @@ export default function Newsletter() {
 						<path
 							fill='currentColor'
 							stroke='currentColor'
-							stroke-linecap='round'
+							strokeLinecap='round'
 							stroke-linejoin='round'
-							stroke-width='32'
+							strokeWidth='32'
 							d='M368 368L144 144M368 144L144 368'></path>
 					</svg>
 				</button>

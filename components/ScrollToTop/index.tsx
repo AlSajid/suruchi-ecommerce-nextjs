@@ -5,9 +5,9 @@ export default function ScrollToTop() {
 				<path
 					fill='none'
 					stroke='currentColor'
-					stroke-linecap='round'
+					strokeLinecap='round'
 					stroke-linejoin='round'
-					stroke-width='48'
+					strokeWidth='48'
 					d='M112 244l144-144 144 144M256 120v292'
 				/>
 			</svg>

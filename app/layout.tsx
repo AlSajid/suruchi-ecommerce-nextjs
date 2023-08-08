@@ -1,8 +1,9 @@
-//bootstrap
+// CSS
+import 'glightbox/dist/css/glightbox.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './globals.css'
 
 import Footer from '@/components/Footer'
-import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
@@ -24,8 +25,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<body className={inter.className}>
 				<Header />
 				{children}
-				{/* <Footer />
-				<QuickView />
+				<Footer />
+				{/* 	<QuickView />
 				<Newsletter />
 				<ScrollToTop /> */}
 			</body>
