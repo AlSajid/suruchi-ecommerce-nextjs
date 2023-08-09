@@ -12,7 +12,7 @@ export default function Home() {
 	return (
 		<main className='main__content_wrapper'>
 			<Slider />
-			<Banners1 />
+			{/* <Banners1 /> */}
 			{/* <NewProducts /> */}
 			{/* <Deals /> */}
 			{/* <BestSeller /> */}
