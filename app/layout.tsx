@@ -3,14 +3,14 @@ import 'glightbox/dist/css/glightbox.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './globals.css'
 
-import Footer from '@/components/Footer'
+// import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
-import Preloader from '@/app/loading'
-import QuickView from '@/components/QuickView/QuickView'
-import Newsletter from '@/components/Newsletter'
-import ScrollToTop from '@/components/ScrollToTop'
+// import Preloader from '@/app/loading'
+// import QuickView from '@/components/QuickView/QuickView'
+// import Newsletter from '@/components/Newsletter'
+// import ScrollToTop from '@/components/ScrollToTop'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<body className={inter.className}>
 				<Header />
 				{children}
-				<Footer />
+				{/* <Footer /> */}
 				{/* 	<QuickView />
 				<Newsletter />
 				<ScrollToTop /> */}

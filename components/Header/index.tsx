@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import OffCanvas from './OffCanvas'
-import MiniCart from './OffCanvas/MiniCart'
-import StickyToolbar from './OffCanvas/StickyToolbar'
-import Search from './Search'
+// import OffCanvas from './OffCanvas'
+// import MiniCart from './OffCanvas/MiniCart'
+// import StickyToolbar from './OffCanvas/StickyToolbar'
+// import Search from './Search'
 
 export default function Header() {
 	return (
@@ -1113,10 +1113,10 @@ export default function Header() {
 				</div>
 			</div>
 
-			<OffCanvas />
+			{/* <OffCanvas />
 			<StickyToolbar />
 			<MiniCart />
-			<Search />
+			<Search /> */}
 		</header>
 	)
 }
