@@ -11,7 +11,7 @@ import Banners1 from './Home/Banners1'
 export default function Home() {
 	return (
 		<main className='main__content_wrapper'>
-			<Slider />
+			{/* <Slider /> */}
 			{/* <Banners1 /> */}
 			{/* <NewProducts /> */}
 			{/* <Deals /> */}

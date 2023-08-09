@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<body className={jost.className}>
 				<Header />
 				{children}
-				<Footer />
+				{/* <Footer /> */}
 				{/* 	<QuickView />
 				<Newsletter />
 				<ScrollToTop /> */}
