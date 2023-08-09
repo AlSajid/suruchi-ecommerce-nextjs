@@ -1,0 +1,38 @@
+.face__step {
+	margin-bottom: 3.5rem;
+	padding-bottom: 3rem;
+}
+
+.face__step:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.face__step--title {
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+	.face__step--title.mb-30 {
+		margin-bottom: 2.2rem;
+	}
+}
+
+.faq__accordion--btn {
+	-webkit-box-shadow: 0 2px 22px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 22px rgba(0, 0, 0, 0.1);
+	padding: 1.8rem 6rem 1.8rem 2rem;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+}
+
+.faq__accordion--btn .accordion__items--button__icon {
+	right: 1.5rem;
+	pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+	.faq__accordion--btn {
+		font-size: 1.7rem;
+	}
+}
