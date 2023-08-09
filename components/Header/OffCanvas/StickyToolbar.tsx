@@ -37,7 +37,7 @@
 // 				<li className='offcanvas__stikcy--toolbar__list '>
 // 					<a
 // 						className='offcanvas__stikcy--toolbar__btn search__open--btn'
-// 						href='javascript:void(0)'
+// 						href='#'
 // 						data-offcanvas>
 // 						<span className='offcanvas__stikcy--toolbar__icon'>
 // 							<svg
@@ -68,7 +68,7 @@
 // 				<li className='offcanvas__stikcy--toolbar__list'>
 // 					<a
 // 						className='offcanvas__stikcy--toolbar__btn minicart__open--btn'
-// 						href='javascript:void(0)'
+// 						href='#'
 // 						data-offcanvas>
 // 						<span className='offcanvas__stikcy--toolbar__icon'>
 // 							<svg

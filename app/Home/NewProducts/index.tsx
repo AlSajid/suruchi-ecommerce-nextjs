@@ -200,7 +200,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -210,7 +210,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -222,7 +222,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -411,7 +411,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -421,7 +421,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -433,7 +433,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -622,7 +622,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -632,7 +632,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -644,7 +644,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -833,7 +833,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -843,7 +843,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -855,7 +855,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -1044,7 +1044,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -1054,7 +1054,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -1066,7 +1066,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -1255,7 +1255,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -1265,7 +1265,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -1277,7 +1277,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -1466,7 +1466,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -1476,7 +1476,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -1488,7 +1488,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -1677,7 +1677,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -1687,7 +1687,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -1699,7 +1699,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -1888,7 +1888,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -1898,7 +1898,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -1910,7 +1910,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -2099,7 +2099,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -2109,7 +2109,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -2121,7 +2121,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -2316,7 +2316,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -2326,7 +2326,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -2338,7 +2338,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -2527,7 +2527,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -2537,7 +2537,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -2549,7 +2549,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -2738,7 +2738,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -2748,7 +2748,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -2760,7 +2760,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -2949,7 +2949,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -2959,7 +2959,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -2971,7 +2971,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -3160,7 +3160,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -3170,7 +3170,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -3182,7 +3182,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -3371,7 +3371,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -3381,7 +3381,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -3393,7 +3393,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -3582,7 +3582,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -3592,7 +3592,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -3604,7 +3604,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -3793,7 +3793,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -3803,7 +3803,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -3815,7 +3815,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -4004,7 +4004,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -4014,7 +4014,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -4026,7 +4026,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -4215,7 +4215,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -4225,7 +4225,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -4237,7 +4237,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -4432,7 +4432,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -4442,7 +4442,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -4454,7 +4454,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -4643,7 +4643,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -4653,7 +4653,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -4665,7 +4665,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -4854,7 +4854,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -4864,7 +4864,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -4876,7 +4876,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -5065,7 +5065,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -5075,7 +5075,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -5087,7 +5087,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -5276,7 +5276,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -5286,7 +5286,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -5298,7 +5298,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -5487,7 +5487,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -5497,7 +5497,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -5509,7 +5509,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -5698,7 +5698,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -5708,7 +5708,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -5720,7 +5720,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -5909,7 +5909,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -5919,7 +5919,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -5931,7 +5931,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -6120,7 +6120,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -6130,7 +6130,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -6142,7 +6142,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle
@@ -6331,7 +6331,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'></path>
 // 														</svg>
 // 														<span className='visually-hidden'>Wishlist</span>
@@ -6341,7 +6341,7 @@
 // 													<a
 // 														className='product__items--action__btn'
 // 														data-open='modal1'
-// 														href='javascript:void(0)'>
+// 														href='#'>
 // 														<svg
 // 															className='product__items--action__btn--svg'
 // 															xmlns='http://www.w3.org/2000/svg'
@@ -6353,7 +6353,7 @@
 // 																fill='none'
 // 																stroke='currentColor'
 // 																strokeLinecap='round'
-// 																stroke-linejoin='round'
+// 																strokeLinejoin='round'
 // 																strokeWidth='32'
 // 															/>
 // 															<circle

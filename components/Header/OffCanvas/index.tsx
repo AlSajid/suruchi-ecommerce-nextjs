@@ -276,7 +276,7 @@
 // 										fill='none'
 // 										stroke='currentColor'
 // 										strokeLinecap='round'
-// 										stroke-linejoin='round'
+// 										strokeLinejoin='round'
 // 										strokeWidth='32'
 // 									/>
 // 									<path

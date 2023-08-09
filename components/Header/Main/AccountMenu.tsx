@@ -20,7 +20,7 @@ export default function AccountMenu() {
 					</a>
 				</li>
 				<li className='header__account--items'>
-					<a className='header__account--btn minicart__open--btn' href='javascript:void(0)' data-offcanvas>
+					<a className='header__account--btn minicart__open--btn' href='#' data-offcanvas>
 						<CartIcon />
 						<span className='header__account--btn__text'>My cart</span>
 						<span className='items__count'>02</span>

@@ -9,7 +9,7 @@ export default function Main() {
 			<div className='container-fluid'>
 				<div className='main__header--inner position__relative d-flex justify-content-between align-items-center'>
 					<div className='offcanvas__header--menu__open '>
-						<a className='offcanvas__header--menu__open--btn' href='javascript:void(0)' data-offcanvas>
+						<a className='offcanvas__header--menu__open--btn' href='#' data-offcanvas>
 							<MenuOpenButtonIcon />
 							<span className='visually-hidden'>Menu Open</span>
 						</a>
@@ -26,7 +26,7 @@ export default function Main() {
 					<Search />
 					<AccountMenu />
 
-					{/* <div className='header__menu d-none header__sticky--block d-lg-block'>
+					<div className='header__menu d-none header__sticky--block d-lg-block'>
 						<nav className='header__menu--navigation'>
 							<ul className='d-flex'>
 								<li className='header__menu--items style2'>
@@ -281,7 +281,7 @@ export default function Main() {
 					<div className='header__account header__account2 header__sticky--block'>
 						<ul className='d-flex'>
 							<li className='header__account--items header__account2--items  header__account--search__items d-none d-lg-block'>
-								<a className='header__account--btn search__open--btn' href='javascript:void(0)' data-offcanvas>
+								<a className='header__account--btn search__open--btn' href='#' data-offcanvas>
 									<svg className='header__search--button__svg' xmlns='http://www.w3.org/2000/svg' width='26.51' height='23.443' viewBox='0 0 512 512'>
 										<path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z' fill='none' stroke='currentColor' strokeMiterlimit='10' strokeWidth='32' />
 										<path fill='none' stroke='currentColor' strokeLinecap='round' strokeMiterlimit='10' strokeWidth='32' d='M338.29 338.29L448 448' />
@@ -292,7 +292,7 @@ export default function Main() {
 							<li className='header__account--items header__account2--items'>
 								<a className='header__account--btn' href='my-account.html'>
 									<svg xmlns='http://www.w3.org/2000/svg' width='26.51' height='23.443' viewBox='0 0 512 512'>
-										<path d='M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z' fill='none' stroke='currentColor' strokeLinecap='round' stroke-linejoin='round' strokeWidth='32' />
+										<path d='M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z' fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='32' />
 										<path d='M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z' fill='none' stroke='currentColor' strokeMiterlimit='10' strokeWidth='32' />
 									</svg>
 									<span className='visually-hidden'>My Account</span>
@@ -306,14 +306,14 @@ export default function Main() {
 											fill='none'
 											stroke='currentColor'
 											strokeLinecap='round'
-											stroke-linejoin='round'
+											strokeLinejoin='round'
 											strokeWidth='32'></path>
 									</svg>
 									<span className='items__count  wishlist style2'>02</span>
 								</a>
 							</li>
 							<li className='header__account--items header__account2--items'>
-								<a className='header__account--btn minicart__open--btn' href='javascript:void(0)' data-offcanvas>
+								<a className='header__account--btn minicart__open--btn' href='#' data-offcanvas>
 									<svg xmlns='http://www.w3.org/2000/svg' width='26.51' height='23.443' viewBox='0 0 14.706 13.534'>
 										<g transform='translate(0 0)'>
 											<g>
@@ -332,7 +332,7 @@ export default function Main() {
 								</a>
 							</li>
 						</ul>
-					</div> */}
+					</div>
 				</div>
 			</div>
 		</div>

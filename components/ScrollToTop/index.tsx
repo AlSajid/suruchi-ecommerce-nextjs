@@ -6,7 +6,7 @@
 // 					fill='none'
 // 					stroke='currentColor'
 // 					strokeLinecap='round'
-// 					stroke-linejoin='round'
+// 					strokeLinejoin='round'
 // 					strokeWidth='48'
 // 					d='M112 244l144-144 144 144M256 120v292'
 // 				/>
