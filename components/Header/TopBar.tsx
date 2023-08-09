@@ -1,4 +1,8 @@
 import Image from 'next/image'
+import DownArrowIcon from '../SVGs/DownArrow'
+
+const languages = ['english', 'France', 'Russia', 'Spanish']
+const currencies = ['USD', 'CAD', 'CNY', 'EUR', 'GBP']
 
 export default function TopBar() {
 	return (
@@ -7,9 +11,12 @@ export default function TopBar() {
 				<div className='header__topbar--inner d-flex align-items-center justify-content-between'>
 					<div className='header__shipping'>
 						<ul className='header__shipping--wrapper d-flex'>
+							{/* Welcome Note */}
 							<li className='header__shipping--text text-white'>
 								Welcome to Netmark online Store
 							</li>
+
+							{/* Shipping */}
 							<li className='header__shipping--text text-white d-sm-2-none'>
 								<Image
 									className='header__shipping--text__icon'
@@ -17,9 +24,11 @@ export default function TopBar() {
 									alt='bus-icon'
 									width={19}
 									height={13}
-								/>{' '}
+								/>
 								Track Your Order
 							</li>
+
+							{/* contact */}
 							<li className='header__shipping--text text-white d-sm-2-none'>
 								<Image
 									className='header__shipping--text__icon'
@@ -34,8 +43,10 @@ export default function TopBar() {
 							</li>
 						</ul>
 					</div>
+
 					<div className='language__currency d-none d-lg-block'>
 						<ul className='d-flex align-items-center'>
+							{/* Language */}
 							<li className='language__currency--list'>
 								<a className='language__switcher text-white' href='#'>
 									<Image
@@ -46,18 +57,7 @@ export default function TopBar() {
 										height={15}
 									/>
 									<span>English</span>
-									<svg
-										xmlns='http://www.w3.org/2000/svg'
-										width='11.797'
-										height='9.05'
-										viewBox='0 0 9.797 6.05'>
-										<path
-											d='M14.646,8.59,10.9,12.329,7.151,8.59,6,9.741l4.9,4.9,4.9-4.9Z'
-											transform='translate(-6 -8.59)'
-											fill='currentColor'
-											opacity='0.7'
-										/>
-									</svg>
+									<DownArrowIcon />
 								</a>
 								<div className='dropdown__language'>
 									<ul>
@@ -88,18 +88,7 @@ export default function TopBar() {
 										height={12}
 									/>
 									<span>$ US Dollar</span>
-									<svg
-										xmlns='http://www.w3.org/2000/svg'
-										width='11.797'
-										height='9.05'
-										viewBox='0 0 9.797 6.05'>
-										<path
-											d='M14.646,8.59,10.9,12.329,7.151,8.59,6,9.741l4.9,4.9,4.9-4.9Z'
-											transform='translate(-6 -8.59)'
-											fill='currentColor'
-											opacity='0.7'
-										/>
-									</svg>
+									<DownArrowIcon />
 								</a>
 								<div className='dropdown__currency'>
 									<ul>

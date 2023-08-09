@@ -5,14 +5,19 @@ import './globals.css'
 
 // import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Jost } from 'next/font/google'
 import Header from '@/components/Header'
 // import Preloader from '@/app/loading'
 // import QuickView from '@/components/QuickView/QuickView'
 // import Newsletter from '@/components/Newsletter'
 // import ScrollToTop from '@/components/ScrollToTop'
 
-const inter = Inter({ subsets: ['latin'] })
+const jost = Jost({
+	subsets: ['latin'],
+	display: 'swap',
+	style: ['normal', 'italic'],
+	weight: ['300', '400', '500', '600', '700', '800', '900']
+})
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -22,7 +27,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang='en'>
-			<body className={inter.className}>
+			<body className={jost.className}>
 				<Header />
 				{children}
 				{/* <Footer /> */}
