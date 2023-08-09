@@ -137,7 +137,7 @@ export default function Header() {
 				</div>
 			</div>
 
-			<div className='main__header header__sticky'>
+			{/* <div className='main__header header__sticky'>
 				<div className='container-fluid'>
 					<div className='main__header--inner position__relative d-flex justify-content-between align-items-center'>
 						<div className='offcanvas__header--menu__open '>
@@ -309,6 +309,8 @@ export default function Header() {
 								</li>
 							</ul>
 						</div>
+
+						
 						<div className='header__menu d-none header__sticky--block d-lg-block'>
 							<nav className='header__menu--navigation'>
 								<ul className='d-flex'>
@@ -1111,7 +1113,7 @@ export default function Header() {
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			{/* <OffCanvas />
 			<StickyToolbar />

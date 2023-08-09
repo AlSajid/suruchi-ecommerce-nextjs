@@ -1,3 +1,5 @@
+'use client'
+
 // import Slider from './Home/Slider/Slider'
 // import Banners1 from './Home/Banners1'
 // import NewProducts from './Home/NewProducts'
