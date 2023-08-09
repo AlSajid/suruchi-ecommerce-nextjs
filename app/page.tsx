@@ -1,4 +1,4 @@
-// import Slider from './Home/Slider/Slider'
+import Slider from './Home/Slider'
 import Banners1 from './Home/Banners1'
 // import NewProducts from './Home/NewProducts'
 // import Deals from './Home/Deals'
@@ -11,7 +11,7 @@ import Banners1 from './Home/Banners1'
 export default function Home() {
 	return (
 		<main className='main__content_wrapper'>
-			{/* <Slider />  */}
+			<Slider />
 			<Banners1 />
 			{/* <NewProducts /> */}
 			{/* <Deals /> */}

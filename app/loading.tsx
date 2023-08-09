@@ -8,11 +8,9 @@ export default function Preloader() {
 						<span data-text-preloader='L' className='letters-loading'>
 							L
 						</span>
-
 						<span data-text-preloader='O' className='letters-loading'>
 							O
 						</span>
-
 						<span data-text-preloader='A' className='letters-loading'>
 							A
 						</span>
