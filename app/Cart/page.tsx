@@ -2,7 +2,7 @@ import BrandLogo from '@/components/BrandLogo'
 import Products from '@/components/Products'
 import Shipping from '@/components/Shipping'
 import Breadcrumb from '@/components/Breadcrumb'
-import Cart from './Cart'
+import Cart from '@/app/cart/Cart'
 
 export default function Page() {
 	return (
