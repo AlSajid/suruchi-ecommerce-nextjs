@@ -2,6 +2,8 @@
 
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
+import 'swiper/css/navigation'
 import 'swiper/css'
 
 export default function Testimonial() {
@@ -14,10 +16,11 @@ export default function Testimonial() {
 				<div className='testimonial__section--inner testimonial__swiper--activation swiper'>
 					<Swiper
 						className='hero__slider--wrapper'
-						slidesPerView={3}
 						loop={true}
-						clickAble={true}
+						slidesPerView={3}
 						spaceBetween={30}
+						modules={[Navigation]}
+						navigation={true}
 						breakpoints={{
 							1200: {
 								slidesPerView: 3

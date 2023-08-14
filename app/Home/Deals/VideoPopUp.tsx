@@ -32,7 +32,7 @@ export default function VideoPopUp() {
 
 			<Modal open={open} onClose={handleClose}>
 				<Box sx={style}>
-					<video controls style={{ width: '100%' }} autoPlay={true}>
+					<video style={{ width: '100%' }} autoPlay={true}>
 						<source
 							src='https://vod-progressive.akamaized.net/exp=1692015531~acl=%2Fvimeo-transcode-storage-prod-us-central1-h264-720p%2F01%2F3008%2F4%2F115041822%2F319100631.mp4~hmac=1d5244f093a2e7033f4a31002659a78042ceb5f6dfd7252bc88c43632d6c2fca/vimeo-transcode-storage-prod-us-central1-h264-720p/01/3008/4/115041822/319100631.mp4'
 							type='video/webm'

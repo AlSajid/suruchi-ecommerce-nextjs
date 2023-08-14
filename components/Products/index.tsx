@@ -2,6 +2,8 @@
 
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
+import 'swiper/css/navigation'
 import 'swiper/css'
 
 export default function Products({ title }: { title: string }) {
@@ -16,18 +18,22 @@ export default function Products({ title }: { title: string }) {
 						loop={true}
 						spaceBetween={50}
 						slidesPerView={4}
+						navigation={true}
+						modules={[Navigation, ]}
 						breakpoints={{
-							768: {
+							1200: {
 								slidesPerView: 5
 							},
-							480: {
+							992: {
 								slidesPerView: 4
 							},
-							320: {
-								slidesPerView: 3
+							768: {
+								slidesPerView: 3,
+								spaceBetween: 30
 							},
-							200: {
-								slidesPerView: 2
+							280: {
+								slidesPerView: 2,
+								spaceBetween: 20
 							},
 							0: {
 								slidesPerView: 1
