@@ -32,12 +32,12 @@ export default function Header() {
 												</a>
 											</li>
 											<li className='header__sub--menu__items'>
-												<a href='index-2' className='header__sub--menu__link'>
+												<a href='/' className='header__sub--menu__link'>
 													Home Two
 												</a>
 											</li>
 											<li className='header__sub--menu__items'>
-												<a href='index-3' className='header__sub--menu__link'>
+												<a href='/' className='header__sub--menu__link'>
 													Home Three
 												</a>
 											</li>

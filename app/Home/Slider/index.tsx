@@ -1,14 +1,16 @@
 'use client'
 
 import Image from 'next/image'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css/navigation'
 import 'swiper/css'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
 
 export default function Slider() {
 	return (
 		<section className='hero__slider--section'>
 			<div className='hero__slider--inner hero__slider--activation swiper'>
-				<Swiper className='hero__slider--wrapper' spaceBetween={50} slidesPerView={1}>
+				<Swiper className='hero__slider--wrapper' loop={true} modules={[Navigation]} spaceBetween={50} slidesPerView={1} navigation={true}>
 					<SwiperSlide>
 						<div className='hero__slider--items home1__slider--bg'>
 							<div className='container-fluid'>

@@ -11,28 +11,29 @@
 ✅ - blog
 ✅ - blog-details
 ✅ - compare
-⚠️ - index-2
-⚠️ - index-3
-⚠️ - my-account-2
-⚠️ - my-account
-⚠️ - shop-right-sidebar
-⚠️ - blog-left-sidebar
-⚠️ - blog-right-sidebar
-⚠️ - shop-grid-list
-⚠️ - shop-grid
-⚠️ - shop-list
-⚠️ - product-left-sidebar
-⚠️ - product-gallery
-⚠️ - product-video
-
-❌ - checkout-2
-❌ - checkout-3
-❌ - checkout-4
-❌ - checkout
+✅ - checkout
+✅ - checkout-2
+✅ - checkout-3
+✅ - checkout-4
 ❌ - product-details
 ❌ - shop
 
 ✅ code and view is done
-⚠️ optional pages (not required)
+👽 optional pages
 🔃 ongoing
 ❌ not done
+
+
+👽 - index-2
+👽 - index-3
+👽 - my-account-2
+👽 - my-account
+👽 - shop-right-sidebar
+👽 - blog-left-sidebar
+👽 - blog-right-sidebar
+👽 - shop-grid-list
+👽 - shop-grid
+👽 - shop-list
+👽 - product-left-sidebar
+👽 - product-gallery
+👽 - product-video

@@ -7,9 +7,9 @@ import Shipping from '../../components/Shipping'
 export default function Wishlist() {
 	return (
 		<main className='main__content_wrapper'>
-			<Breadcrumb />
+			<Breadcrumb title='Wishlist' />
 			<Cart />
-			<Products />
+			<Products title='New Products' />
 			<BrandLogo />
 			<Shipping />
 		</main>

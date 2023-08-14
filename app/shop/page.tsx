@@ -1,12 +1,12 @@
 import Breadcrumb from '@/components/Breadcrumb'
-import Checkout from './Checkout'
 import Shipping from '@/components/Shipping'
+import Shop from './Shop'
 
 export default function Page() {
 	return (
 		<main className='main__content_wrapper'>
-			<Breadcrumb title='Account' />
-			<Checkout />
+			<Breadcrumb title='Shop' />
+			<Shop />
 			<Shipping />
 		</main>
 	)

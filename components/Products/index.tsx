@@ -4,12 +4,12 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
-export default function Products() {
+export default function Products({ title }: { title: string }) {
 	return (
 		<section className='product__section product__section--style3 section--padding pt-0'>
 			<div className='container product3__section--container'>
 				<div className='section__heading text-center mb-50'>
-					<h2 className='section__heading--maintitle'>New Products</h2>
+					<h2 className='section__heading--maintitle'>{title}</h2>
 				</div>
 				<div className='product__section--inner product__swiper--column4__activation swiper'>
 					<Swiper spaceBetween={50} slidesPerView={4}>
@@ -117,7 +117,7 @@ export default function Products() {
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'></path>
 												</svg>
@@ -131,7 +131,7 @@ export default function Products() {
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'
 													/>
@@ -248,7 +248,7 @@ export default function Products() {
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'></path>
 												</svg>
@@ -262,7 +262,7 @@ export default function Products() {
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'
 													/>
@@ -379,7 +379,7 @@ export default function Products() {
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'></path>
 												</svg>
@@ -393,7 +393,7 @@ export default function Products() {
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'
 													/>
@@ -510,7 +510,7 @@ export default function Products() {
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'></path>
 												</svg>
@@ -524,7 +524,7 @@ export default function Products() {
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'
 													/>
@@ -641,7 +641,7 @@ export default function Products() {
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'></path>
 												</svg>
@@ -655,7 +655,7 @@ export default function Products() {
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'
 													/>
@@ -903,7 +903,7 @@ export default function Products() {
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'></path>
 												</svg>
@@ -917,7 +917,7 @@ export default function Products() {
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
 														fill='none'
 														stroke='currentColor'
-														strokeLinecapp='round'
+														strokeLinecap='round'
 														stroke-linejoin='round'
 														stroke-width='32'
 													/>

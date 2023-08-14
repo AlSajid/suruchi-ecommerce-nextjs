@@ -9,7 +9,7 @@ export default function Checkout() {
 						<header className='main__header checkout__mian--header mb-30'>
 							<h1 className='main__logo--title'>
 								<a className='logo logo__left mb-20' href='index'>
-									<Image src='/images/logo/nav-log.png' alt='logo' />
+									<Image src='/images/logo/nav-log.png' alt='logo' width={157} height={36} />
 								</a>
 							</h1>
 							<details className='order__summary--mobile__version'>
@@ -40,7 +40,7 @@ export default function Checkout() {
 														<div className='product__image two  d-flex align-items-center'>
 															<div className='product__thumbnail border-radius-5'>
 																<a href='product-details'>
-																	<Image className='border-radius-5' src='/images/products/small-product7.png' alt='cart-product' />
+																	<Image className='border-radius-5' src='/images/products/small-product7.png' alt='cart-product' width={90} height={98} />
 																</a>
 																<span className='product__thumbnail--quantity'>1</span>
 															</div>
@@ -214,7 +214,7 @@ export default function Checkout() {
 										<div className='checkout__address--content__header d-flex align-items-center justify-content-between'>
 											<span className='checkout__address--content__title'>Credit card</span>
 											<span className='heckout__address--content__icon'>
-												<Image src='assets/img/icon/credit-card.svg' alt='card' />
+												<Image src='/images/icons/credit-card.svg' alt='card' height={38} width={24} />
 											</span>
 										</div>
 										<div className='checkout__content--input__box--wrapper '>
@@ -283,7 +283,7 @@ export default function Checkout() {
 												<div className='shipping__radio--input'>
 													<input className='shipping__radio--input__field' id='radiobox' name='checkmethod' type='radio' />
 												</div>
-												<label className='shipping__radio--label' for='radiobox'>
+												<label className='shipping__radio--label' htmlFor='radiobox'>
 													<span className='shipping__radio--label__primary'>Same as shipping address</span>
 												</label>
 											</div>
@@ -291,7 +291,7 @@ export default function Checkout() {
 												<div className='shipping__radio--input'>
 													<input className='shipping__radio--input__field' id='radiobox2' name='checkmethod' type='radio' />
 												</div>
-												<label className='shipping__radio--label' for='radiobox2'>
+												<label className='shipping__radio--label' htmlFor='radiobox2'>
 													<span className='shipping__radio--label__primary'>Use a different billing address</span>
 												</label>
 											</div>
@@ -335,7 +335,7 @@ export default function Checkout() {
 												</div>
 												<div className='col-lg-6 mb-12'>
 													<div className='checkout__input--list checkout__input--select select'>
-														<label className='checkout__select--label' for='country'>
+														<label className='checkout__select--label' htmlFor='country'>
 															Country/region
 														</label>
 														<select className='checkout__input--select__field border-radius-5' id='country'>
@@ -361,7 +361,7 @@ export default function Checkout() {
 									</div>
 								</div>
 								<div className='checkout__content--step__footer d-flex align-items-center'>
-									<a className='continue__shipping--btn primary__btn border-radius-5' href='checkout-3'>
+									<a className='continue__shipping--btn primary__btn border-radius-5' href='checkout-4'>
 										Pay now
 									</a>
 									<a className='previous__link--content' href='shop'>

@@ -9,7 +9,7 @@ export default function Page() {
 		<main className='main__content_wrapper'>
 			<Breadcrumb title='Shopping Cart' />
 			<Cart />
-			<Products />
+			<Products title='New Products' />
 			<BrandLogo />
 			<Shipping />
 		</main>
