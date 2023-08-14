@@ -2,8 +2,8 @@
 
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper/modules'
-import 'swiper/css/navigation'
+import { Pagination } from 'swiper/modules'
+import 'swiper/css/pagination'
 import 'swiper/css'
 
 export default function Testimonial() {
@@ -19,8 +19,10 @@ export default function Testimonial() {
 						loop={true}
 						slidesPerView={3}
 						spaceBetween={30}
-						modules={[Navigation]}
-						navigation={true}
+						modules={[Pagination]}
+						pagination={{
+							clickable: true
+						}}
 						breakpoints={{
 							1200: {
 								slidesPerView: 3
