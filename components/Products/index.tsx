@@ -12,7 +12,26 @@ export default function Products({ title }: { title: string }) {
 					<h2 className='section__heading--maintitle'>{title}</h2>
 				</div>
 				<div className='product__section--inner product__swiper--column4__activation swiper'>
-					<Swiper spaceBetween={50} slidesPerView={4}>
+					<Swiper
+						spaceBetween={50}
+						slidesPerView={4}
+						breakpoints={{
+							768: {
+								slidesPerView: 5
+							},
+							480: {
+								slidesPerView: 4
+							},
+							320: {
+								slidesPerView: 3
+							},
+							200: {
+								slidesPerView: 2
+							},
+							0: {
+								slidesPerView: 1
+							}
+						}}>
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>

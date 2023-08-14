@@ -10,7 +10,13 @@ export default function Slider() {
 	return (
 		<section className='hero__slider--section'>
 			<div className='hero__slider--inner hero__slider--activation swiper'>
-				<Swiper className='hero__slider--wrapper' loop={true} modules={[Navigation]} spaceBetween={50} slidesPerView={1} navigation={true}>
+				<Swiper
+					className='hero__slider--wrapper'
+					loop={true}
+					modules={[Navigation]}
+					spaceBetween={50}
+					slidesPerView={1}
+					navigation={true}>
 					<SwiperSlide>
 						<div className='hero__slider--items home1__slider--bg'>
 							<div className='container-fluid'>

@@ -3,6 +3,8 @@
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+import { Navigation } from 'swiper/modules'
+import 'swiper/css/navigation'
 
 export default function Blogs() {
 	return (
@@ -12,7 +14,26 @@ export default function Blogs() {
 					<h2 className='section__heading--maintitle'>From The Blog</h2>
 				</div>
 				<div className='blog__section--inner blog__swiper--activation swiper'>
-					<Swiper spaceBetween={50} slidesPerView={4}>
+					<Swiper
+						spaceBetween={50}
+						loop={true}
+						breakpoints={{
+							768: {
+								slidesPerView: 5
+							},
+							480: {
+								slidesPerView: 4
+							},
+							320: {
+								slidesPerView: 3
+							},
+							200: {
+								slidesPerView: 2
+							},
+							0: {
+								slidesPerView: 1
+							}
+						}}>
 						<SwiperSlide>
 							<div className='blog__items'>
 								<div className='blog__thumbnail'>

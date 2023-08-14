@@ -12,7 +12,27 @@ export default function Testimonial() {
 					<h2 className='section__heading--maintitle'>Our Clients Say</h2>
 				</div>
 				<div className='testimonial__section--inner testimonial__swiper--activation swiper'>
-					<Swiper className='hero__slider--wrapper' spaceBetween={50} slidesPerView={3}>
+					<Swiper
+						className='hero__slider--wrapper'
+						spaceBetween={50}
+						slidesPerView={3}
+						breakpoints={{
+							768: {
+								slidesPerView: 5
+							},
+							480: {
+								slidesPerView: 4
+							},
+							320: {
+								slidesPerView: 3
+							},
+							200: {
+								slidesPerView: 2
+							},
+							0: {
+								slidesPerView: 1
+							}
+						}}>
 						<SwiperSlide>
 							<div className='testimonial__items text-center'>
 								<div className='testimonial__items--thumbnail'>
