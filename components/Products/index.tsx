@@ -13,6 +13,7 @@ export default function Products({ title }: { title: string }) {
 				</div>
 				<div className='product__section--inner product__swiper--column4__activation swiper'>
 					<Swiper
+						loop={true}
 						spaceBetween={50}
 						slidesPerView={4}
 						breakpoints={{

@@ -14,21 +14,23 @@ export default function Testimonial() {
 				<div className='testimonial__section--inner testimonial__swiper--activation swiper'>
 					<Swiper
 						className='hero__slider--wrapper'
-						spaceBetween={50}
 						slidesPerView={3}
+						loop={true}
+						clickAble={true}
+						spaceBetween={30}
 						breakpoints={{
-							768: {
-								slidesPerView: 5
-							},
-							480: {
-								slidesPerView: 4
-							},
-							320: {
+							1200: {
 								slidesPerView: 3
 							},
-							200: {
+							768: {
+								spaceBetween: 30,
 								slidesPerView: 2
 							},
+							576: {
+								slidesPerView: 2,
+								spaceBetween: 20
+							},
+
 							0: {
 								slidesPerView: 1
 							}

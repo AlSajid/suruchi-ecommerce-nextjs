@@ -5,7 +5,31 @@
 	background-position: center center;
 	background-size: cover;
 }
-
+.hero__slider--section:hover .swiper-button-prev,
+.hero__slider--section:hover .swiper-button-next {
+	opacity: 1;
+	visibility: visible;
+}
+.swiper-button-prev,
+ .swiper-button-next {
+	width: 4rem !important;
+	height: 4rem !important;
+	background: var(--secondary-color);
+	color: #fff;
+	border-radius: 100%;
+	transition: all 0.4s ease;
+	opacity: 0;
+	visibility: hidden;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+	background-color: var(--primary-color);
+}
+ .swiper-button-prev:after,
+.swiper-button-next:after {
+	font-size: 20px !important;
+	color: #fff !important;
+}
 @media only screen and (max-width: 767px) {
 	.home1__slider--bg {
 		background-position: 0%;
