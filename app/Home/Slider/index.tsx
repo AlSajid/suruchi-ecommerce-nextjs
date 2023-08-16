@@ -5,6 +5,7 @@ import 'swiper/css/navigation'
 import 'swiper/css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
+import Link from 'next/link'
 
 export default function Slider() {
 	return (
@@ -29,12 +30,12 @@ export default function Slider() {
 													Up To 40% Off Final Sale Items. <br />
 													Caught in the Moment!
 												</p>
-												<a className='slider__btn primary__btn' href='shop'>
+												<Link className='slider__btn primary__btn' href='shop'>
 													Show Collection
 													<svg className='primary__btn--arrow__icon' xmlns='http://www.w3.org/2000/svg' width='20.2' height='12.2' viewBox='0 0 6.2 6.2'>
 														<path d='M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z' transform='translate(-4 -4)' fill='currentColor'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -60,12 +61,12 @@ export default function Slider() {
 													Up To 40% Off Final Sale Items. <br />
 													Caught in the Moment!
 												</p>
-												<a className='primary__btn slider__btn' href='shop'>
+												<Link className='primary__btn slider__btn' href='shop'>
 													Show Collection
 													<svg className='slider__btn--arrow__icon' xmlns='http://www.w3.org/2000/svg' width='20.2' height='12.2' viewBox='0 0 6.2 6.2'>
 														<path d='M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z' transform='translate(-4 -4)' fill='currentColor'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -92,12 +93,12 @@ export default function Slider() {
 													Up To 40% Off Final Sale Items. <br />
 													Caught in the Moment!
 												</p>
-												<a className='primary__btn slider__btn' href='shop'>
+												<Link className='primary__btn slider__btn' href='shop'>
 													Show Collection
 													<svg className='slider__btn--arrow__icon' xmlns='http://www.w3.org/2000/svg' width='20.2' height='12.2' viewBox='0 0 6.2 6.2'>
 														<path d='M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z' transform='translate(-4 -4)' fill='currentColor'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>

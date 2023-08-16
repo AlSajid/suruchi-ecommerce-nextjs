@@ -1,12 +1,13 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
-export default function MiniCart() {
+export default function MiniCart({ isCartOpen, setIsCartOpen }: { isCartOpen: boolean; setIsCartOpen: Function }) {
 	return (
-		<div className='offCanvas__minicart'>
+		<div className={`offCanvas__minicart ${isCartOpen && 'active'}`}>
 			<div className='minicart__header '>
 				<div className='minicart__header--top d-flex justify-content-between align-items-center'>
 					<h2 className='minicart__title h3'> Shopping Cart</h2>
-					<button className='minicart__close--btn' aria-label='minicart close button' data-offcanvas>
+					<button className='minicart__close--btn' aria-label='minicart close button' data-offcanvas onClick={() => setIsCartOpen(false)}>
 						<svg className='minicart__close--icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
 							<path fill='currentColor' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='32' d='M368 368L144 144M368 144L144 368' />
 						</svg>
@@ -17,13 +18,13 @@ export default function MiniCart() {
 			<div className='minicart__product'>
 				<div className='minicart__product--items d-flex'>
 					<div className='minicart__thumb'>
-						<a href='product-details'>
+						<Link href='product-details'>
 							<Image src='/images/products/product1.png' width={282} height={310} alt='product-img' />
-						</a>
+						</Link>
 					</div>
 					<div className='minicart__text'>
 						<h3 className='minicart__subtitle h4'>
-							<a href='product-details'>Oversize Cotton Dress</a>
+							<Link href='product-details'>Oversize Cotton Dress</Link>
 						</h3>
 						<span className='color__variant'>
 							<b>Color:</b> Beige
@@ -50,13 +51,13 @@ export default function MiniCart() {
 				</div>
 				<div className='minicart__product--items d-flex'>
 					<div className='minicart__thumb'>
-						<a href='product-details'>
+						<Link href='product-details'>
 							<Image src='/images/products/product2.png' width={282} height={310} alt='prduct-img' />
-						</a>
+						</Link>
 					</div>
 					<div className='minicart__text'>
 						<h3 className='minicart__subtitle h4'>
-							<a href='product-details'>Boxy Denim Jacket</a>
+							<Link href='product-details'>Boxy Denim Jacket</Link>
 						</h3>
 						<span className='color__variant'>
 							<b>Color:</b> Green
@@ -100,18 +101,18 @@ export default function MiniCart() {
 				<input className='minicart__conditions--input' id='accept' type='checkbox' />
 				<label className='minicart__conditions--label' htmlFor='accept'>
 					I agree with the
-					<a className='minicart__conditions--link' href='privacy-policy'>
+					<Link className='minicart__conditions--link' href='privacy-policy'>
 						Privacy and Policy
-					</a>
+					</Link>
 				</label>
 			</div>
 			<div className='minicart__button d-flex justify-content-center'>
-				<a className='primary__btn minicart__button--link' href='/cart'>
+				<Link className='primary__btn minicart__button--link' href='/cart'>
 					View cart
-				</a>
-				<a className='primary__btn minicart__button--link' href='checkout'>
+				</Link>
+				<Link className='primary__btn minicart__button--link' href='checkout'>
 					Checkout
-				</a>
+				</Link>
 			</div>
 		</div>
 	)

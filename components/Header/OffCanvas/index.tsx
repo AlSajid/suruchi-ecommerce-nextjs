@@ -1,258 +1,92 @@
 import Image from 'next/image'
+import Languages from '../TopBar/Options/Languages'
+import Currencies from '../TopBar/Options/Currencies'
+import Link from 'next/link';
 
-export default function OffCanvas() {
+export default function OffCanvas({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: Function }) {
 	return (
-		<div className='offcanvas__header'>
+		<div className={`offcanvas__header ${isOpen && 'open'}`}>
 			<div className='offcanvas__inner'>
 				<div className='offcanvas__logo'>
-					<a className='offcanvas__logo_link' href='/'>
+					<Link className='offcanvas__logo_link' href='/'>
 						<Image src='/images/logo/nav-log.png' alt='Grocee Logo' width={157} height={36} />
-					</a>
-					<button className='offcanvas__close--btn' data-offcanvas>
+					</Link>
+					<button className='offcanvas__close--btn' data-offcanvas onClick={() => setIsOpen(false)}>
 						close
 					</button>
 				</div>
 				<nav className='offcanvas__menu'>
 					<ul className='offcanvas__menu_ul'>
 						<li className='offcanvas__menu_li'>
-							<a className='offcanvas__menu_item' href='/'>
+							<Link className='offcanvas__menu_item' href='home'>
 								Home
-							</a>
-							<ul className='offcanvas__sub_menu'>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='/' className='offcanvas__sub_menu_item'>
-										Home One
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='index-2' className='offcanvas__sub_menu_item'>
-										Home Two
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='index-3' className='offcanvas__sub_menu_item'>
-										Home Three
-									</a>
-								</li>
-							</ul>
+							</Link>
 						</li>
 						<li className='offcanvas__menu_li'>
-							<a className='offcanvas__menu_item' href='#'>
+							<Link className='offcanvas__menu_item' href='about'>
 								Shop
-							</a>
-							<ul className='offcanvas__sub_menu'>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='#' className='offcanvas__sub_menu_item'>
-										Column One
-									</a>
-									<ul className='offcanvas__sub_menu'>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='shop'>
-												Shop Left Sidebar
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='shop-right-sidebar'>
-												Shop Right Sidebar
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='shop-grid'>
-												Shop Grid
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='shop-grid-list'>
-												Shop Grid List
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='shop-list'>
-												Shop List
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='#' className='offcanvas__sub_menu_item'>
-										Column Two
-									</a>
-									<ul className='offcanvas__sub_menu'>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='product-details'>
-												Product Details
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='product-video'>
-												Video Product
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='product-details'>
-												Variable Product
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='product-left-sidebar'>
-												Product Left Sidebar
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='product-gallery'>
-												Product Gallery
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='#' className='offcanvas__sub_menu_item'>
-										Column Three
-									</a>
-									<ul className='offcanvas__sub_menu'>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='my-account'>
-												My Account
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='my-account-2'>
-												My Account 2
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='404'>
-												404 Page
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='/login'>
-												Login Page
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='faq'>
-												Faq Page
-											</a>
-										</li>
-									</ul>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='#' className='offcanvas__sub_menu_item'>
-										Column Three
-									</a>
-									<ul className='offcanvas__sub_menu'>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='compare'>
-												Compare Pages
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='checkout'>
-												Checkout page
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='checkout-2'>
-												Checkout Style 2
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='checkout-3'>
-												Checkout Style 3
-											</a>
-										</li>
-										<li className='offcanvas__sub_menu_li'>
-											<a className='offcanvas__sub_menu_item' href='checkout-4'>
-												Checkout Style 4
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
+							</Link>
 						</li>
 						<li className='offcanvas__menu_li'>
-							<a className='offcanvas__menu_item' href='#'>
-								Blog
-							</a>
-							<ul className='offcanvas__sub_menu'>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='blog' className='offcanvas__sub_menu_item'>
-										Blog Grid
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='blog-details' className='offcanvas__sub_menu_item'>
-										Blog Details
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='blog-left-sidebar' className='offcanvas__sub_menu_item'>
-										Blog Left Sidebar
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='blog-right-sidebar' className='offcanvas__sub_menu_item'>
-										Blog Right Sidebar
-									</a>
-								</li>
-							</ul>
-						</li>
-						<li className='offcanvas__menu_li'>
-							<a className='offcanvas__menu_item' href='#'>
-								Pages
-							</a>
-							<ul className='offcanvas__sub_menu'>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='about' className='offcanvas__sub_menu_item'>
-										About Us
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='contact' className='offcanvas__sub_menu_item'>
-										Contact Us
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='/cart' className='offcanvas__sub_menu_item'>
-										Cart Page
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='/portfolio' className='offcanvas__sub_menu_item'>
-										Portfolio Page
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='/wishlist' className='offcanvas__sub_menu_item'>
-										Wishlist Page
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='/login' className='offcanvas__sub_menu_item'>
-										Login Page
-									</a>
-								</li>
-								<li className='offcanvas__sub_menu_li'>
-									<a href='404' className='offcanvas__sub_menu_item'>
-										Error Page
-									</a>
-								</li>
-							</ul>
-						</li>
-						<li className='offcanvas__menu_li'>
-							<a className='offcanvas__menu_item' href='about'>
+							<Link className='offcanvas__menu_item' href='about'>
 								About
-							</a>
+							</Link>
 						</li>
 						<li className='offcanvas__menu_li'>
-							<a className='offcanvas__menu_item' href='contact'>
+							<Link className='offcanvas__menu_item' href='blogs'>
+								Blogs
+							</Link>
+						</li>
+						<li className='offcanvas__menu_li'>
+							<Link className='offcanvas__menu_item' href='#'>
+								Pages
+							</Link>
+							<ul className='offcanvas__sub_menu'>
+								<li className='offcanvas__sub_menu_li'>
+									<Link href='about' className='offcanvas__sub_menu_item'>
+										About Us
+									</Link>
+								</li>
+								<li className='offcanvas__sub_menu_li'>
+									<Link href='contact' className='offcanvas__sub_menu_item'>
+										Contact Us
+									</Link>
+								</li>
+								<li className='offcanvas__sub_menu_li'>
+									<Link href='/cart' className='offcanvas__sub_menu_item'>
+										Cart Page
+									</Link>
+								</li>
+								<li className='offcanvas__sub_menu_li'>
+									<Link href='/portfolio' className='offcanvas__sub_menu_item'>
+										Portfolio Page
+									</Link>
+								</li>
+								<li className='offcanvas__sub_menu_li'>
+									<Link href='/wishlist' className='offcanvas__sub_menu_item'>
+										Wishlist Page
+									</Link>
+								</li>
+								<li className='offcanvas__sub_menu_li'>
+									<Link href='/login' className='offcanvas__sub_menu_item'>
+										Login Page
+									</Link>
+								</li>
+								<li className='offcanvas__sub_menu_li'>
+									<Link href='404' className='offcanvas__sub_menu_item'>
+										Error Page
+									</Link>
+								</li>
+							</ul>
+						</li>
+						<li className='offcanvas__menu_li'>
+							<Link className='offcanvas__menu_item' href='contact'>
 								Contact
-							</a>
+							</Link>
 						</li>
 					</ul>
 					<div className='offcanvas__account--items'>
-						<a className='offcanvas__account--items__btn d-flex align-items-center' href='/login'>
+						<Link className='offcanvas__account--items__btn d-flex align-items-center' href='/login'>
 							<span className='offcanvas__account--items__icon'>
 								<svg xmlns='http://www.w3.org/2000/svg' width='20.51' height='19.443' viewBox='0 0 512 512'>
 									<path d='M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z' fill='none' stroke='currentColor' strokeLinecap='round' strokeLinejoin='round' strokeWidth='32' />
@@ -260,71 +94,12 @@ export default function OffCanvas() {
 								</svg>
 							</span>
 							<span className='offcanvas__account--items__label'>Login / Register</span>
-						</a>
+						</Link>
 					</div>
 					<div className='language__currency'>
 						<ul className='d-flex align-items-center'>
-							<li className='language__currency--list'>
-								<a className='offcanvas__language--switcher' href='#'>
-									<Image className='language__switcher--icon__img' src='/images/icons/language-icon.png' alt='currency' width={15} height={15} />
-									<span>English</span>
-									<svg xmlns='http://www.w3.org/2000/svg' width='11.797' height='9.05' viewBox='0 0 9.797 6.05'>
-										<path d='M14.646,8.59,10.9,12.329,7.151,8.59,6,9.741l4.9,4.9,4.9-4.9Z' transform='translate(-6 -8.59)' fill='currentColor' opacity='0.7' />
-									</svg>
-								</a>
-								<div className='offcanvas__dropdown--language'>
-									<ul>
-										<li className='language__items'>
-											<a className='language__text' href='#'>
-												France
-											</a>
-										</li>
-										<li className='language__items'>
-											<a className='language__text' href='#'>
-												Russia
-											</a>
-										</li>
-										<li className='language__items'>
-											<a className='language__text' href='#'>
-												Spanish
-											</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li className='language__currency--list'>
-								<a className='offcanvas__account--currency__menu' href='#'>
-									<Image src='/images/icons/usd-icon.png' alt='currency' width={12} height={12} />
-									<span>$ US Dollar</span>
-									<svg xmlns='http://www.w3.org/2000/svg' width='11.797' height='9.05' viewBox='0 0 9.797 6.05'>
-										<path d='M14.646,8.59,10.9,12.329,7.151,8.59,6,9.741l4.9,4.9,4.9-4.9Z' transform='translate(-6 -8.59)' fill='currentColor' opacity='0.7' />
-									</svg>
-								</a>
-								<div className='offcanvas__account--currency__submenu'>
-									<ul>
-										<li className='currency__items'>
-											<a className='currency__text' href='#'>
-												CAD
-											</a>
-										</li>
-										<li className='currency__items'>
-											<a className='currency__text' href='#'>
-												CNY
-											</a>
-										</li>
-										<li className='currency__items'>
-											<a className='currency__text' href='#'>
-												EUR
-											</a>
-										</li>
-										<li className='currency__items'>
-											<a className='currency__text' href='#'>
-												GBP
-											</a>
-										</li>
-									</ul>
-								</div>
-							</li>
+							<Languages theme='light' />
+							<Currencies theme='light' />
 						</ul>
 					</div>
 				</nav>

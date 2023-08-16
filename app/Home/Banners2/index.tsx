@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Banners2() {
 	return (
@@ -7,7 +8,7 @@ export default function Banners2() {
 				<div className='row row-cols-md-2 row-cols-1 mb--n28'>
 					<div className='col mb-28'>
 						<div className='banner__items position__relative'>
-							<a className='banner__items--thumbnail ' href='shop'>
+							<Link className='banner__items--thumbnail ' href='shop'>
 								<Image className='banner__items--thumbnail__img banner__img--max__height' src='/images/banners/banner5.png' alt='banner-img' width={746} height={281} />
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle d-none d-lg-block'>Pick Your Items</span>
@@ -16,12 +17,12 @@ export default function Banners2() {
 										<u>Shop now</u>
 									</span>
 								</div>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className='col mb-28'>
 						<div className='banner__items position__relative'>
-							<a className='banner__items--thumbnail ' href='shop'>
+							<Link className='banner__items--thumbnail ' href='shop'>
 								<Image className='banner__items--thumbnail__img banner__img--max__height' src='/images/banners/banner6.png' alt='banner-img' width={746} height={281} />
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle d-none d-lg-block'>Special offer</span>
@@ -30,7 +31,7 @@ export default function Banners2() {
 										<u>Discover Now</u>
 									</span>
 								</div>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

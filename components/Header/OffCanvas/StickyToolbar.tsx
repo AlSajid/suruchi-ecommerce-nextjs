@@ -1,11 +1,12 @@
 import SearchIcon from '@/components/SVGs/Search'
+import Link from 'next/link'
 
 export default function StickyToolbar() {
 	return (
 		<div className='offcanvas__stikcy--toolbar'>
 			<ul className='d-flex justify-content-between'>
 				<li className='offcanvas__stikcy--toolbar__list'>
-					<a className='offcanvas__stikcy--toolbar__btn' href='/'>
+					<Link className='offcanvas__stikcy--toolbar__btn' href='/'>
 						<span className='offcanvas__stikcy--toolbar__icon'>
 							<svg xmlns='http://www.w3.org/2000/svg' fill='none' width='21.51' height='21.443' viewBox='0 0 22 17'>
 								<path
@@ -14,28 +15,28 @@ export default function StickyToolbar() {
 							</svg>
 						</span>
 						<span className='offcanvas__stikcy--toolbar__label'>Home</span>
-					</a>
+					</Link>
 				</li>
 				<li className='offcanvas__stikcy--toolbar__list'>
-					<a className='offcanvas__stikcy--toolbar__btn' href='shop'>
+					<Link className='offcanvas__stikcy--toolbar__btn' href='shop'>
 						<span className='offcanvas__stikcy--toolbar__icon'>
 							<svg fill='currentColor' xmlns='http://www.w3.org/2000/svg' width='18.51' height='17.443' viewBox='0 0 448 512'>
 								<path d='M416 32H32A32 32 0 0 0 0 64v384a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32zm-16 48v152H248V80zm-200 0v152H48V80zM48 432V280h152v152zm200 0V280h152v152z'></path>
 							</svg>
 						</span>
 						<span className='offcanvas__stikcy--toolbar__label'>Shop</span>
-					</a>
+					</Link>
 				</li>
 				<li className='offcanvas__stikcy--toolbar__list '>
-					<a className='offcanvas__stikcy--toolbar__btn search__open--btn' href='#' data-offcanvas>
+					<Link className='offcanvas__stikcy--toolbar__btn search__open--btn' href='#' data-offcanvas>
 						<span className='offcanvas__stikcy--toolbar__icon'>
 							<SearchIcon />
 						</span>
 						<span className='offcanvas__stikcy--toolbar__label'>Search</span>
-					</a>
+					</Link>
 				</li>
 				<li className='offcanvas__stikcy--toolbar__list'>
-					<a className='offcanvas__stikcy--toolbar__btn minicart__open--btn' href='#' data-offcanvas>
+					<Link className='offcanvas__stikcy--toolbar__btn minicart__open--btn' href='#' data-offcanvas>
 						<span className='offcanvas__stikcy--toolbar__icon'>
 							<svg xmlns='http://www.w3.org/2000/svg' width='18.51' height='15.443' viewBox='0 0 18.51 15.443'>
 								<path
@@ -47,10 +48,10 @@ export default function StickyToolbar() {
 						</span>
 						<span className='offcanvas__stikcy--toolbar__label'>Cart</span>
 						<span className='items__count'>3</span>
-					</a>
+					</Link>
 				</li>
 				<li className='offcanvas__stikcy--toolbar__list'>
-					<a className='offcanvas__stikcy--toolbar__btn' href='/wishlist'>
+					<Link className='offcanvas__stikcy--toolbar__btn' href='/wishlist'>
 						<span className='offcanvas__stikcy--toolbar__icon'>
 							<svg xmlns='http://www.w3.org/2000/svg' width='18.541' height='15.557' viewBox='0 0 18.541 15.557'>
 								<path
@@ -62,7 +63,7 @@ export default function StickyToolbar() {
 						</span>
 						<span className='offcanvas__stikcy--toolbar__label'>Wishlist</span>
 						<span className='items__count'>3</span>
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</div>

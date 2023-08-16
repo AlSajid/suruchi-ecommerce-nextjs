@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
 export default function Page() {
 	return (
 		<section className='blog__details--section section--padding'>
@@ -11,9 +13,9 @@ export default function Page() {
 									<h2 className='post__header--title mb-15'>Lorem ipsum dolor, sit amet consectetur elit saepe!</h2>
 									<p className='blog__post--meta'>
 										Posted by : admin / On : February 03, 2022 / In :
-										<a className='blog__post--meta__link' href='blog-details'>
+										<Link className='blog__post--meta__link' href='blog-details'>
 											Company, Image, Travel
-										</a>
+										</Link>
 									</p>
 								</div>
 								<div className='blog__thumbnail mb-30'>
@@ -48,24 +50,24 @@ export default function Page() {
 									<label className='blog__tags--media__title'>Releted Tags :</label>
 									<ul className='d-flex'>
 										<li className='blog__tags--media__list'>
-											<a className='blog__tags--media__link' href='blog-details'>
+											<Link className='blog__tags--media__link' href='blog-details'>
 												Popular
-											</a>
+											</Link>
 										</li>
 										<li className='blog__tags--media__list'>
-											<a className='blog__tags--media__link' href='blog-details'>
+											<Link className='blog__tags--media__link' href='blog-details'>
 												Business
-											</a>
+											</Link>
 										</li>
 										<li className='blog__tags--media__list'>
-											<a className='blog__tags--media__link' href='blog-details'>
+											<Link className='blog__tags--media__link' href='blog-details'>
 												desgin
-											</a>
+											</Link>
 										</li>
 										<li className='blog__tags--media__list'>
-											<a className='blog__tags--media__link' href='blog-details'>
+											<Link className='blog__tags--media__link' href='blog-details'>
 												Service
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -73,7 +75,7 @@ export default function Page() {
 									<label className='blog__social--media__title'>Social Share :</label>
 									<ul className='d-flex'>
 										<li className='blog__social--media__list'>
-											<a className='blog__social--media__link' target='_blank' href='https://www.facebook.com'>
+											<Link className='blog__social--media__link' target='_blank' href='https://www.facebook.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 													<path
 														data-name='Path 237'
@@ -82,10 +84,10 @@ export default function Page() {
 														fill='currentColor'></path>
 												</svg>
 												<span className='visually-hidden'>Facebook</span>
-											</a>
+											</Link>
 										</li>
 										<li className='blog__social--media__list'>
-											<a className='blog__social--media__link' target='_blank' href='https://twitter.com'>
+											<Link className='blog__social--media__link' target='_blank' href='https://twitter.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 													<path
 														data-name='Path 303'
@@ -94,10 +96,10 @@ export default function Page() {
 														fill='currentColor'></path>
 												</svg>
 												<span className='visually-hidden'>Twitter</span>
-											</a>
+											</Link>
 										</li>
 										<li className='blog__social--media__list'>
-											<a className='blog__social--media__link' target='_blank' href='https://www.skype.com'>
+											<Link className='blog__social--media__link' target='_blank' href='https://www.skype.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.482' height='16.481' viewBox='0 0 16.482 16.481'>
 													<path
 														data-name='Path 284'
@@ -106,10 +108,10 @@ export default function Page() {
 														fill='currentColor'></path>
 												</svg>
 												<span className='visually-hidden'>Skype</span>
-											</a>
+											</Link>
 										</li>
 										<li className='blog__social--media__list'>
-											<a className='blog__social--media__link' target='_blank' href='https://www.youtube.com'>
+											<Link className='blog__social--media__link' target='_blank' href='https://www.youtube.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 													<path
 														data-name='Path 321'
@@ -118,7 +120,7 @@ export default function Page() {
 														fill='currentColor'></path>
 												</svg>
 												<span className='visually-hidden'>Youtube</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -131,15 +133,15 @@ export default function Page() {
 									<div className='col mb-28'>
 										<div className='related__post--items'>
 											<div className='related__post--thumb border-radius-10 mb-15'>
-												<a className='display-block' href='blog-details'>
+												<Link className='display-block' href='blog-details'>
 													<Image className='related__post--img display-block border-radius-10' src='/images/blogs/related-post1.png' alt='related-post' width={630} height={420} />
-												</a>
+												</Link>
 											</div>
 											<div className='related__post--text'>
 												<h3 className='related__post--title'>
-													<a className='related__post--title__link' href='blog-details'>
+													<Link className='related__post--title__link' href='blog-details'>
 														Post With Gallery
-													</a>
+													</Link>
 												</h3>
 												<span className='related__post--deta'>February 03, 2022</span>
 											</div>
@@ -148,15 +150,15 @@ export default function Page() {
 									<div className='col mb-28'>
 										<div className='related__post--items'>
 											<div className='related__post--thumb border-radius-10 mb-15'>
-												<a className='display-block' href='blog-details'>
+												<Link className='display-block' href='blog-details'>
 													<Image className='related__post--img display-block border-radius-10' src='/images/blogs/related-post2.png' alt='related-post' width={630} height={420} />
-												</a>
+												</Link>
 											</div>
 											<div className='related__post--text'>
 												<h3 className='related__post--title'>
-													<a className='related__post--title__link' href='blog-details'>
+													<Link className='related__post--title__link' href='blog-details'>
 														Post With Vedio
-													</a>
+													</Link>
 												</h3>
 												<span className='related__post--deta'>February 03, 2022</span>
 											</div>
@@ -287,28 +289,28 @@ export default function Page() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -322,28 +324,28 @@ export default function Page() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -357,28 +359,28 @@ export default function Page() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -392,28 +394,28 @@ export default function Page() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -427,28 +429,28 @@ export default function Page() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='blog-details'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -459,42 +461,42 @@ export default function Page() {
 								<div className='product__grid--inner'>
 									<div className='product__items product__items--grid d-flex align-items-center'>
 										<div className='product__items--grid__thumbnail position__relative'>
-											<a className='product__items--link' href='blog-details'>
+											<Link className='product__items--link' href='blog-details'>
 												<Image className='product__grid--items__img product__primary--img' src='/images/products/small-product2.png' alt='product-img' width={100} height={120} />
 												<Image className='product__grid--items__img product__secondary--img' src='/images/products/small-product3.png' alt='product-img' width={100} height={120} />
-											</a>
+											</Link>
 										</div>
 										<div className='product__items--grid__content'>
 											<h3 className='product__items--content__title h4'>
-												<a href='blog-details'>Women Fish Cut</a>
+												<Link href='blog-details'>Women Fish Cut</Link>
 											</h3>
 											<span className='meta__deta'>February 03, 2022</span>
 										</div>
 									</div>
 									<div className='product__items product__items--grid d-flex align-items-center'>
 										<div className='product__items--grid__thumbnail position__relative'>
-											<a className='product__items--link' href='blog-details'>
+											<Link className='product__items--link' href='blog-details'>
 												<Image className='product__grid--items__img product__primary--img' src='/images/products/small-product1.png' alt='product-img' width={100} height={120} />
 												<Image className='product__grid--items__img product__secondary--img' src='/images/products/small-product2.png' alt='product-img' width={100} height={120} />
-											</a>
+											</Link>
 										</div>
 										<div className='product__items--grid__content'>
 											<h3 className='product__items--content__title h4'>
-												<a href='blog-details'>Gorgeous Granite is</a>
+												<Link href='blog-details'>Gorgeous Granite is</Link>
 											</h3>
 											<span className='meta__deta'>February 03, 2022</span>
 										</div>
 									</div>
 									<div className='product__items product__items--grid d-flex align-items-center'>
 										<div className='product__items--grid__thumbnail position__relative'>
-											<a className='product__items--link' href='blog-details'>
+											<Link className='product__items--link' href='blog-details'>
 												<Image className='product__grid--items__img product__primary--img' src='/images/products/small-product5.png' alt='product-img' width={100} height={120} />
 												<Image className='product__grid--items__img product__secondary--img' src='/images/products/small-product4.png' alt='product-img' width={100} height={120} />
-											</a>
+											</Link>
 										</div>
 										<div className='product__items--grid__content'>
 											<h3 className='product__items--content__title h4'>
-												<a href='blog-details'>Durable A Steel</a>
+												<Link href='blog-details'>Durable A Steel</Link>
 											</h3>
 											<span className='meta__deta'>February 03, 2022</span>
 										</div>
@@ -505,44 +507,44 @@ export default function Page() {
 								<h2 className='widget__title h3'>Brands</h2>
 								<ul className='widget__tagcloud'>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Jacket
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Women
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Oversize
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Cotton
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Shoulder
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Winter
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Accessories
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='blog-details'>
+										<Link className='widget__tagcloud--link' href='blog-details'>
 											Dress
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>

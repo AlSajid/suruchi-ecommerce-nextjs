@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Checkout() {
 	return (
@@ -8,9 +9,9 @@ export default function Checkout() {
 					<div className='main checkout__mian'>
 						<header className='main__header checkout__mian--header mb-30'>
 							<h1 className='main__logo--title'>
-								<a className='logo logo__left mb-20' href='index'>
+								<Link className='logo logo__left mb-20' href='index'>
 									<Image src='/images/logo/nav-log.png' alt='logo' width={157} height={36} />
-								</a>
+								</Link>
 							</h1>
 							<details className='order__summary--mobile__version'>
 								<summary className='order__summary--toggle border-radius-5'>
@@ -39,14 +40,14 @@ export default function Checkout() {
 													<td className=' summary__table--list'>
 														<div className='product__image two  d-flex align-items-center'>
 															<div className='product__thumbnail border-radius-5'>
-																<a href='product-details'>
+																<Link href='product-details'>
 																	<Image className='border-radius-5' src='/images/products/small-product7.png' alt='cart-product' width={90} height={98} />
-																</a>
+																</Link>
 																<span className='product__thumbnail--quantity'>1</span>
 															</div>
 															<div className='product__description'>
 																<h3 className='product__description--name h4'>
-																	<a href='product-details'>Fresh-whole-fish</a>
+																	<Link href='product-details'>Fresh-whole-fish</Link>
 																</h3>
 																<span className='product__description--variant'>COLOR: Blue</span>
 															</div>
@@ -60,14 +61,14 @@ export default function Checkout() {
 													<td className=' summary__table--list'>
 														<div className='cart__product d-flex align-items-center'>
 															<div className='product__thumbnail border-radius-5'>
-																<a href='product-details'>
+																<Link href='product-details'>
 																	<Image className='border-radius-5' src='/images/products/small-product2.png' alt='cart-product' width={100} height={120} />
-																</a>
+																</Link>
 																<span className='product__thumbnail--quantity'>1</span>
 															</div>
 															<div className='product__description'>
 																<h3 className='product__description--name h4'>
-																	<a href='product-details'>Vegetable-healthy</a>
+																	<Link href='product-details'>Vegetable-healthy</Link>
 																</h3>
 																<span className='product__description--variant'>COLOR: Green</span>
 															</div>
@@ -81,14 +82,14 @@ export default function Checkout() {
 													<td className=' summary__table--list'>
 														<div className='cart__product d-flex align-items-center'>
 															<div className='product__thumbnail border-radius-5'>
-																<a href='product-details'>
+																<Link href='product-details'>
 																	<Image className='border-radius-5' src='/images/products/small-product4.png' alt='cart-product' width={100} height={120} />
-																</a>
+																</Link>
 																<span className='product__thumbnail--quantity'>1</span>
 															</div>
 															<div className='product__description'>
 																<h3 className='product__description--name h4'>
-																	<a href='product-details'>Raw-onions-surface</a>
+																	<Link href='product-details'>Raw-onions-surface</Link>
 																</h3>
 																<span className='product__description--variant'>COLOR: White</span>
 															</div>
@@ -136,25 +137,25 @@ export default function Checkout() {
 							<nav>
 								<ol className='breadcrumb checkout__breadcrumb d-flex'>
 									<li className='breadcrumb__item breadcrumb__item--completed d-flex align-items-center'>
-										<a className='breadcrumb__link' href='cart'>
+										<Link className='breadcrumb__link' href='cart'>
 											Cart
-										</a>
+										</Link>
 										<svg className='readcrumb__chevron-icon' xmlns='http://www.w3.org/2000/svg' width='17.007' height='16.831' viewBox='0 0 512 512'>
 											<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M184 112l144 144-144 144'></path>
 										</svg>
 									</li>
 									<li className='breadcrumb__item breadcrumb__item--current d-flex align-items-center'>
-										<a className='breadcrumb__link' href='cart'>
+										<Link className='breadcrumb__link' href='cart'>
 											Information
-										</a>
+										</Link>
 										<svg className='readcrumb__chevron-icon' xmlns='http://www.w3.org/2000/svg' width='17.007' height='16.831' viewBox='0 0 512 512'>
 											<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M184 112l144 144-144 144'></path>
 										</svg>
 									</li>
 									<li className='breadcrumb__item breadcrumb__item--blank d-flex align-items-center'>
-										<a className='breadcrumb__link' href='cart'>
+										<Link className='breadcrumb__link' href='cart'>
 											Shipping
-										</a>
+										</Link>
 										<svg className='readcrumb__chevron-icon' xmlns='http://www.w3.org/2000/svg' width='17.007' height='16.831' viewBox='0 0 512 512'>
 											<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M184 112l144 144-144 144'></path>
 										</svg>
@@ -361,21 +362,21 @@ export default function Checkout() {
 									</div>
 								</div>
 								<div className='checkout__content--step__footer d-flex align-items-center'>
-									<a className='continue__shipping--btn primary__btn border-radius-5' href='checkout-3'>
+									<Link className='continue__shipping--btn primary__btn border-radius-5' href='checkout-3'>
 										Pay now
-									</a>
-									<a className='previous__link--content' href='shop'>
+									</Link>
+									<Link className='previous__link--content' href='shop'>
 										Return to shipping
-									</a>
+									</Link>
 								</div>
 							</form>
 						</main>
 						<footer className='main__footer checkout__footer'>
 							<p className='copyright__content'>
 								Copyright © 2022{' '}
-								<a className='copyright__content--link text__primary' href='index'>
+								<Link className='copyright__content--link text__primary' href='index'>
 									Suruchi
-								</a>{' '}
+								</Link>{' '}
 								. All Rights Reserved.Design By Suruchi
 							</p>
 						</footer>
@@ -388,14 +389,14 @@ export default function Checkout() {
 										<td className='cart__table--body__list'>
 											<div className='product__image two  d-flex align-items-center'>
 												<div className='product__thumbnail border-radius-5'>
-													<a href='product-details'>
+													<Link href='product-details'>
 														<Image className='border-radius-5' src='/images/products/small-product7.png' alt='cart-product' width={90} height={98} />
-													</a>
+													</Link>
 													<span className='product__thumbnail--quantity'>1</span>
 												</div>
 												<div className='product__description'>
 													<h3 className='product__description--name h4'>
-														<a href='product-details'>Fresh-whole-fish</a>
+														<Link href='product-details'>Fresh-whole-fish</Link>
 													</h3>
 													<span className='product__description--variant'>COLOR: Blue</span>
 												</div>
@@ -409,14 +410,14 @@ export default function Checkout() {
 										<td className='cart__table--body__list'>
 											<div className='cart__product d-flex align-items-center'>
 												<div className='product__thumbnail border-radius-5'>
-													<a href='product-details'>
+													<Link href='product-details'>
 														<Image className='border-radius-5' src='/images/products/small-product2.png' alt='cart-product' width={100} height={120} />
-													</a>
+													</Link>
 													<span className='product__thumbnail--quantity'>1</span>
 												</div>
 												<div className='product__description'>
 													<h3 className='product__description--name h4'>
-														<a href='product-details'>Vegetable-healthy</a>
+														<Link href='product-details'>Vegetable-healthy</Link>
 													</h3>
 													<span className='product__description--variant'>COLOR: Green</span>
 												</div>
@@ -430,14 +431,14 @@ export default function Checkout() {
 										<td className='cart__table--body__list'>
 											<div className='cart__product d-flex align-items-center'>
 												<div className='product__thumbnail border-radius-5'>
-													<a href='product-details'>
+													<Link href='product-details'>
 														<Image className='border-radius-5' src='/images/products/small-product4.png' alt='cart-product' width={100} height={120} />
-													</a>
+													</Link>
 													<span className='product__thumbnail--quantity'>1</span>
 												</div>
 												<div className='product__description'>
 													<h3 className='product__description--name h4'>
-														<a href='product-details'>Raw-onions-surface</a>
+														<Link href='product-details'>Raw-onions-surface</Link>
 													</h3>
 													<span className='product__description--variant'>COLOR: White</span>
 												</div>

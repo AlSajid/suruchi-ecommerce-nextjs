@@ -1,4 +1,17 @@
+'use client'
+
+import { useState } from 'react'
+import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'reactstrap'
+
 export default function FAQ() {
+	const [open, setOpen] = useState('1')
+	const toggle = (id:string) => {
+		if (open === id) {
+			setOpen(id)
+		} else {
+			setOpen(id)
+		}
+	}
 	return (
 		<section className='faq__section section--padding'>
 			<div className='container'>
@@ -7,6 +20,30 @@ export default function FAQ() {
 						<h2 className='face__step--title h3 mb-30'>Shipping Information</h2>
 						<div className='row'>
 							<div className='col-lg-6'>
+								{/* <Accordion open={open} toggle={toggle}>
+									<AccordionItem>
+										<AccordionHeader targetId='1'>What Shipping Methods Are Available?</AccordionHeader>
+										<AccordionBody accordionId='1'>
+											<strong>This is the first item&#39;s accordion body.</strong>
+											You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+										</AccordionBody>
+									</AccordionItem>
+									<AccordionItem>
+										<AccordionHeader targetId='2'>Accordion Item 2</AccordionHeader>
+										<AccordionBody accordionId='2'>
+											<strong>This is the second item&#39;s accordion body.</strong>
+											You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+										</AccordionBody>
+									</AccordionItem>
+									<AccordionItem>
+										<AccordionHeader targetId='3'>Accordion Item 3</AccordionHeader>
+										<AccordionBody accordionId='3'>
+											<strong>This is the third item&#39;s accordion body.</strong>
+											You can modify any of this with custom CSS or overriding our default variables. It&#39;s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+										</AccordionBody>
+									</AccordionItem>
+								</Accordion> */}
+
 								<div className='accordion__container'>
 									<div className='accordion__items'>
 										<h2 className='accordion__items--title'>

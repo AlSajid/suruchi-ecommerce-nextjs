@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function GridView() {
 	return (
@@ -11,10 +12,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items '>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product1.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product2.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -22,7 +23,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Oversize Cotton Dress</a>
+												<Link href='product-details'>Oversize Cotton Dress</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$110</span>
@@ -88,7 +89,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -103,10 +104,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -117,10 +118,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -133,7 +134,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -142,10 +143,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items '>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product3.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product4.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -153,7 +154,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Boxy Denim Jacket</a>
+												<Link href='product-details'>Boxy Denim Jacket</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$120</span>
@@ -219,7 +220,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -234,10 +235,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -248,10 +249,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -264,7 +265,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -273,10 +274,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product5.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product6.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -284,7 +285,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Quilted Shoulder Bag</a>
+												<Link href='product-details'>Quilted Shoulder Bag</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$115</span>
@@ -350,7 +351,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -365,10 +366,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -379,10 +380,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -395,7 +396,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -404,10 +405,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product7.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product8.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -415,7 +416,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Square Shoulder Bag</a>
+												<Link href='product-details'>Square Shoulder Bag</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$125</span>
@@ -481,7 +482,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -496,10 +497,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -510,10 +511,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -526,7 +527,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -535,10 +536,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product9.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product10.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -546,7 +547,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Light Denim Jacket</a>
+												<Link href='product-details'>Light Denim Jacket</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$125</span>
@@ -612,7 +613,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -627,10 +628,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -641,10 +642,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -657,7 +658,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -666,10 +667,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product11.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product12.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -677,7 +678,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Oversize Cotton Dress</a>
+												<Link href='product-details'>Oversize Cotton Dress</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$128</span>
@@ -743,7 +744,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -758,10 +759,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -772,10 +773,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -788,7 +789,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -797,10 +798,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product13.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product14.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -808,7 +809,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Aware organic cotton</a>
+												<Link href='product-details'>Aware organic cotton</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$127</span>
@@ -874,7 +875,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -889,10 +890,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -903,10 +904,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -919,7 +920,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -928,10 +929,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product14.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product15.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -939,7 +940,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Western denim shirt</a>
+												<Link href='product-details'>Western denim shirt</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$115</span>
@@ -1005,7 +1006,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1020,10 +1021,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1034,10 +1035,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1050,7 +1051,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1059,10 +1060,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product2.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product1.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1070,7 +1071,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Boxy Denim Jacket</a>
+												<Link href='product-details'>Boxy Denim Jacket</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$110</span>
@@ -1136,7 +1137,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1151,10 +1152,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1165,10 +1166,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1181,7 +1182,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1190,10 +1191,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product3.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product4.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1201,7 +1202,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>High Ankle Jeans</a>
+												<Link href='product-details'>High Ankle Jeans</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$135</span>
@@ -1267,7 +1268,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1282,10 +1283,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1296,10 +1297,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1312,7 +1313,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1321,10 +1322,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product6.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product5.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1332,7 +1333,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Aware organic cotton</a>
+												<Link href='product-details'>Aware organic cotton</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$140</span>
@@ -1398,7 +1399,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1413,10 +1414,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1427,10 +1428,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1443,7 +1444,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1452,10 +1453,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product8.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product7.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1463,7 +1464,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>OSmock Mini Dresss</a>
+												<Link href='product-details'>OSmock Mini Dresss</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$110</span>
@@ -1529,7 +1530,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1544,10 +1545,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1558,10 +1559,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1574,7 +1575,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1583,10 +1584,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product10.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product11.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1594,7 +1595,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Oversize Cotton Dress</a>
+												<Link href='product-details'>Oversize Cotton Dress</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$110</span>
@@ -1660,7 +1661,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1675,10 +1676,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1689,10 +1690,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1705,7 +1706,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1714,10 +1715,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product15.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product14.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1725,7 +1726,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Aware organic cotton</a>
+												<Link href='product-details'>Aware organic cotton</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$130</span>
@@ -1791,7 +1792,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1806,10 +1807,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1820,10 +1821,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1836,7 +1837,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1845,10 +1846,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product13.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product12.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1856,7 +1857,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Quilted Shoulder Bag</a>
+												<Link href='product-details'>Quilted Shoulder Bag</Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$150</span>
@@ -1922,7 +1923,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -1937,10 +1938,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -1951,10 +1952,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -1967,7 +1968,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -1976,10 +1977,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items'>
 										<div className='product__items--thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product11.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product10.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -1987,7 +1988,7 @@ export default function GridView() {
 										<div className='product__items--content'>
 											<span className='product__items--content__subtitle'>Jacket, Women</span>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Oversize Cotton Dress</a>
+												<Link href='product-details'>Oversize Cotton Dress</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$110</span>
@@ -2053,7 +2054,7 @@ export default function GridView() {
 											</ul>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -2068,10 +2069,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -2082,10 +2083,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -2098,7 +2099,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -2113,10 +2114,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items product__list--items d-flex'>
 										<div className='product__items--thumbnail product__list--items__thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product11.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product10.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -2124,7 +2125,7 @@ export default function GridView() {
 										<div className='product__list--items__content'>
 											<span className='product__items--content__subtitle mb-5'>Jacket, Women</span>
 											<h3 className='product__list--items__content--title h4 mb-10'>
-												<a href='product-details'>Oversize Cotton Dress</a>
+												<Link href='product-details'>Oversize Cotton Dress</Link>
 											</h3>
 											<div className='product__list--items__price mb-10'>
 												<span className='current__price'>$110</span>
@@ -2194,7 +2195,7 @@ export default function GridView() {
 											</p>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -2209,10 +2210,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -2223,10 +2224,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -2239,7 +2240,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -2248,10 +2249,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items product__list--items d-flex'>
 										<div className='product__items--thumbnail product__list--items__thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product1.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product2.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -2259,7 +2260,7 @@ export default function GridView() {
 										<div className='product__list--items__content'>
 											<span className='product__items--content__subtitle mb-5'>Jacket, Women</span>
 											<h3 className='product__list--items__content--title h4 mb-10'>
-												<a href='product-details'>Boxy Denim Jacket</a>
+												<Link href='product-details'>Boxy Denim Jacket</Link>
 											</h3>
 											<div className='product__list--items__price mb-10'>
 												<span className='current__price'>$120</span>
@@ -2329,7 +2330,7 @@ export default function GridView() {
 											</p>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -2344,10 +2345,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -2358,10 +2359,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -2374,7 +2375,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -2383,10 +2384,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items product__list--items d-flex'>
 										<div className='product__items--thumbnail product__list--items__thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product3.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product4.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -2394,7 +2395,7 @@ export default function GridView() {
 										<div className='product__list--items__content'>
 											<span className='product__items--content__subtitle mb-5'>Jacket, Women</span>
 											<h3 className='product__list--items__content--title h4 mb-10'>
-												<a href='product-details'>Quilted Shoulder Bag</a>
+												<Link href='product-details'>Quilted Shoulder Bag</Link>
 											</h3>
 											<div className='product__list--items__price mb-10'>
 												<span className='current__price'>$115</span>
@@ -2464,7 +2465,7 @@ export default function GridView() {
 											</p>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -2479,10 +2480,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -2493,10 +2494,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -2509,7 +2510,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -2518,10 +2519,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items product__list--items d-flex'>
 										<div className='product__items--thumbnail product__list--items__thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product5.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product6.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -2529,7 +2530,7 @@ export default function GridView() {
 										<div className='product__list--items__content'>
 											<span className='product__items--content__subtitle mb-5'>Jacket, Women</span>
 											<h3 className='product__list--items__content--title h4 mb-10'>
-												<a href='product-details'>Square Shoulder Bag</a>
+												<Link href='product-details'>Square Shoulder Bag</Link>
 											</h3>
 											<div className='product__list--items__price mb-10'>
 												<span className='current__price'>$114</span>
@@ -2599,7 +2600,7 @@ export default function GridView() {
 											</p>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -2614,10 +2615,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -2628,10 +2629,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -2644,7 +2645,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -2653,10 +2654,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items product__list--items d-flex'>
 										<div className='product__items--thumbnail product__list--items__thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product7.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product8.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -2664,7 +2665,7 @@ export default function GridView() {
 										<div className='product__list--items__content'>
 											<span className='product__items--content__subtitle mb-5'>Jacket, Women</span>
 											<h3 className='product__list--items__content--title h4 mb-10'>
-												<a href='product-details'>Light Denim Jackets</a>
+												<Link href='product-details'>Light Denim Jackets</Link>
 											</h3>
 											<div className='product__list--items__price mb-10'>
 												<span className='current__price'>$122</span>
@@ -2734,7 +2735,7 @@ export default function GridView() {
 											</p>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -2749,10 +2750,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -2763,10 +2764,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -2779,7 +2780,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -2788,10 +2789,10 @@ export default function GridView() {
 								<div className='col mb-30'>
 									<div className='product__items product__list--items d-flex'>
 										<div className='product__items--thumbnail product__list--items__thumbnail'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/product9.png' alt='product-img' width={282} height={310} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/product10.png' alt='product-img' width={282} height={310} />
-											</a>
+											</Link>
 											<div className='product__badge'>
 												<span className='product__badge--items sale'>Sale</span>
 											</div>
@@ -2799,7 +2800,7 @@ export default function GridView() {
 										<div className='product__list--items__content'>
 											<span className='product__items--content__subtitle mb-5'>Jacket, Women</span>
 											<h4 className='product__list--items__content--title mb-10'>
-												<a href='product-details'>OSmock Mini Dresss</a>
+												<Link href='product-details'>OSmock Mini Dresss</Link>
 											</h4>
 											<div className='product__list--items__price mb-10'>
 												<span className='current__price'>$125</span>
@@ -2869,7 +2870,7 @@ export default function GridView() {
 											</p>
 											<ul className='product__items--action d-flex'>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn add__to--cart' href='cart'>
+													<Link className='product__items--action__btn add__to--cart' href='cart'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 															<g transform='translate(0 0)'>
 																<g>
@@ -2884,10 +2885,10 @@ export default function GridView() {
 															</g>
 														</svg>
 														<span className='add__to--cart__text'> + Add to cart</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' href='wishlist'>
+													<Link className='product__items--action__btn' href='wishlist'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -2898,10 +2899,10 @@ export default function GridView() {
 																stroke-width='32'></path>
 														</svg>
 														<span className='visually-hidden'>Wishlist</span>
-													</a>
+													</Link>
 												</li>
 												<li className='product__items--action__list'>
-													<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+													<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 														<svg className='product__items--action__btn--svg' xmlns='http:/www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 															<path
 																d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -2914,7 +2915,7 @@ export default function GridView() {
 															<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 														</svg>
 														<span className='visually-hidden'>Quick View</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -2928,38 +2929,38 @@ export default function GridView() {
 					<nav className='pagination justify-content-center'>
 						<ul className='pagination__wrapper d-flex align-items-center justify-content-center'>
 							<li className='pagination__list'>
-								<a href='shop' className='pagination__item--arrow  link '>
+								<Link href='shop' className='pagination__item--arrow  link '>
 									<svg xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 512 512'>
 										<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M244 400L100 256l144-144M120 256h292' />
 									</svg>
 									<span className='visually-hidden'>pagination arrow</span>
-								</a>
+								</Link>
 							</li>
 							<li className='pagination__list'>
 								<span className='pagination__item pagination__item--current'>1</span>
 							</li>
 							<li className='pagination__list'>
-								<a href='shop' className='pagination__item link'>
+								<Link href='shop' className='pagination__item link'>
 									2
-								</a>
+								</Link>
 							</li>
 							<li className='pagination__list'>
-								<a href='shop' className='pagination__item link'>
+								<Link href='shop' className='pagination__item link'>
 									3
-								</a>
+								</Link>
 							</li>
 							<li className='pagination__list'>
-								<a href='shop' className='pagination__item link'>
+								<Link href='shop' className='pagination__item link'>
 									4
-								</a>
+								</Link>
 							</li>
 							<li className='pagination__list'>
-								<a href='shop' className='pagination__item--arrow  link '>
+								<Link href='shop' className='pagination__item--arrow  link '>
 									<svg xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 512 512'>
 										<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M268 112l144 144-144 144M392 256H100' />
 									</svg>
 									<span className='visually-hidden'>pagination arrow</span>
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</nav>

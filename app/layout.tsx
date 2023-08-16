@@ -9,7 +9,6 @@ import Footer from '@/components/Footer'
 import QuickView from '@/components/QuickView/QuickView'
 import Newsletter from '@/components/Newsletter'
 import ScrollToTop from '@/components/ScrollToTop'
-import Preloader from './loading'
 
 const jost = Jost({
 	subsets: ['latin'],

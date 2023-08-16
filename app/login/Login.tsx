@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Login() {
 	return (
 		<div className='login__section section--padding'>
@@ -33,15 +35,15 @@ export default function Login() {
 											<span className='account__login--divide__text'>OR</span>
 										</div>
 										<div className='account__social d-flex justify-content-center mb-15'>
-											<a className='account__social--link facebook' target='_blank' href='https://www.facebook.com'>
+											<Link className='account__social--link facebook' target='_blank' href='https://www.facebook.com'>
 												Facebook
-											</a>
-											<a className='account__social--link google' target='_blank' href='https://www.google.com'>
+											</Link>
+											<Link className='account__social--link google' target='_blank' href='https://www.google.com'>
 												Google
-											</a>
-											<a className='account__social--link twitter' target='_blank' href='https://twitter.com'>
+											</Link>
+											<Link className='account__social--link twitter' target='_blank' href='https://twitter.com'>
 												Twitter
-											</a>
+											</Link>
 										</div>
 										<p className='account__login--signup__text'>
 											Don,t Have an Account? <button type='submit'>Sign up now</button>

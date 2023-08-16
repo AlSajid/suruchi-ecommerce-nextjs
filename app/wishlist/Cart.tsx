@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Cart() {
 	return (
@@ -27,13 +28,13 @@ export default function Cart() {
 													</svg>
 												</button>
 												<div className='cart__thumbnail'>
-													<a href='product-details'>
+													<Link href='product-details'>
 														<Image className='border-radius-5' src='/images/products/product1.png' alt='cart-product' width={282} height={310} />
-													</a>
+													</Link>
 												</div>
 												<div className='cart__content'>
 													<h4 className='cart__content--title'>
-														<a href='product-details'>Fresh-whole-fish</a>
+														<Link href='product-details'>Fresh-whole-fish</Link>
 													</h4>
 													<span className='cart__content--variant'>COLOR: Blue</span>
 													<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -47,9 +48,9 @@ export default function Cart() {
 											<span className='in__stock text__secondary'>in stock</span>
 										</td>
 										<td className='cart__table--body__list text-right'>
-											<a className='wishlist__cart--btn primary__btn' href='/cart'>
+											<Link className='wishlist__cart--btn primary__btn' href='/cart'>
 												Add To Cart
-											</a>
+											</Link>
 										</td>
 									</tr>
 									<tr className='cart__table--body__items'>
@@ -61,13 +62,13 @@ export default function Cart() {
 													</svg>
 												</button>
 												<div className='cart__thumbnail'>
-													<a href='product-details'>
+													<Link href='product-details'>
 														<Image className='border-radius-5' src='/images/products/product2.png' alt='cart-product' width={282} height={310} />
-													</a>
+													</Link>
 												</div>
 												<div className='cart__content'>
 													<h4 className='cart__content--title'>
-														<a href='product-details'>Vegetable-healthy</a>
+														<Link href='product-details'>Vegetable-healthy</Link>
 													</h4>
 													<span className='cart__content--variant'>COLOR: Blue</span>
 													<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -81,9 +82,9 @@ export default function Cart() {
 											<span className='in__stock text__secondary'>in stock</span>
 										</td>
 										<td className='cart__table--body__list text-right'>
-											<a className='wishlist__cart--btn primary__btn' href='/cart'>
+											<Link className='wishlist__cart--btn primary__btn' href='/cart'>
 												Add To Cart
-											</a>
+											</Link>
 										</td>
 									</tr>
 									<tr className='cart__table--body__items'>
@@ -95,13 +96,13 @@ export default function Cart() {
 													</svg>
 												</button>
 												<div className='cart__thumbnail'>
-													<a href='product-details'>
+													<Link href='product-details'>
 														<Image className='border-radius-5' src='/images/products/product3.png' alt='cart-product' width={282} height={310} />
-													</a>
+													</Link>
 												</div>
 												<div className='cart__content'>
 													<h4 className='cart__content--title'>
-														<a href='product-details'>Raw-onions-surface</a>
+														<Link href='product-details'>Raw-onions-surface</Link>
 													</h4>
 													<span className='cart__content--variant'>COLOR: Blue</span>
 													<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -115,9 +116,9 @@ export default function Cart() {
 											<span className='in__stock text__secondary'>in stock</span>
 										</td>
 										<td className='cart__table--body__list text-right'>
-											<a className='wishlist__cart--btn primary__btn' href='/cart'>
+											<Link className='wishlist__cart--btn primary__btn' href='/cart'>
 												Add To Cart
-											</a>
+											</Link>
 										</td>
 									</tr>
 									<tr className='cart__table--body__items'>
@@ -129,13 +130,13 @@ export default function Cart() {
 													</svg>
 												</button>
 												<div className='cart__thumbnail'>
-													<a href='product-details'>
+													<Link href='product-details'>
 														<Image className='border-radius-5' src='/images/products/product4.png' alt='cart-product' width={282} height={310} />
-													</a>
+													</Link>
 												</div>
 												<div className='cart__content'>
 													<h4 className='cart__content--title'>
-														<a href='product-details'>Oversize Cotton Dress</a>
+														<Link href='product-details'>Oversize Cotton Dress</Link>
 													</h4>
 													<span className='cart__content--variant'>COLOR: Blue</span>
 													<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -149,20 +150,20 @@ export default function Cart() {
 											<span className='in__stock text__secondary'>in stock</span>
 										</td>
 										<td className='cart__table--body__list text-right'>
-											<a className='wishlist__cart--btn primary__btn' href='/cart'>
+											<Link className='wishlist__cart--btn primary__btn' href='/cart'>
 												Add To Cart
-											</a>
+											</Link>
 										</td>
 									</tr>
 								</tbody>
 							</table>
 							<div className='continue__shopping d-flex justify-content-between'>
-								<a className='continue__shopping--link' href='/'>
+								<Link className='continue__shopping--link' href='/'>
 									Continue shopping
-								</a>
-								<a className='continue__shopping--clear' href='shop'>
+								</Link>
+								<Link className='continue__shopping--clear' href='shop'>
 									View All Products
-								</a>
+								</Link>
 							</div>
 						</div>
 					</form>

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function TeamMembers() {
 	return (
@@ -19,7 +20,7 @@ export default function TeamMembers() {
 									<span className='team__content--subtitle'>CEO - Founder</span>
 									<ul className='team__social d-flex justify-content-center align-items-center'>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.facebook.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.facebook.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 													<path
 														data-name='Path 237'
@@ -29,10 +30,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Facebook</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://twitter.com'>
+											<Link className='team__social--icon' target='_blank' href='https://twitter.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 													<path
 														data-name='Path 303'
@@ -42,10 +43,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Twitter</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.instagram.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.instagram.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 													<path
 														data-name='Icon awesome-instagram'
@@ -55,10 +56,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Instagram</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.youtube.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.youtube.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 													<path
 														data-name='Path 321'
@@ -68,7 +69,7 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Youtube</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -84,7 +85,7 @@ export default function TeamMembers() {
 									<span className='team__content--subtitle'>Spa Manager</span>
 									<ul className='team__social d-flex justify-content-center align-items-center'>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.facebook.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.facebook.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 													<path
 														data-name='Path 237'
@@ -94,10 +95,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Facebook</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://twitter.com'>
+											<Link className='team__social--icon' target='_blank' href='https://twitter.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 													<path
 														data-name='Path 303'
@@ -107,10 +108,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Twitter</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.instagram.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.instagram.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 													<path
 														data-name='Icon awesome-instagram'
@@ -120,10 +121,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Instagram</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.youtube.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.youtube.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 													<path
 														data-name='Path 321'
@@ -133,7 +134,7 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Youtube</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -149,7 +150,7 @@ export default function TeamMembers() {
 									<span className='team__content--subtitle'>Products Manager</span>
 									<ul className='team__social d-flex justify-content-center align-items-center'>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.facebook.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.facebook.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 													<path
 														data-name='Path 237'
@@ -159,10 +160,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Facebook</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://twitter.com'>
+											<Link className='team__social--icon' target='_blank' href='https://twitter.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 													<path
 														data-name='Path 303'
@@ -172,10 +173,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Twitter</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.instagram.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.instagram.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 													<path
 														data-name='Icon awesome-instagram'
@@ -185,10 +186,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Instagram</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.youtube.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.youtube.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 													<path
 														data-name='Path 321'
@@ -198,7 +199,7 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Youtube</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -214,7 +215,7 @@ export default function TeamMembers() {
 									<span className='team__content--subtitle'>Products Manager</span>
 									<ul className='team__social d-flex justify-content-center align-items-center'>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.facebook.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.facebook.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 													<path
 														data-name='Path 237'
@@ -224,10 +225,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Facebook</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://twitter.com'>
+											<Link className='team__social--icon' target='_blank' href='https://twitter.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 													<path
 														data-name='Path 303'
@@ -237,10 +238,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Twitter</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.instagram.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.instagram.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 													<path
 														data-name='Icon awesome-instagram'
@@ -250,10 +251,10 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Instagram</span>
-											</a>
+											</Link>
 										</li>
 										<li className='team__social--list'>
-											<a className='team__social--icon' target='_blank' href='https://www.youtube.com'>
+											<Link className='team__social--icon' target='_blank' href='https://www.youtube.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 													<path
 														data-name='Path 321'
@@ -263,7 +264,7 @@ export default function TeamMembers() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Youtube</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>

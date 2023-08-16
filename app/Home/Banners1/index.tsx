@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Banners1() {
 	return (
@@ -7,7 +8,7 @@ export default function Banners1() {
 				<div className='row mb--n28'>
 					<div className='col-lg-5 col-md-order mb-28'>
 						<div className='banner__items'>
-							<a className='banner__items--thumbnail position__relative' href='shop'>
+							<Link className='banner__items--thumbnail position__relative' href='shop'>
 								<Image className='banner__items--thumbnail__img' src='/images/banners/banner1.png' alt='banner-img' width={620} height={688} />
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle'>17% Discount</span>
@@ -22,14 +23,14 @@ export default function Banners1() {
 										</svg>
 									</span>
 								</div>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className='col-lg-7 mb-28'>
 						<div className='row row-cols-lg-2 row-cols-sm-2 row-cols-1'>
 							<div className='col mb-28'>
 								<div className='banner__items'>
-									<a className='banner__items--thumbnail position__relative' href='shop'>
+									<Link className='banner__items--thumbnail position__relative' href='shop'>
 										<Image className='banner__items--thumbnail__img' src='/images/banners/banner2.png' alt='banner-img' width={425} height={337} />
 										<div className='banner__items--content'>
 											<span className='banner__items--content__subtitle text__secondary'>Shop Women</span>
@@ -44,12 +45,12 @@ export default function Banners1() {
 												</svg>
 											</span>
 										</div>
-									</a>
+									</Link>
 								</div>
 							</div>
 							<div className='col mb-28'>
 								<div className='banner__items'>
-									<a className='banner__items--thumbnail position__relative' href='shop'>
+									<Link className='banner__items--thumbnail position__relative' href='shop'>
 										<Image className='banner__items--thumbnail__img' src='/images/banners/banner3.png' alt='banner-img' width={426} height={337} />
 										<div className='banner__items--content'>
 											<span className='banner__items--content__subtitle'>Shop Women</span>
@@ -64,12 +65,12 @@ export default function Banners1() {
 												</svg>
 											</span>
 										</div>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='banner__items'>
-							<a className='banner__items--thumbnail position__relative' href='shop'>
+							<Link className='banner__items--thumbnail position__relative' href='shop'>
 								<Image className='banner__items--thumbnail__img banner__img--max__height' src='/images/banners/banner4.png' alt='banner-img' width={881} height={322} />
 								<div className='banner__items--content'>
 									<span className='banner__items--content__subtitle'>25% Discount</span>
@@ -84,7 +85,7 @@ export default function Banners1() {
 										</svg>
 									</span>
 								</div>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

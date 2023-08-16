@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Breadcrumb({ title }: { title: string }) {
 	return (
 		<section className='breadcrumb__section breadcrumb__bg'>
@@ -8,9 +10,9 @@ export default function Breadcrumb({ title }: { title: string }) {
 							<h1 className='breadcrumb__content--title text-white mb-25'>{title}</h1>
 							<ul className='breadcrumb__content--menu d-flex justify-content-center'>
 								<li className='breadcrumb__content--menu__items'>
-									<a className='text-white' href='/'>
+									<Link className='text-white' href='/'>
 										Home
-									</a>
+									</Link>
 								</li>
 								<li className='breadcrumb__content--menu__items'>
 									<span className='text-white'>{title}</span>

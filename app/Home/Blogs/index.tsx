@@ -2,9 +2,11 @@
 
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
+
 import 'swiper/css'
-import { Navigation } from 'swiper/modules'
 import 'swiper/css/navigation'
+import { Navigation } from 'swiper/modules'
+import Link from 'next/link'
 
 export default function Blogs() {
 	return (
@@ -15,20 +17,25 @@ export default function Blogs() {
 				</div>
 				<div className='blog__section--inner blog__swiper--activation swiper'>
 					<Swiper
-						spaceBetween={50}
+						navigation={true}
+						modules={[Navigation]}
+						slidesPerView={4}
+						spaceBetween={30}
 						loop={true}
 						breakpoints={{
-							768: {
-								slidesPerView: 5
-							},
-							480: {
+							1200: {
 								slidesPerView: 4
 							},
-							320: {
+							992: {
 								slidesPerView: 3
 							},
-							200: {
-								slidesPerView: 2
+							768: {
+								slidesPerView: 3,
+								spaceBetween: 30
+							},
+							480: {
+								slidesPerView: 2,
+								spaceBetween: 20
 							},
 							0: {
 								slidesPerView: 1
@@ -37,90 +44,90 @@ export default function Blogs() {
 						<SwiperSlide>
 							<div className='blog__items'>
 								<div className='blog__thumbnail'>
-									<a className='blog__thumbnail--link' href='blog-details'>
+									<Link className='blog__thumbnail--link' href='blog-details'>
 										<Image className='blog__thumbnail--img' src='/images/blogs/blog1.png' alt='blog-img' width={360} height={313} />
-									</a>
+									</Link>
 								</div>
 								<div className='blog__content'>
 									<span className='blog__content--meta'>February 03, 2022</span>
 									<h3 className='blog__content--title'>
-										<a href='blog-details'>Fashion Trends In 2021 Styles, Colors, Accessories</a>
+										<Link href='blog-details'>Fashion Trends In 2021 Styles, Colors, Accessories</Link>
 									</h3>
-									<a className='blog__content--btn primary__btn' href='blog-details'>
+									<Link className='blog__content--btn primary__btn' href='blog-details'>
 										Read more
-									</a>
+									</Link>
 								</div>
 							</div>
 						</SwiperSlide>
 						<SwiperSlide>
 							<div className='blog__items'>
 								<div className='blog__thumbnail'>
-									<a className='blog__thumbnail--link' href='blog-details'>
+									<Link className='blog__thumbnail--link' href='blog-details'>
 										<Image className='blog__thumbnail--img' src='/images/blogs/blog2.png' alt='blog-img' width={360} height={313} />
-									</a>
+									</Link>
 								</div>
 								<div className='blog__content'>
 									<span className='blog__content--meta'>February 03, 2022</span>
 									<h3 className='blog__content--title'>
-										<a href='blog-details'>Meet the Woman Behind Cool Ethical Label Refor </a>
+										<Link href='blog-details'>Meet the Woman Behind Cool Ethical Label Refor </Link>
 									</h3>
-									<a className='blog__content--btn primary__btn' href='blog-details'>
+									<Link className='blog__content--btn primary__btn' href='blog-details'>
 										Read more
-									</a>
+									</Link>
 								</div>
 							</div>
 						</SwiperSlide>
 						<SwiperSlide>
 							<div className='blog__items'>
 								<div className='blog__thumbnail'>
-									<a className='blog__thumbnail--link' href='blog-details'>
+									<Link className='blog__thumbnail--link' href='blog-details'>
 										<Image className='blog__thumbnail--img' src='/images/blogs/blog3.png' alt='blog-img' width={360} height={313} />
-									</a>
+									</Link>
 								</div>
 								<div className='blog__content'>
 									<span className='blog__content--meta'>February 03, 2022</span>
 									<h3 className='blog__content--title'>
-										<a href='blog-details'>Lauryn Hill Could Make Tulle Skirt and Cowboy</a>
+										<Link href='blog-details'>Lauryn Hill Could Make Tulle Skirt and Cowboy</Link>
 									</h3>
-									<a className='blog__content--btn primary__btn' href='blog-details'>
+									<Link className='blog__content--btn primary__btn' href='blog-details'>
 										Read more
-									</a>
+									</Link>
 								</div>
 							</div>
 						</SwiperSlide>
 						<SwiperSlide>
 							<div className='blog__items'>
 								<div className='blog__thumbnail'>
-									<a className='blog__thumbnail--link' href='blog-details'>
+									<Link className='blog__thumbnail--link' href='blog-details'>
 										<Image className='blog__thumbnail--img' src='/images/blogs/blog4.png' alt='blog-img' width={360} height={313} />
-									</a>
+									</Link>
 								</div>
 								<div className='blog__content'>
 									<span className='blog__content--meta'>February 03, 2022</span>
 									<h3 className='blog__content--title'>
-										<a href='blog-details'>Fashion Trends In 2021 Styles, Colors, Accessories</a>
+										<Link href='blog-details'>Fashion Trends In 2021 Styles, Colors, Accessories</Link>
 									</h3>
-									<a className='blog__content--btn primary__btn' href='blog-details'>
+									<Link className='blog__content--btn primary__btn' href='blog-details'>
 										Read more
-									</a>
+									</Link>
 								</div>
 							</div>
 						</SwiperSlide>
 						<SwiperSlide>
 							<div className='blog__items'>
 								<div className='blog__thumbnail'>
-									<a className='blog__thumbnail--link' href='blog-details'>
+									<Link className='blog__thumbnail--link' href='blog-details'>
 										<Image className='blog__thumbnail--img' src='/images/blogs/blog2.png' alt='blog-img' width={360} height={313} />
-									</a>
+									</Link>
 								</div>
 								<div className='blog__content'>
 									<span className='blog__content--meta'>February 03, 2022</span>
 									<h3 className='blog__content--title'>
-										<a href='blog-details'>Lauryn Hill Could Make Tulle Skirt and Cowboy</a>
+										<Link href='blog-details'>Lauryn Hill Could Make Tulle Skirt and Cowboy</Link>
 									</h3>
-									<a className='blog__content--btn primary__btn' href='blog-details'>
+									<Link className='blog__content--btn primary__btn' href='blog-details'>
 										Read more
-									</a>
+									</Link>
 								</div>
 							</div>
 						</SwiperSlide>

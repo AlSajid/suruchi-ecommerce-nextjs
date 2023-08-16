@@ -4,6 +4,7 @@ import Image from 'next/image'
 import SearchIcon from '../SVGs/Search'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+import Link from 'next/link'
 
 export default function QuickView() {
 	return (
@@ -22,73 +23,73 @@ export default function QuickView() {
 									<Swiper spaceBetween={50} slidesPerView={5}>
 										<SwiperSlide>
 											<div className='product__media--preview__items'>
-												<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product1.jpg'>
+												<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product1.jpg'>
 													<Image className='product__media--preview__items--img' src='/images/products/big-product1.jpg' alt='product-media-img' width={580} height={630} />
-												</a>
+												</Link>
 												<div className='product__media--view__icon'>
-													<a className='product__media--view__icon--link glightbox' href='/images/products/big-product1.jpg' data-gallery='product-media-preview'>
+													<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product1.jpg' data-gallery='product-media-preview'>
 														<SearchIcon />
-													</a>
+													</Link>
 												</div>
 											</div>
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className='product__media--preview__items'>
-												<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product2.jpg'>
+												<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product2.jpg'>
 													<Image className='product__media--preview__items--img' src='/images/products/big-product2.jpg' alt='product-media-img' width={580} height={630} />
-												</a>
+												</Link>
 												<div className='product__media--view__icon'>
-													<a className='product__media--view__icon--link glightbox' href='/images/products/big-product2.jpg' data-gallery='product-media-preview'>
+													<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product2.jpg' data-gallery='product-media-preview'>
 														<SearchIcon />
-													</a>
+													</Link>
 												</div>
 											</div>
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className='product__media--preview__items'>
-												<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product3.jpg'>
+												<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product3.jpg'>
 													<Image className='product__media--preview__items--img' src='/images/products/big-product3.jpg' alt='product-media-img' width={580} height={630} />
-												</a>
+												</Link>
 												<div className='product__media--view__icon'>
-													<a className='product__media--view__icon--link glightbox' href='/images/products/big-product3.jpg' data-gallery='product-media-preview'>
+													<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product3.jpg' data-gallery='product-media-preview'>
 														<SearchIcon />
-													</a>
+													</Link>
 												</div>
 											</div>
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className='product__media--preview__items'>
-												<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product4.jpg'>
+												<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product4.jpg'>
 													<Image className='product__media--preview__items--img' src='/images/products/big-product4.jpg' alt='product-media-img' width={580} height={630} />
-												</a>
+												</Link>
 												<div className='product__media--view__icon'>
-													<a className='product__media--view__icon--link glightbox' href='/images/products/big-product4.jpg' data-gallery='product-media-preview'>
+													<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product4.jpg' data-gallery='product-media-preview'>
 														<SearchIcon />
-													</a>
+													</Link>
 												</div>
 											</div>
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className='product__media--preview__items'>
-												<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product5.jpg'>
+												<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product5.jpg'>
 													<Image className='product__media--preview__items--img' src='/images/products/big-product5.jpg' alt='product-media-img' width={580} height={630} />
-												</a>
+												</Link>
 												<div className='product__media--view__icon'>
-													<a className='product__media--view__icon--link glightbox' href='/images/products/big-product5.jpg' data-gallery='product-media-preview'>
+													<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product5.jpg' data-gallery='product-media-preview'>
 														<SearchIcon />
-													</a>
+													</Link>
 												</div>
 											</div>
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className='product__media--preview__items'>
-												<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product6.jpg'>
+												<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product6.jpg'>
 													<Image className='product__media--preview__items--img' src='/images/products/big-product6.jpg' alt='product-media-img' width={580} height={630} />
-												</a>
+												</Link>
 												<div className='product__media--view__icon'>
-													<a className='product__media--view__icon--link glightbox' href='/images/products/big-product6.jpg' data-gallery='product-media-preview'>
+													<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product6.jpg' data-gallery='product-media-preview'>
 														<SearchIcon />
-													</a>
+													</Link>
 												</div>
 											</div>
 										</SwiperSlide>
@@ -255,7 +256,7 @@ export default function QuickView() {
 											</button>
 										</div>
 										<div className='quickview__variant--list variant__wishlist mb-15'>
-											<a className='variant__wishlist--icon' href='/wishlist' title='Add to wishlist'>
+											<Link className='variant__wishlist--icon' href='/wishlist' title='Add to wishlist'>
 												<svg className='quickview__variant--wishlist__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -267,14 +268,14 @@ export default function QuickView() {
 													/>
 												</svg>
 												Add to Wishlist
-											</a>
+											</Link>
 										</div>
 									</div>
 									<div className='quickview__social d-flex align-items-center'>
 										<label className='quickview__social--title'>Social Share:</label>
 										<ul className='quickview__social--wrapper mt-0 d-flex'>
 											<li className='quickview__social--list'>
-												<a className='quickview__social--icon' target='_blank' href='https://www.facebook.com'>
+												<Link className='quickview__social--icon' target='_blank' href='https://www.facebook.com'>
 													<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 														<path
 															data-name='Path 237'
@@ -284,10 +285,10 @@ export default function QuickView() {
 														/>
 													</svg>
 													<span className='visually-hidden'>Facebook</span>
-												</a>
+												</Link>
 											</li>
 											<li className='quickview__social--list'>
-												<a className='quickview__social--icon' target='_blank' href='https://twitter.com'>
+												<Link className='quickview__social--icon' target='_blank' href='https://twitter.com'>
 													<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 														<path
 															data-name='Path 303'
@@ -297,10 +298,10 @@ export default function QuickView() {
 														/>
 													</svg>
 													<span className='visually-hidden'>Twitter</span>
-												</a>
+												</Link>
 											</li>
 											<li className='quickview__social--list'>
-												<a className='quickview__social--icon' target='_blank' href='https://www.instagram.com'>
+												<Link className='quickview__social--icon' target='_blank' href='https://www.instagram.com'>
 													<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 														<path
 															data-name='Icon awesome-instagram'
@@ -310,10 +311,10 @@ export default function QuickView() {
 														/>
 													</svg>
 													<span className='visually-hidden'>Instagram</span>
-												</a>
+												</Link>
 											</li>
 											<li className='quickview__social--list'>
-												<a className='quickview__social--icon' target='_blank' href='https://www.youtube.com'>
+												<Link className='quickview__social--icon' target='_blank' href='https://www.youtube.com'>
 													<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 														<path
 															data-name='Path 321'
@@ -323,7 +324,7 @@ export default function QuickView() {
 														/>
 													</svg>
 													<span className='visually-hidden'>Youtube</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</div>

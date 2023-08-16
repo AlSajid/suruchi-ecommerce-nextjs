@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Cart() {
 	return (
@@ -29,13 +30,13 @@ export default function Cart() {
 															</svg>
 														</button>
 														<div className='cart__thumbnail'>
-															<a href='product-details'>
+															<Link href='product-details'>
 																<Image className='border-radius-5' src='/images/products/product1.png' alt='cart-product' width={282} height={310} />
-															</a>
+															</Link>
 														</div>
 														<div className='cart__content'>
 															<h4 className='cart__content--title'>
-																<a href='product-details'>Fresh-whole-fish</a>
+																<Link href='product-details'>Fresh-whole-fish</Link>
 															</h4>
 															<span className='cart__content--variant'>COLOR: Blue</span>
 															<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -71,13 +72,13 @@ export default function Cart() {
 															</svg>
 														</button>
 														<div className='cart__thumbnail'>
-															<a href='product-details'>
+															<Link href='product-details'>
 																<Image className='border-radius-5' src='/images/products/product2.png' alt='cart-product' width={282} height={310} />
-															</a>
+															</Link>
 														</div>
 														<div className='cart__content'>
 															<h4 className='cart__content--title'>
-																<a href='product-details'>Vegetable-healthy</a>
+																<Link href='product-details'>Vegetable-healthy</Link>
 															</h4>
 															<span className='cart__content--variant'>COLOR: Blue</span>
 															<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -113,13 +114,13 @@ export default function Cart() {
 															</svg>
 														</button>
 														<div className='cart__thumbnail'>
-															<a href='product-details'>
+															<Link href='product-details'>
 																<Image className='border-radius-5' src='/images/products/product3.png' alt='cart-product' width={282} height={310} />
-															</a>
+															</Link>
 														</div>
 														<div className='cart__content'>
 															<h4 className='cart__content--title'>
-																<a href='product-details'>Raw-onions-surface</a>
+																<Link href='product-details'>Raw-onions-surface</Link>
 															</h4>
 															<span className='cart__content--variant'>COLOR: Blue</span>
 															<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -155,13 +156,13 @@ export default function Cart() {
 															</svg>
 														</button>
 														<div className='cart__thumbnail'>
-															<a href='product-details'>
+															<Link href='product-details'>
 																<Image className='border-radius-5' src='/images/products/product4.png' alt='cart-product' width={282} height={310} />
-															</a>
+															</Link>
 														</div>
 														<div className='cart__content'>
 															<h4 className='cart__content--title'>
-																<a href='product-details'>Oversize Cotton Dress</a>
+																<Link href='product-details'>Oversize Cotton Dress</Link>
 															</h4>
 															<span className='cart__content--variant'>COLOR: Blue</span>
 															<span className='cart__content--variant'>WEIGHT: 2 Kg</span>
@@ -191,9 +192,9 @@ export default function Cart() {
 										</tbody>
 									</table>
 									<div className='continue__shopping d-flex justify-content-between'>
-										<a className='continue__shopping--link' href='shop'>
+										<Link className='continue__shopping--link' href='shop'>
 											Continue shopping
-										</a>
+										</Link>
 										<button className='continue__shopping--clear' type='submit'>
 											Clear Cart
 										</button>
@@ -242,9 +243,9 @@ export default function Cart() {
 												</button>
 											</li>
 											<li>
-												<a className='cart__summary--footer__btn primary__btn checkout' href='checkout'>
+												<Link className='cart__summary--footer__btn primary__btn checkout' href='checkout'>
 													Check Out
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</div>

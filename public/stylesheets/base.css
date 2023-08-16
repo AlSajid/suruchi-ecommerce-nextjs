@@ -1620,8 +1620,8 @@ select {
 	cursor: pointer;
 	-webkit-transform: translateY(50px);
 	transform: translateY(50px);
-	opacity: 0;
-	visibility: hidden;
+	/* opacity: 0; */
+	/* visibility: hidden; */
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
 	line-height: 1;

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import GridView from './products/GridView'
 import { useState } from 'react'
 import ListView from './products/ListView'
+import Link from 'next/link'
 
 export default function Shop() {
 	const [gridView, setGridView] = useState(true)
@@ -50,7 +51,7 @@ export default function Shop() {
 						</div>
 						<div className='product__view--mode__list'>
 							<div className='product__grid--column__buttons d-flex justify-content-center'>
-								<button className={'product__grid--column__buttons--icons' + gridView?'active':""} onClick={() => setGridView(true)}>
+								<button className={'product__grid--column__buttons--icons' + gridView ? 'active' : ''} onClick={() => setGridView(true)}>
 									<svg xmlns='http:/www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 9 9'>
 										<g transform='translate(-1360 -479)'>
 											<rect id='Rectangle_5725' data-name='Rectangle 5725' width='4' height='4' transform='translate(1360 479)' fill='currentColor' />
@@ -114,28 +115,28 @@ export default function Shop() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -149,28 +150,28 @@ export default function Shop() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -184,28 +185,28 @@ export default function Shop() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -219,28 +220,28 @@ export default function Shop() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -254,28 +255,28 @@ export default function Shop() {
 										</label>
 										<ul className='widget__categories--sub__menu'>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product2.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Jacket, Women</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product3.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Woolend Jacket</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product4.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Western denim</span>
-												</a>
+												</Link>
 											</li>
 											<li className='widget__categories--sub__menu--list'>
-												<a className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
+												<Link className='widget__categories--sub__menu--link d-flex align-items-center' href='shop'>
 													<Image className='widget__categories--sub__menu--img' src='/images/products/small-product5.png' alt='categories-img' width={100} height={120} />
 													<span className='widget__categories--sub__menu--text'>Mini Dresss</span>
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</li>
@@ -361,14 +362,14 @@ export default function Shop() {
 								<div className='product__grid--inner'>
 									<div className='product__items product__items--grid d-flex align-items-center'>
 										<div className='product__items--grid__thumbnail position__relative'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/small-product1.png' alt='product-img' width={100} height={120} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/small-product2.png' alt='product-img' width={100} height={120} />
-											</a>
+											</Link>
 										</div>
 										<div className='product__items--grid__content'>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Women Fish Cut</a>
+												<Link href='product-details'>Women Fish Cut</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$110</span>
@@ -436,14 +437,14 @@ export default function Shop() {
 									</div>
 									<div className='product__items product__items--grid d-flex align-items-center'>
 										<div className='product__items--grid__thumbnail position__relative'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/small-product3.png' alt='product-img' width={100} height={120} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/small-product4.png' alt='product-img' width={100} height={120} />
-											</a>
+											</Link>
 										</div>
 										<div className='product__items--grid__content'>
 											<h3 className='product__items--content__title h4'>
-												<a href='product-details'>Gorgeous Granite is</a>
+												<Link href='product-details'>Gorgeous Granite is</Link>
 											</h3>
 											<div className='product__items--price'>
 												<span className='current__price'>$140</span>
@@ -511,14 +512,14 @@ export default function Shop() {
 									</div>
 									<div className='product__items product__items--grid d-flex align-items-center'>
 										<div className='product__items--grid__thumbnail position__relative'>
-											<a className='product__items--link' href='product-details'>
+											<Link className='product__items--link' href='product-details'>
 												<Image className='product__items--img product__primary--img' src='/images/products/small-product5.png' alt='product-img' width={100} height={120} />
 												<Image className='product__items--img product__secondary--img' src='/images/products/small-product6.png' alt='product-img' width={100} height={120} />
-											</a>
+											</Link>
 										</div>
 										<div className='product__items--grid__content'>
 											<h4 className='product__items--content__title'>
-												<a href='product-details'>Durable A Steel </a>
+												<Link href='product-details'>Durable A Steel </Link>
 											</h4>
 											<div className='product__items--price'>
 												<span className='current__price'>$160</span>
@@ -590,44 +591,44 @@ export default function Shop() {
 								<h2 className='widget__title h3'>Brands</h2>
 								<ul className='widget__tagcloud'>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Jacket
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Women
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Oversize
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Cotton{' '}
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Shoulder{' '}
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Winter
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Accessories
-										</a>
+										</Link>
 									</li>
 									<li className='widget__tagcloud--list'>
-										<a className='widget__tagcloud--link' href='shop'>
+										<Link className='widget__tagcloud--link' href='shop'>
 											Dress{' '}
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>

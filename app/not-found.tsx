@@ -1,6 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb'
 import Shipping from '@/components/Shipping'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function NotFound() {
 	return (
@@ -14,9 +15,9 @@ export default function NotFound() {
 								<Image className='error__content--img mb-50' src='/images/others/404-thumb.png' alt='error-img' width={791} height={672} />
 								<h2 className='error__content--title'>Opps ! We,ar Not Found This Page </h2>
 								<p className='error__content--desc'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi aliquid minima assumenda.</p>
-								<a className='error__content--btn primary__btn' href='/'>
+								<Link className='error__content--btn primary__btn' href='/'>
 									Back To Home
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>

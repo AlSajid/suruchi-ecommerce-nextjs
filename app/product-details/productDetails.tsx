@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+import Link from 'next/link'
 
 export default function ProductDetails() {
 	return (
@@ -15,91 +16,91 @@ export default function ProductDetails() {
 								<Swiper spaceBetween={50} slidesPerView={5}>
 									<SwiperSlide>
 										<div className='product__media--preview__items'>
-											<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product2.jpg'>
+											<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product2.jpg'>
 												<Image className='product__media--preview__items--img' src='/images/products/big-product2.jpg' alt='product-media-img' width={580} height={630} />
-											</a>
+											</Link>
 											<div className='product__media--view__icon'>
-												<a className='product__media--view__icon--link glightbox' href='/images/products/big-product2.jpg' data-gallery='product-media-preview'>
+												<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product2.jpg' data-gallery='product-media-preview'>
 													<svg className='product__media--view__icon--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='22.443' viewBox='0 0 512 512'>
 														<path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'></path>
 														<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M338.29 338.29L448 448'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className='product__media--preview__items'>
-											<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product1.jpg'>
+											<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product1.jpg'>
 												<Image className='product__media--preview__items--img' src='/images/products/big-product1.jpg' alt='product-media-img' width={580} height={630} />
-											</a>
+											</Link>
 											<div className='product__media--view__icon'>
-												<a className='product__media--view__icon--link glightbox' href='/images/products/big-product1.jpg' data-gallery='product-media-preview'>
+												<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product1.jpg' data-gallery='product-media-preview'>
 													<svg className='product__media--view__icon--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='22.443' viewBox='0 0 512 512'>
 														<path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'></path>
 														<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M338.29 338.29L448 448'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className='product__media--preview__items'>
-											<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product3.jpg'>
+											<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product3.jpg'>
 												<Image className='product__media--preview__items--img' src='/images/products/big-product3.jpg' alt='product-media-img' width={580} height={630} />
-											</a>
+											</Link>
 											<div className='product__media--view__icon'>
-												<a className='product__media--view__icon--link glightbox' href='/images/products/big-product3.jpg' data-gallery='product-media-preview'>
+												<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product3.jpg' data-gallery='product-media-preview'>
 													<svg className='product__media--view__icon--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='22.443' viewBox='0 0 512 512'>
 														<path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'></path>
 														<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M338.29 338.29L448 448'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className='product__media--preview__items'>
-											<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product4.jpg'>
+											<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product4.jpg'>
 												<Image className='product__media--preview__items--img' src='/images/products/big-product4.jpg' alt='product-media-img' width={580} height={630} />
-											</a>
+											</Link>
 											<div className='product__media--view__icon'>
-												<a className='product__media--view__icon--link glightbox' href='/images/products/big-product4.jpg' data-gallery='product-media-preview'>
+												<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product4.jpg' data-gallery='product-media-preview'>
 													<svg className='product__media--view__icon--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='22.443' viewBox='0 0 512 512'>
 														<path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'></path>
 														<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M338.29 338.29L448 448'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className='product__media--preview__items'>
-											<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product5.jpg'>
+											<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product5.jpg'>
 												<Image className='product__media--preview__items--img' src='/images/products/big-product5.jpg' alt='product-media-img' width={580} height={630} />
-											</a>
+											</Link>
 											<div className='product__media--view__icon'>
-												<a className='product__media--view__icon--link glightbox' href='/images/products/big-product5.jpg' data-gallery='product-media-preview'>
+												<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product5.jpg' data-gallery='product-media-preview'>
 													<svg className='product__media--view__icon--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='22.443' viewBox='0 0 512 512'>
 														<path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'></path>
 														<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M338.29 338.29L448 448'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className='product__media--preview__items'>
-											<a className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product6.jpg'>
+											<Link className='product__media--preview__items--link glightbox' data-gallery='product-media-preview' href='/images/products/big-product6.jpg'>
 												<Image className='product__media--preview__items--img' src='/images/products/big-product6.jpg' alt='product-media-img' width={580} height={630} />
-											</a>
+											</Link>
 											<div className='product__media--view__icon'>
-												<a className='product__media--view__icon--link glightbox' href='/images/products/big-product6.jpg' data-gallery='product-media-preview'>
+												<Link className='product__media--view__icon--link glightbox' href='/images/products/big-product6.jpg' data-gallery='product-media-preview'>
 													<svg className='product__media--view__icon--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='22.443' viewBox='0 0 512 512'>
 														<path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32'></path>
 														<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32' d='M338.29 338.29L448 448'></path>
 													</svg>
-												</a>
+												</Link>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -272,7 +273,7 @@ export default function ProductDetails() {
 										</button>
 									</div>
 									<div className='product__variant--list mb-15'>
-										<a className='variant__wishlist--icon mb-15' href='wishlist' title='Add to wishlist'>
+										<Link className='variant__wishlist--icon mb-15' href='wishlist' title='Add to wishlist'>
 											<svg className='quickview__variant--wishlist__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
 												<path
 													d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -284,7 +285,7 @@ export default function ProductDetails() {
 												/>
 											</svg>
 											Add to Wishlist
-										</a>
+										</Link>
 										<button className='variant__buy--now__btn primary__btn' type='submit'>
 											Buy it now
 										</button>
@@ -308,7 +309,7 @@ export default function ProductDetails() {
 									<label className='quickview__social--title'>Social Share:</label>
 									<ul className='quickview__social--wrapper mt-0 d-flex'>
 										<li className='quickview__social--list'>
-											<a className='quickview__social--icon' target='_blank' href='https://www.facebook.com'>
+											<Link className='quickview__social--icon' target='_blank' href='https://www.facebook.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 													<path
 														data-name='Path 237'
@@ -318,10 +319,10 @@ export default function ProductDetails() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Facebook</span>
-											</a>
+											</Link>
 										</li>
 										<li className='quickview__social--list'>
-											<a className='quickview__social--icon' target='_blank' href='https://twitter.com'>
+											<Link className='quickview__social--icon' target='_blank' href='https://twitter.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 													<path
 														data-name='Path 303'
@@ -331,10 +332,10 @@ export default function ProductDetails() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Twitter</span>
-											</a>
+											</Link>
 										</li>
 										<li className='quickview__social--list'>
-											<a className='quickview__social--icon' target='_blank' href='https://www.instagram.com'>
+											<Link className='quickview__social--icon' target='_blank' href='https://www.instagram.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 													<path
 														data-name='Icon awesome-instagram'
@@ -344,10 +345,10 @@ export default function ProductDetails() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Instagram</span>
-											</a>
+											</Link>
 										</li>
 										<li className='quickview__social--list'>
-											<a className='quickview__social--icon' target='_blank' href='https://www.youtube.com'>
+											<Link className='quickview__social--icon' target='_blank' href='https://www.youtube.com'>
 												<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 													<path
 														data-name='Path 321'
@@ -357,7 +358,7 @@ export default function ProductDetails() {
 													/>
 												</svg>
 												<span className='visually-hidden'>Youtube</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Compare() {
 	return (
@@ -128,29 +129,29 @@ export default function Compare() {
 									</tr>
 									<tr className='compare__table--items'>
 										<td className='compare__table--items__child text-center'>
-											<a className='compare__cart--btn primary__btn' href='cart'>
+											<Link className='compare__cart--btn primary__btn' href='cart'>
 												Add to Cart
-											</a>
+											</Link>
 										</td>
 										<td className='compare__table--items__child text-center'>
-											<a className='compare__cart--btn primary__btn' href='cart'>
+											<Link className='compare__cart--btn primary__btn' href='cart'>
 												Add to Cart
-											</a>
+											</Link>
 										</td>
 										<td className='compare__table--items__child text-center'>
-											<a className='compare__cart--btn primary__btn' href='cart'>
+											<Link className='compare__cart--btn primary__btn' href='cart'>
 												Add to Cart
-											</a>
+											</Link>
 										</td>
 										<td className='compare__table--items__child text-center'>
-											<a className='compare__cart--btn primary__btn' href='cart'>
+											<Link className='compare__cart--btn primary__btn' href='cart'>
 												Add to Cart
-											</a>
+											</Link>
 										</td>
 										<td className='compare__table--items__child text-center'>
-											<a className='compare__cart--btn primary__btn' href='cart'>
+											<Link className='compare__cart--btn primary__btn' href='cart'>
 												Add to Cart
-											</a>
+											</Link>
 										</td>
 									</tr>
 								</tbody>

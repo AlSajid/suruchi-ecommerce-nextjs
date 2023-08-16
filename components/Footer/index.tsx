@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
 	return (
@@ -22,7 +23,7 @@ export default function Footer() {
 								<h3 className='social__title text-ofwhite h4 mb-15'>Follow Us</h3>
 								<ul className='social__shear d-flex'>
 									<li className='social__shear--list'>
-										<a className='social__shear--list__icon' target='_blank' href='https://www.facebook.com'>
+										<Link className='social__shear--list__icon' target='_blank' href='https://www.facebook.com'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 												<path
 													data-name='Path 237'
@@ -32,10 +33,10 @@ export default function Footer() {
 												/>
 											</svg>
 											<span className='visually-hidden'>Facebook</span>
-										</a>
+										</Link>
 									</li>
 									<li className='social__shear--list'>
-										<a className='social__shear--list__icon' target='_blank' href='https://twitter.com'>
+										<Link className='social__shear--list__icon' target='_blank' href='https://twitter.com'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 												<path
 													data-name='Path 303'
@@ -45,10 +46,10 @@ export default function Footer() {
 												/>
 											</svg>
 											<span className='visually-hidden'>Twitter</span>
-										</a>
+										</Link>
 									</li>
 									<li className='social__shear--list'>
-										<a className='social__shear--list__icon' target='_blank' href='https://www.instagram.com'>
+										<Link className='social__shear--list__icon' target='_blank' href='https://www.instagram.com'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 												<path
 													data-name='Icon awesome-instagram'
@@ -58,10 +59,10 @@ export default function Footer() {
 												/>
 											</svg>
 											<span className='visually-hidden'>Instagram</span>
-										</a>
+										</Link>
 									</li>
 									<li className='social__shear--list'>
-										<a className='social__shear--list__icon' target='_blank' href='https://www.youtube.com'>
+										<Link className='social__shear--list__icon' target='_blank' href='https://www.youtube.com'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 												<path
 													data-name='Path 321'
@@ -71,7 +72,7 @@ export default function Footer() {
 												/>
 											</svg>
 											<span className='visually-hidden'>Youtube</span>
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -89,34 +90,34 @@ export default function Footer() {
 							</h2>
 							<ul className='footer__widget--menu footer__widget--inner'>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='my-account'>
+									<Link className='footer__widget--menu__text' href='my-account'>
 										My Account
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='/cart'>
+									<Link className='footer__widget--menu__text' href='/cart'>
 										Shopping Cart
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='/login'>
+									<Link className='footer__widget--menu__text' href='/login'>
 										Login
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='/login'>
+									<Link className='footer__widget--menu__text' href='/login'>
 										Register
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='checkout'>
+									<Link className='footer__widget--menu__text' href='checkout'>
 										Checkout
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='/wishlist'>
+									<Link className='footer__widget--menu__text' href='/wishlist'>
 										Wishlist
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -131,34 +132,34 @@ export default function Footer() {
 							</h2>
 							<ul className='footer__widget--menu footer__widget--inner'>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='about'>
+									<Link className='footer__widget--menu__text' href='about'>
 										About Us
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='contact'>
+									<Link className='footer__widget--menu__text' href='contact'>
 										Contact Us
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='/portfolio'>
+									<Link className='footer__widget--menu__text' href='/portfolio'>
 										Portfolio
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='/privacy-policy'>
+									<Link className='footer__widget--menu__text' href='/privacy-policy'>
 										Privacy Policy
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='compare'>
+									<Link className='footer__widget--menu__text' href='compare'>
 										Compare
-									</a>
+									</Link>
 								</li>
 								<li className='footer__widget--menu__list'>
-									<a className='footer__widget--menu__text' href='faq'>
+									<Link className='footer__widget--menu__text' href='faq'>
 										Frequently
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -175,36 +176,36 @@ export default function Footer() {
 						<div className='footer__instagram footer__widget--inner'>
 							<div className='footer__instagram--list d-flex'>
 								<div className='instagram__thumbnail'>
-									<a className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkF3TLBTT7'>
+									<Link className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkF3TLBTT7'>
 										<Image src='/images/others/instagram1.webp' alt='instagram' width={256} height={312} />
-									</a>
+									</Link>
 								</div>
 								<div className='instagram__thumbnail'>
-									<a className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkF60sBxhN'>
+									<Link className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkF60sBxhN'>
 										<Image src='/images/others/instagram2.webp' alt='instagram' width={256} height={312} />
-									</a>
+									</Link>
 								</div>
 								<div className='instagram__thumbnail'>
-									<a className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkF90ZB6HG'>
+									<Link className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkF90ZB6HG'>
 										<Image src='/images/others/instagram3.webp' alt='instagram' width={256} height={312} />
-									</a>
+									</Link>
 								</div>
 							</div>
 							<div className='footer__instagram--list d-flex'>
 								<div className='instagram__thumbnail'>
-									<a className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkGAe6BQeu'>
+									<Link className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkGAe6BQeu'>
 										<Image src='/images/others/instagram4.webp' alt='instagram' width={256} height={312} />
-									</a>
+									</Link>
 								</div>
 								<div className='instagram__thumbnail'>
-									<a className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkGCWcBbv9'>
+									<Link className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkGCWcBbv9'>
 										<Image src='/images/others/instagram5.webp' alt='instagram' width={256} height={312} />
-									</a>
+									</Link>
 								</div>
 								<div className='instagram__thumbnail'>
-									<a className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkGFDMhoid'>
+									<Link className='instagram__thumbnail--img' target='_blank' href='https://www.instagram.com/p/CZkGFDMhoid'>
 										<Image src='/images/others/instagram6.webp' alt='instagram' width={256} height={312} />
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -238,9 +239,9 @@ export default function Footer() {
 				<div className='footer__bottom d-flex justify-content-between align-items-center'>
 					<p className='copyright__content text-ofwhite m-0'>
 						Copyright © 2022
-						<a className='copyright__content--link' href='/'>
+						<Link className='copyright__content--link' href='/'>
 							Suruchi
-						</a>
+						</Link>
 						. All Rights Reserved.Design By Suruchi
 					</p>
 					<div className='footer__payment text-right'>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PrivacyPolicy() {
 	return (
 		<div className='privacy__policy--section section--padding'>
@@ -7,7 +9,7 @@ export default function PrivacyPolicy() {
 						<div className='privacy__policy--content'>
 							<h2 className='privacy__policy--content__title'>Who we are</h2>
 							<p className='privacy__policy--content__desc'>
-								Our website address is: <a href='mailto:info@example.com'>info@example.com</a>
+								Our website address is: <Link href='mailto:info@example.com'>info@example.com</Link>
 							</p>
 						</div>
 						<div className='privacy__policy--content section_2'>

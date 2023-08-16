@@ -5,8 +5,8 @@
 	background-position: center center;
 	background-size: cover;
 }
-.hero__slider--section:hover .swiper-button-prev,
-.hero__slider--section:hover .swiper-button-next {
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-button-next {
 	opacity: 1;
 	visibility: visible;
 }

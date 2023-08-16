@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Shipping() {
 	return (
@@ -16,9 +17,9 @@ export default function Shipping() {
 				{/* contact */}
 				<li className='header__shipping--text text-white d-sm-2-none'>
 					<Image className='header__shipping--text__icon' src='/images/icons/email.png' alt='email-icon' width={15} height={11} />
-					<a className='header__shipping--text__link ms-2' href='mailto:demo@gmail.com'>
+					<Link className='header__shipping--text__link ms-2' href='mailto:demo@gmail.com'>
 						demo@gmail.com
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</div>

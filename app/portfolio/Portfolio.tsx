@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Portfolio() {
 	return (
@@ -12,7 +13,7 @@ export default function Portfolio() {
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio1.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio1.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio1.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -23,14 +24,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio2.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio2.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio2.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -41,14 +42,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio3.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio3.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio3.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -59,14 +60,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio4.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio4.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio4.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -77,14 +78,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio5.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio5.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio5.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -95,14 +96,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio1.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio1.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio1.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -113,14 +114,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio7.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio7.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio7.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -131,14 +132,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio8.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio8.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio8.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -149,14 +150,14 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>
 						<div className='col mb-30'>
 							<div className='portfolio__items'>
 								<div className='portfolio__items--thumbnail position__relative'>
-									<a className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio9.png' data-gallery='portfolio'>
+									<Link className='portfolio__items--thumbnail__link glightbox' href='/images/others/portfolio9.png' data-gallery='portfolio'>
 										<Image className='portfolio__items--thumbnail__img' src='/images/others/portfolio9.png' alt='portfolio-img' width={390} height={260} />
 										<span className='portfolio__view--icon'>
 											<svg xmlns='http://www.w3.org/2000/svg' width='39.697' height='27.066' viewBox='0 0 39.697 27.066'>
@@ -167,7 +168,7 @@ export default function Portfolio() {
 												/>
 											</svg>
 										</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>

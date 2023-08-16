@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Checkout() {
 	return (
 		<section className='my__account--section section--padding'>
@@ -237,9 +239,9 @@ export default function Checkout() {
 								<p className='account__details--desc'>
 									Admin <br /> Dhaka <br /> Dhaka 12119 <br /> Bangladesh
 								</p>
-								<a className='account__details--link' href='my-account-2'>
+								<Link className='account__details--link' href='my-account-2'>
 									View Addresses (1)
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>

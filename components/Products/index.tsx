@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import 'swiper/css/navigation'
 import 'swiper/css'
+import Link from 'next/link'
 
 export default function Products({ title }: { title: string }) {
 	return (
@@ -19,7 +20,7 @@ export default function Products({ title }: { title: string }) {
 						spaceBetween={50}
 						slidesPerView={4}
 						navigation={true}
-						modules={[Navigation, ]}
+						modules={[Navigation]}
 						breakpoints={{
 							1200: {
 								slidesPerView: 5
@@ -42,10 +43,10 @@ export default function Products({ title }: { title: string }) {
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>
-									<a className='product__items--link' href='product-details'>
+									<Link className='product__items--link' href='product-details'>
 										<Image className='product__items--img product__primary--img' src='/images/products/product1.png' alt='product-img' width={282} height={310} />
 										<Image className='product__items--img product__secondary--img' src='/images/products/product2.png' alt='product-img' width={282} height={310} />
-									</a>
+									</Link>
 									<div className='product__badge'>
 										<span className='product__badge--items sale'>Sale</span>
 									</div>
@@ -53,7 +54,7 @@ export default function Products({ title }: { title: string }) {
 								<div className='product__items--content'>
 									<span className='product__items--content__subtitle'>Jacket, Women</span>
 									<h3 className='product__items--content__title h4'>
-										<a href='product-details'>Oversize Cotton Dress</a>
+										<Link href='product-details'>Oversize Cotton Dress</Link>
 									</h3>
 									<div className='product__items--price'>
 										<span className='current__price'>$110</span>
@@ -119,7 +120,7 @@ export default function Products({ title }: { title: string }) {
 									</ul>
 									<ul className='product__items--action d-flex'>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn add__to--cart' href='/cart'>
+											<Link className='product__items--action__btn add__to--cart' href='/cart'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 													<g transform='translate(0 0)'>
 														<g>
@@ -134,10 +135,10 @@ export default function Products({ title }: { title: string }) {
 													</g>
 												</svg>
 												<span className='add__to--cart__text'> + Add to cart</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' href='/wishlist'>
+											<Link className='product__items--action__btn' href='/wishlist'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -148,10 +149,10 @@ export default function Products({ title }: { title: string }) {
 														stroke-width='32'></path>
 												</svg>
 												<span className='visually-hidden'>Wishlist</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+											<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -164,7 +165,7 @@ export default function Products({ title }: { title: string }) {
 													<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 												</svg>
 												<span className='visually-hidden'>Quick View</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -173,10 +174,10 @@ export default function Products({ title }: { title: string }) {
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>
-									<a className='product__items--link' href='product-details'>
+									<Link className='product__items--link' href='product-details'>
 										<Image className='product__items--img product__primary--img' src='/images/products/product3.png' alt='product-img' width={282} height={310} />
 										<Image className='product__items--img product__secondary--img' src='/images/products/product4.png' alt='product-img' width={282} height={310} />
-									</a>
+									</Link>
 									<div className='product__badge'>
 										<span className='product__badge--items sale'>Sale</span>
 									</div>
@@ -184,7 +185,7 @@ export default function Products({ title }: { title: string }) {
 								<div className='product__items--content'>
 									<span className='product__items--content__subtitle'>Jacket, Women</span>
 									<h3 className='product__items--content__title h4'>
-										<a href='product-details'>Boxy Denim Jacket</a>
+										<Link href='product-details'>Boxy Denim Jacket</Link>
 									</h3>
 									<div className='product__items--price'>
 										<span className='current__price'>$120</span>
@@ -250,7 +251,7 @@ export default function Products({ title }: { title: string }) {
 									</ul>
 									<ul className='product__items--action d-flex'>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn add__to--cart' href='/cart'>
+											<Link className='product__items--action__btn add__to--cart' href='/cart'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 													<g transform='translate(0 0)'>
 														<g>
@@ -265,10 +266,10 @@ export default function Products({ title }: { title: string }) {
 													</g>
 												</svg>
 												<span className='add__to--cart__text'> + Add to cart</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' href='/wishlist'>
+											<Link className='product__items--action__btn' href='/wishlist'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -279,10 +280,10 @@ export default function Products({ title }: { title: string }) {
 														stroke-width='32'></path>
 												</svg>
 												<span className='visually-hidden'>Wishlist</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+											<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -295,7 +296,7 @@ export default function Products({ title }: { title: string }) {
 													<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 												</svg>
 												<span className='visually-hidden'>Quick View</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -304,10 +305,10 @@ export default function Products({ title }: { title: string }) {
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>
-									<a className='product__items--link' href='product-details'>
+									<Link className='product__items--link' href='product-details'>
 										<Image className='product__items--img product__primary--img' src='/images/products/product5.png' alt='product-img' width={282} height={310} />
 										<Image className='product__items--img product__secondary--img' src='/images/products/product11.png' alt='product-img' width={282} height={310} />
-									</a>
+									</Link>
 									<div className='product__badge'>
 										<span className='product__badge--items sale'>Sale</span>
 									</div>
@@ -315,7 +316,7 @@ export default function Products({ title }: { title: string }) {
 								<div className='product__items--content'>
 									<span className='product__items--content__subtitle'>Jacket, Women</span>
 									<h4 className='product__items--content__title'>
-										<a href='product-details'>Quilted Shoulder Bag</a>
+										<Link href='product-details'>Quilted Shoulder Bag</Link>
 									</h4>
 									<div className='product__items--price'>
 										<span className='current__price'>$115</span>
@@ -381,7 +382,7 @@ export default function Products({ title }: { title: string }) {
 									</ul>
 									<ul className='product__items--action d-flex'>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn add__to--cart' href='/cart'>
+											<Link className='product__items--action__btn add__to--cart' href='/cart'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 													<g transform='translate(0 0)'>
 														<g>
@@ -396,10 +397,10 @@ export default function Products({ title }: { title: string }) {
 													</g>
 												</svg>
 												<span className='add__to--cart__text'> + Add to cart</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' href='/wishlist'>
+											<Link className='product__items--action__btn' href='/wishlist'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -410,10 +411,10 @@ export default function Products({ title }: { title: string }) {
 														stroke-width='32'></path>
 												</svg>
 												<span className='visually-hidden'>Wishlist</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+											<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -426,7 +427,7 @@ export default function Products({ title }: { title: string }) {
 													<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 												</svg>
 												<span className='visually-hidden'>Quick View</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -435,10 +436,10 @@ export default function Products({ title }: { title: string }) {
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>
-									<a className='product__items--link' href='product-details'>
+									<Link className='product__items--link' href='product-details'>
 										<Image className='product__items--img product__primary--img' src='/images/products/product8.png' alt='product-img' width={282} height={310} />
 										<Image className='product__items--img product__secondary--img' src='/images/products/product15.png' alt='product-img' width={282} height={310} />
-									</a>
+									</Link>
 									<div className='product__badge'>
 										<span className='product__badge--items sale'>Sale</span>
 									</div>
@@ -446,7 +447,7 @@ export default function Products({ title }: { title: string }) {
 								<div className='product__items--content'>
 									<span className='product__items--content__subtitle'>Jacket, Women</span>
 									<h4 className='product__items--content__title'>
-										<a href='product-details'>Square Shoulder Bag</a>
+										<Link href='product-details'>Square Shoulder Bag</Link>
 									</h4>
 									<div className='product__items--price'>
 										<span className='current__price'>$117</span>
@@ -512,7 +513,7 @@ export default function Products({ title }: { title: string }) {
 									</ul>
 									<ul className='product__items--action d-flex'>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn add__to--cart' href='/cart'>
+											<Link className='product__items--action__btn add__to--cart' href='/cart'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 													<g transform='translate(0 0)'>
 														<g>
@@ -527,10 +528,10 @@ export default function Products({ title }: { title: string }) {
 													</g>
 												</svg>
 												<span className='add__to--cart__text'> + Add to cart</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' href='/wishlist'>
+											<Link className='product__items--action__btn' href='/wishlist'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -541,10 +542,10 @@ export default function Products({ title }: { title: string }) {
 														stroke-width='32'></path>
 												</svg>
 												<span className='visually-hidden'>Wishlist</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+											<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -557,7 +558,7 @@ export default function Products({ title }: { title: string }) {
 													<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 												</svg>
 												<span className='visually-hidden'>Quick View</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -566,10 +567,10 @@ export default function Products({ title }: { title: string }) {
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>
-									<a className='product__items--link' href='product-details'>
+									<Link className='product__items--link' href='product-details'>
 										<Image className='product__items--img product__primary--img' src='/images/products/product12.png' alt='product-img' width={282} height={310} />
 										<Image className='product__items--img product__secondary--img' src='/images/products/product13.png' alt='product-img' width={282} height={310} />
-									</a>
+									</Link>
 									<div className='product__badge'>
 										<span className='product__badge--items sale'>Sale</span>
 									</div>
@@ -577,7 +578,7 @@ export default function Products({ title }: { title: string }) {
 								<div className='product__items--content'>
 									<span className='product__items--content__subtitle'>Jacket, Women</span>
 									<h4 className='product__items--content__title'>
-										<a href='product-details'>Wool-blend Jacket</a>
+										<Link href='product-details'>Wool-blend Jacket</Link>
 									</h4>
 									<div className='product__items--price'>
 										<span className='current__price'>$144</span>
@@ -643,7 +644,7 @@ export default function Products({ title }: { title: string }) {
 									</ul>
 									<ul className='product__items--action d-flex'>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn add__to--cart' href='/cart'>
+											<Link className='product__items--action__btn add__to--cart' href='/cart'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 													<g transform='translate(0 0)'>
 														<g>
@@ -658,10 +659,10 @@ export default function Products({ title }: { title: string }) {
 													</g>
 												</svg>
 												<span className='add__to--cart__text'> + Add to cart</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' href='/wishlist'>
+											<Link className='product__items--action__btn' href='/wishlist'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -672,10 +673,10 @@ export default function Products({ title }: { title: string }) {
 														stroke-width='32'></path>
 												</svg>
 												<span className='visually-hidden'>Wishlist</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+											<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -688,7 +689,7 @@ export default function Products({ title }: { title: string }) {
 													<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 												</svg>
 												<span className='visually-hidden'>Quick View</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -697,10 +698,10 @@ export default function Products({ title }: { title: string }) {
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>
-									<a className='product__items--link' href='product-details'>
+									<Link className='product__items--link' href='product-details'>
 										<Image className='product__items--img product__primary--img' src='/images/products/product14.png' alt='product-img' width={282} height={310} />
 										<Image className='product__items--img product__secondary--img' src='/images/products/product15.png' alt='product-img' width={282} height={310} />
-									</a>
+									</Link>
 									<div className='product__badge'>
 										<span className='product__badge--items sale'>Sale</span>
 									</div>
@@ -708,7 +709,7 @@ export default function Products({ title }: { title: string }) {
 								<div className='product__items--content'>
 									<span className='product__items--content__subtitle'>Jacket, Women</span>
 									<h4 className='product__items--content__title'>
-										<a href='product-details'>Western denim shirt</a>
+										<Link href='product-details'>Western denim shirt</Link>
 									</h4>
 									<div className='product__items--price'>
 										<span className='current__price'>$128</span>
@@ -774,7 +775,7 @@ export default function Products({ title }: { title: string }) {
 									</ul>
 									<ul className='product__items--action d-flex'>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn add__to--cart' href='/cart'>
+											<Link className='product__items--action__btn add__to--cart' href='/cart'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 													<g transform='translate(0 0)'>
 														<g>
@@ -789,10 +790,10 @@ export default function Products({ title }: { title: string }) {
 													</g>
 												</svg>
 												<span className='add__to--cart__text'> + Add to cart</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' href='/wishlist'>
+											<Link className='product__items--action__btn' href='/wishlist'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -803,10 +804,10 @@ export default function Products({ title }: { title: string }) {
 														stroke-width='32'></path>
 												</svg>
 												<span className='visually-hidden'>Wishlist</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+											<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -819,7 +820,7 @@ export default function Products({ title }: { title: string }) {
 													<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 												</svg>
 												<span className='visually-hidden'>Quick View</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -828,10 +829,10 @@ export default function Products({ title }: { title: string }) {
 						<SwiperSlide>
 							<div className='product__items '>
 								<div className='product__items--thumbnail'>
-									<a className='product__items--link' href='product-details'>
+									<Link className='product__items--link' href='product-details'>
 										<Image className='product__items--img product__primary--img' src='/images/products/product11.png' alt='product-img' width={282} height={310} />
 										<Image className='product__items--img product__secondary--img' src='/images/products/product8.png' alt='product-img' width={282} height={310} />
-									</a>
+									</Link>
 									<div className='product__badge'>
 										<span className='product__badge--items sale'>Sale</span>
 									</div>
@@ -839,7 +840,7 @@ export default function Products({ title }: { title: string }) {
 								<div className='product__items--content'>
 									<span className='product__items--content__subtitle'>Jacket, Women</span>
 									<h4 className='product__items--content__title'>
-										<a href='product-details'>Aware organic cotton</a>
+										<Link href='product-details'>Aware organic cotton</Link>
 									</h4>
 									<div className='product__items--price'>
 										<span className='current__price'>$135</span>
@@ -905,7 +906,7 @@ export default function Products({ title }: { title: string }) {
 									</ul>
 									<ul className='product__items--action d-flex'>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn add__to--cart' href='/cart'>
+											<Link className='product__items--action__btn add__to--cart' href='/cart'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 14.706 13.534'>
 													<g transform='translate(0 0)'>
 														<g>
@@ -920,10 +921,10 @@ export default function Products({ title }: { title: string }) {
 													</g>
 												</svg>
 												<span className='add__to--cart__text'> + Add to cart</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' href='/wishlist'>
+											<Link className='product__items--action__btn' href='/wishlist'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z'
@@ -934,10 +935,10 @@ export default function Products({ title }: { title: string }) {
 														stroke-width='32'></path>
 												</svg>
 												<span className='visually-hidden'>Wishlist</span>
-											</a>
+											</Link>
 										</li>
 										<li className='product__items--action__list'>
-											<a className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
+											<Link className='product__items--action__btn' data-open='modal1' href='javascript:void(0)'>
 												<svg className='product__items--action__btn--svg' xmlns='http://www.w3.org/2000/svg' width='25.51' height='23.443' viewBox='0 0 512 512'>
 													<path
 														d='M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z'
@@ -950,7 +951,7 @@ export default function Products({ title }: { title: string }) {
 													<circle cx='256' cy='256' r='80' fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
 												</svg>
 												<span className='visually-hidden'>Quick View</span>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>

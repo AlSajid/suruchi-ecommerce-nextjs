@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function About() {
 	return (
@@ -13,7 +14,7 @@ export default function About() {
 							<div className='about__thumb--items position__relative'>
 								<Image className='about__thumb--img border-radius-5 display-block' src='/images/others/about-thumb-list2.png' alt='about-thumb' width={290} height={450} />
 								<div className='banner__bideo--play about__thumb--play'>
-									<a className='banner__bideo--play__icon about__thumb--play__icon glightbox' href='https://vimeo.com/115041822' data-gallery='video'>
+									<Link className='banner__bideo--play__icon about__thumb--play__icon glightbox' href='https://vimeo.com/115041822' data-gallery='video'>
 										<svg id='play' xmlns='http://www.w3.org/2000/svg' width='40.302' height='40.302' viewBox='0 0 46.302 46.302'>
 											<g id='Group_193' data-name='Group 193' transform='translate(0 0)'>
 												<path id='Path_116' data-name='Path 116' d='M39.521,6.781a23.151,23.151,0,0,0-32.74,32.74,23.151,23.151,0,0,0,32.74-32.74ZM23.151,44.457A21.306,21.306,0,1,1,44.457,23.151,21.33,21.33,0,0,1,23.151,44.457Z' fill='currentColor' />
@@ -41,7 +42,7 @@ export default function About() {
 											</g>
 										</svg>
 										<span className='visually-hidden'>Video Play</span>
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>

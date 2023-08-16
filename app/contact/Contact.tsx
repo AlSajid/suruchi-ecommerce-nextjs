@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Contact() {
 	return (
 		<section className='contact__section section--padding'>
@@ -72,7 +74,7 @@ export default function Contact() {
 								</div>
 								<div className='contact__info--content'>
 									<p className='contact__info--content__desc text-white'>
-										Change the design through a range <br /> <a href='tel:+01234-567890'>+01234-567890</a> <a href='tel:++01234-5688765'>+01234-5688765</a>
+										Change the design through a range <br /> <Link href='tel:+01234-567890'>+01234-567890</Link> <Link href='tel:++01234-5688765'>+01234-5688765</Link>
 									</p>
 								</div>
 							</div>
@@ -92,7 +94,7 @@ export default function Contact() {
 								</div>
 								<div className='contact__info--content'>
 									<p className='contact__info--content__desc text-white'>
-										<a href='mailto:info@example.com'>info@example.com</a> <br /> <a href='mailto:info@example.com'>info@example.com</a>
+										<Link href='mailto:info@example.com'>info@example.com</Link> <br /> <Link href='mailto:info@example.com'>info@example.com</Link>
 									</p>
 								</div>
 							</div>
@@ -114,7 +116,7 @@ export default function Contact() {
 							<h3 className='contact__info--content__title text-white mb-15'>Follow Us</h3>
 							<ul className='contact__info--social d-flex'>
 								<li className='contact__info--social__list'>
-									<a className='contact__info--social__icon' target='_blank' href='https://www.facebook.com'>
+									<Link className='contact__info--social__icon' target='_blank' href='https://www.facebook.com'>
 										<svg xmlns='http://www.w3.org/2000/svg' width='7.667' height='16.524' viewBox='0 0 7.667 16.524'>
 											<path
 												data-name='Path 237'
@@ -123,10 +125,10 @@ export default function Contact() {
 												fill='currentColor'></path>
 										</svg>
 										<span className='visually-hidden'>Facebook</span>
-									</a>
+									</Link>
 								</li>
 								<li className='contact__info--social__list'>
-									<a className='contact__info--social__icon' target='_blank' href='https://twitter.com'>
+									<Link className='contact__info--social__icon' target='_blank' href='https://twitter.com'>
 										<svg xmlns='http://www.w3.org/2000/svg' width='16.489' height='13.384' viewBox='0 0 16.489 13.384'>
 											<path
 												data-name='Path 303'
@@ -135,10 +137,10 @@ export default function Contact() {
 												fill='currentColor'></path>
 										</svg>
 										<span className='visually-hidden'>Twitter</span>
-									</a>
+									</Link>
 								</li>
 								<li className='contact__info--social__list'>
-									<a className='contact__info--social__icon' target='_blank' href='https://www.instagram.com'>
+									<Link className='contact__info--social__icon' target='_blank' href='https://www.instagram.com'>
 										<svg xmlns='http://www.w3.org/2000/svg' width='16.497' height='16.492' viewBox='0 0 19.497 19.492'>
 											<path
 												data-name='Icon awesome-instagram'
@@ -148,10 +150,10 @@ export default function Contact() {
 											/>
 										</svg>
 										<span className='visually-hidden'>Instagram</span>
-									</a>
+									</Link>
 								</li>
 								<li className='contact__info--social__list'>
-									<a className='contact__info--social__icon' target='_blank' href='https://www.youtube.com'>
+									<Link className='contact__info--social__icon' target='_blank' href='https://www.youtube.com'>
 										<svg xmlns='http://www.w3.org/2000/svg' width='16.49' height='11.582' viewBox='0 0 16.49 11.582'>
 											<path
 												data-name='Path 321'
@@ -160,7 +162,7 @@ export default function Contact() {
 												fill='currentColor'></path>
 										</svg>
 										<span className='visually-hidden'>Youtube</span>
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
