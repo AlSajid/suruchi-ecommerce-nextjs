@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link';
+import Link from 'next/link'
 import VideoPopUp from './VideoPopUp'
 import Countdown from 'react-countdown'
 
