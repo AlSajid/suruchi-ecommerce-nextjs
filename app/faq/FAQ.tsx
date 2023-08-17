@@ -12,6 +12,7 @@ export default function FAQ() {
 			setOpen(id)
 		}
 	}
+	
 	return (
 		<section className='faq__section section--padding'>
 			<div className='container'>

@@ -41,17 +41,20 @@ export default function NewProducts() {
 										backgroundColor: '#ee2761'
 									}
 								}}>
-								<Tab className='product__tab--primary__btn__list' sx={activeTab} value='1' label='Featured' />
-								<Tab className='product__tab--primary__btn__list' sx={activeTab} value='2' label='Trending' />
-								<Tab className='product__tab--primary__btn__list' sx={activeTab} value='3' label='New Arrival' />
+								<Tab style={{ fontSize: '20px' }} className='product__tab--primary__btn__list' sx={activeTab} value='1' label='Featured' />
+								<Tab style={{ fontSize: '20px' }} className='product__tab--primary__btn__list' sx={activeTab} value='2' label='Trending' />
+								<Tab style={{ fontSize: '20px' }} className='product__tab--primary__btn__list' sx={activeTab} value='3' label='New Arrival' />
 							</TabList>
 						</Box>
+
 						<TabPanel value='1'>
 							<Featured />
 						</TabPanel>
+
 						<TabPanel value='2'>
 							<Trending />
 						</TabPanel>
+
 						<TabPanel value='3'>
 							<NewArrival />
 						</TabPanel>
