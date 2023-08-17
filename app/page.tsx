@@ -7,6 +7,7 @@ import Banners2 from './Home/Banners2'
 import Testimonial from '../components/Testimonial'
 import Blogs from './Home/Blogs'
 import Banner from './Home/Banner'
+import Newsletter from '@/components/Newsletter'
 
 export default function Home() {
 	return (
@@ -20,6 +21,7 @@ export default function Home() {
 			<Testimonial />
 			<Banner />
 			<Blogs />
+			<Newsletter />
 		</main>
 	)
 }

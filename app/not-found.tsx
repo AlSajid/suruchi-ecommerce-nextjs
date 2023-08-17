@@ -7,6 +7,7 @@ export default function NotFound() {
 	return (
 		<main className='main__content_wrapper'>
 			<Breadcrumb title='Error 404' />
+
 			<section className='error__section section--padding'>
 				<div className='container'>
 					<div className='row row-cols-1'>
@@ -23,6 +24,7 @@ export default function NotFound() {
 					</div>
 				</div>
 			</section>
+			
 			<Shipping />
 		</main>
 	)

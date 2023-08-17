@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				{children}
 				<Footer />
 				<QuickView />
-				<Newsletter />
+			
 				<ScrollToTop />
 			</body>
 		</html>
