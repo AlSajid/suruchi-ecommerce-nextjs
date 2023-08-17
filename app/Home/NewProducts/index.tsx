@@ -19,7 +19,7 @@ export default function NewProducts() {
 
 	const activeTab = {
 		'&.Mui-selected': {
-			color: '#ee2761'
+			color: '#ee2761',
 		},
 		'textTransform': 'none'
 	}
@@ -41,9 +41,9 @@ export default function NewProducts() {
 										backgroundColor: '#ee2761'
 									}
 								}}>
-								<Tab style={{ fontSize: '20px' }} className='product__tab--primary__btn__list' sx={activeTab} value='1' label='Featured' />
-								<Tab style={{ fontSize: '20px' }} className='product__tab--primary__btn__list' sx={activeTab} value='2' label='Trending' />
-								<Tab style={{ fontSize: '20px' }} className='product__tab--primary__btn__list' sx={activeTab} value='3' label='New Arrival' />
+								<Tab style={{ fontSize: '15px', fontWeight: '700' }} className='product__tab--primary__btn__list' sx={activeTab} value='1' label='Featured' />
+								<Tab style={{ fontSize: '15px', fontWeight: '700' }} className='product__tab--primary__btn__list' sx={activeTab} value='2' label='Trending' />
+								<Tab style={{ fontSize: '15px', fontWeight: '700' }} className='product__tab--primary__btn__list' sx={activeTab} value='3' label='New Arrival' />
 							</TabList>
 						</Box>
 

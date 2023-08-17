@@ -2144,3 +2144,6 @@ body.overlay__active::before,
 .mr-30 {
 	margin-right: 3rem;
 }
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+	display: none;
+}

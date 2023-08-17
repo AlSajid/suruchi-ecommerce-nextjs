@@ -1,3 +1,6 @@
+'use client'
+import CountUp from 'react-countup'
+
 export default function CounterUpBanner() {
 	return (
 		<div className='counterup__banner--section counterup__banner__bg2' id='funfactId'>
@@ -11,7 +14,7 @@ export default function CounterUpBanner() {
 									FOUNDATION
 								</h2>
 								<span className='counterup__banner--items__number js-counter text-white' data-count='50'>
-									0
+									<CountUp end={50} />
 								</span>
 							</div>
 							<div className='counterup__banner--items text-center'>
@@ -20,7 +23,7 @@ export default function CounterUpBanner() {
 									MEMBERS
 								</h2>
 								<span className='counterup__banner--items__number js-counter text-white' data-count='100'>
-									0
+									<CountUp end={100} />
 								</span>
 							</div>
 							<div className='counterup__banner--items text-center'>
@@ -29,7 +32,7 @@ export default function CounterUpBanner() {
 									CUSTOMERS
 								</h2>
 								<span className='counterup__banner--items__number js-counter text-white' data-count='80'>
-									0
+									<CountUp end={80} />
 								</span>
 							</div>
 							<div className='counterup__banner--items text-center'>
@@ -38,7 +41,7 @@ export default function CounterUpBanner() {
 									ORDERS
 								</h2>
 								<span className='counterup__banner--items__number js-counter text-white' data-count='70'>
-									0
+									<CountUp end={70} />
 								</span>
 							</div>
 						</div>

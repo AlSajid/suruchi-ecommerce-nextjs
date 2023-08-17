@@ -195,7 +195,6 @@ export default function Checkout() {
 										<div className='checkout__review--inner d-flex align-items-center'>
 											<label className='checkout__review--label'> Method</label>
 											<span className='checkout__review--content'>
-												{' '}
 												Standard . <strong>$0.23</strong>
 											</span>
 										</div>
@@ -373,10 +372,10 @@ export default function Checkout() {
 						</main>
 						<footer className='main__footer checkout__footer'>
 							<p className='copyright__content'>
-								Copyright © 2022{' '}
+								Copyright © 2022
 								<Link className='copyright__content--link text__primary' href='index'>
 									Suruchi
-								</Link>{' '}
+								</Link>
 								. All Rights Reserved.Design By Suruchi
 							</p>
 						</footer>

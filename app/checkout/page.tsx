@@ -283,10 +283,10 @@ export default function Checkout() {
 						</main>
 						<footer className='main__footer checkout__footer'>
 							<p className='copyright__content'>
-								Copyright © 2022{' '}
+								Copyright © 2022
 								<Link className='copyright__content--link text__primary' href='index'>
 									Suruchi
-								</Link>{' '}
+								</Link>
 								. All Rights Reserved.Design By Suruchi
 							</p>
 						</footer>

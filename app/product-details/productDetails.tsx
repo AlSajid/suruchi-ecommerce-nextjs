@@ -292,16 +292,16 @@ export default function ProductDetails() {
 									</div>
 									<div className='product__details--info__meta'>
 										<p className='product__details--info__meta--list'>
-											<strong>Barcode:</strong> <span>565461</span>{' '}
+											<strong>Barcode:</strong> <span>565461</span>
 										</p>
 										<p className='product__details--info__meta--list'>
-											<strong>Sky:</strong> <span>4420</span>{' '}
+											<strong>Sky:</strong> <span>4420</span>
 										</p>
 										<p className='product__details--info__meta--list'>
-											<strong>Vendor:</strong> <span>Belo</span>{' '}
+											<strong>Vendor:</strong> <span>Belo</span>
 										</p>
 										<p className='product__details--info__meta--list'>
-											<strong>Type:</strong> <span>Dress</span>{' '}
+											<strong>Type:</strong> <span>Dress</span>
 										</p>
 									</div>
 								</div>
