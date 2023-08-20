@@ -3,9 +3,7 @@ import Link from 'next/link'
 
 export default function GridView() {
 	return (
-		<div className='col-xl-9 col-lg-8'>
-			<div className='shop__product--wrapper'>
-				<div className='tab_content'>
+
 					<div id='product_grid' className='tab_pane active show'>
 						<div className='product__section--inner product__grid--inner'>
 							<div className='row row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-2 mb--n30'>
@@ -2924,48 +2922,7 @@ export default function GridView() {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className='pagination__area bg__gray--color'>
-					<nav className='pagination justify-content-center'>
-						<ul className='pagination__wrapper d-flex align-items-center justify-content-center'>
-							<li className='pagination__list'>
-								<Link href='shop' className='pagination__item--arrow  link '>
-									<svg xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 512 512'>
-										<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M244 400L100 256l144-144M120 256h292' />
-									</svg>
-									<span className='visually-hidden'>pagination arrow</span>
-								</Link>
-							</li>
-							<li className='pagination__list'>
-								<span className='pagination__item pagination__item--current'>1</span>
-							</li>
-							<li className='pagination__list'>
-								<Link href='shop' className='pagination__item link'>
-									2
-								</Link>
-							</li>
-							<li className='pagination__list'>
-								<Link href='shop' className='pagination__item link'>
-									3
-								</Link>
-							</li>
-							<li className='pagination__list'>
-								<Link href='shop' className='pagination__item link'>
-									4
-								</Link>
-							</li>
-							<li className='pagination__list'>
-								<Link href='shop' className='pagination__item--arrow  link '>
-									<svg xmlns='http:/www.w3.org/2000/svg' width='22.51' height='20.443' viewBox='0 0 512 512'>
-										<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M268 112l144 144-144 144M392 256H100' />
-									</svg>
-									<span className='visually-hidden'>pagination arrow</span>
-								</Link>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
+				
+	
 	)
 }
