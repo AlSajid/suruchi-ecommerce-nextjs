@@ -6,7 +6,7 @@ import PriceFilter from './PriceFilter'
 
 export default function Aside() {
 	return (
-		<div className='col-xl-3 col-lg-4'>
+		
 			<div className='shop__sidebar--widget widget__area d-none d-lg-block'>
 				<CategoryFilter />
 				<TypeFilter />
@@ -14,6 +14,6 @@ export default function Aside() {
 				<TopRatedProducts />
 				<BrandFilter />
 			</div>
-		</div>
+
 	)
 }

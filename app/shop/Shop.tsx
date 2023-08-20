@@ -5,7 +5,6 @@ import { useState } from 'react'
 import ListView from './products/ListView'
 import Aside from './aside'
 import ShopHeader from './ShopHeader'
-import Link from 'next/link'
 import Pagination from '@/components/Pagination'
 
 export default function Shop() {
@@ -17,8 +16,10 @@ export default function Shop() {
 				<ShopHeader setGridView={setGridView} gridView={gridView} />
 
 				<div className='row'>
-					<Aside />
-
+					<div className='col-xl-3 col-lg-4'>
+						<Aside />
+					</div>
+					
 					<div className='col-xl-9 col-lg-8'>
 						<div className='shop__product--wrapper'>
 							<div className='tab_content'>
