@@ -1,5 +1,5 @@
 import Shipping from './Shipping'
-import Options from './Options'
+import SiteOptions from '../SiteOptions'
 
 export default function TopBar() {
 	return (
@@ -7,7 +7,9 @@ export default function TopBar() {
 			<div className='container-fluid'>
 				<div className='header__topbar--inner d-flex align-items-center justify-content-between'>
 					<Shipping />
-					<Options />
+					<div className='d-none d-lg-block'>
+						<SiteOptions theme='default' />
+					</div>
 				</div>
 			</div>
 		</div>

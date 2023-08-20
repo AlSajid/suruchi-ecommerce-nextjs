@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import Languages from '../TopBar/Options/Languages'
-import Currencies from '../TopBar/Options/Currencies'
-import Link from 'next/link';
+import SiteOptions from '../SiteOptions'
+import Link from 'next/link'
 
 export default function OffCanvas({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: Function }) {
 	return (
@@ -96,12 +95,7 @@ export default function OffCanvas({ isOpen, setIsOpen }: { isOpen: boolean; setI
 							<span className='offcanvas__account--items__label'>Login / Register</span>
 						</Link>
 					</div>
-					<div className='language__currency'>
-						<ul className='d-flex align-items-center'>
-							<Languages theme='light' />
-							<Currencies theme='light' />
-						</ul>
-					</div>
+					<SiteOptions theme='light' />
 				</nav>
 			</div>
 		</div>
