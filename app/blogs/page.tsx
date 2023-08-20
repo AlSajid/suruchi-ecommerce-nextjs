@@ -1,13 +1,10 @@
-import Breadcrumb from '@/components/Breadcrumb'
+import ContentWrapper from '@/components/ContentWrapper'
 import Blogs from './Blog'
-import Shipping from '@/components/Shipping'
 
 export default function Blog() {
 	return (
-		<main className='main__content_wrapper'>
-			<Breadcrumb title='Blog Details' />
+		<ContentWrapper title='Blog Details'>
 			<Blogs />
-			<Shipping />
-		</main>
+		</ContentWrapper>
 	)
 }

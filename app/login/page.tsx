@@ -1,13 +1,10 @@
-import Breadcrumb from '@/components/Breadcrumb'
-import Shipping from '@/components/Shipping'
 import Login from './Login'
+import ContentWrapper from '@/components/ContentWrapper'
 
 export default function Page() {
 	return (
-		<main className='main__content_wrapper'>
-			<Breadcrumb title='Account Page' />
+		<ContentWrapper title='Frequently'>
 			<Login />
-			<Shipping />
-		</main>
+		</ContentWrapper>
 	)
 }
