@@ -35,7 +35,7 @@ export default function StickyAccount({ setIsCartOpen }: { setIsCartOpen: Functi
 					</Link>
 				</li>
 				<li className='header__account--items header__account2--items' onClick={() => setIsCartOpen(true)}>
-					<span className='header__account--btn minicart__open--btn' data-offcanvas>
+					<span className='header__account--btn ' data-offcanvas>
 						<svg xmlns='http://www.w3.org/2000/svg' width='26.51' height='23.443' viewBox='0 0 14.706 13.534'>
 							<g transform='translate(0 0)'>
 								<g>

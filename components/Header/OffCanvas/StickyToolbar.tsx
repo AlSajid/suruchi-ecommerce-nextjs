@@ -36,7 +36,7 @@ export default function StickyToolbar() {
 					</Link>
 				</li>
 				<li className='offcanvas__stikcy--toolbar__list'>
-					<Link className='offcanvas__stikcy--toolbar__btn minicart__open--btn' href='#' data-offcanvas>
+					<Link className='offcanvas__stikcy--toolbar__btn ' href='#' data-offcanvas>
 						<span className='offcanvas__stikcy--toolbar__icon'>
 							<svg xmlns='http://www.w3.org/2000/svg' width='18.51' height='15.443' viewBox='0 0 18.51 15.443'>
 								<path
