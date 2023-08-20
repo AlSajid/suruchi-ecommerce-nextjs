@@ -3,36 +3,9 @@
 import Link from 'next/link'
 import VideoPopUp from './VideoPopUp'
 import Countdown from 'react-countdown'
+import { renderer } from './CountdownRenderer'
 
 export default function Deals() {
-	const renderer = ({ days, hours, minutes, seconds, completed }: { days: number; hours: number; minutes: number; seconds: number; completed: boolean }) => {
-		if (completed) {
-			return <span>Time&apos;s up!</span>
-		} else {
-			return (
-				<>
-					<div className='countdown__item'>
-						<span className='countdown__number'>{days}</span>
-						<p className='countdown__text'>Days</p>
-					</div>
-					<div className='countdown__item'>
-						<span className='countdown__number'>{hours}</span>
-						<p className='countdown__text'>Hrs</p>
-					</div>
-					<div className='countdown__item'>
-						<span className='countdown__number'>{minutes}</span>
-						<p className='countdown__text'>Mins</p>
-					</div>
-
-					<div className='countdown__item'>
-						<span className='countdown__number'>{seconds}</span>
-						<p className='countdown__text'>Secs</p>
-					</div>
-				</>
-			)
-		}
-	}
-
 	return (
 		<section className='deals__banner--section section--padding pt-0'>
 			<div className='container-fluid'>
