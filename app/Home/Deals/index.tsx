@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import VideoPopUp from './VideoPopUp'
 import Countdown from 'react-countdown'
-import { renderer } from './CountdownRenderer'
+import { renderer } from './countdownRenderer'
 
 export default function Deals() {
 	return (

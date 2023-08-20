@@ -1,12 +1,18 @@
+import Rating from '@/components/ProductCard/Rating'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function productDetailsTab() {
+export default function ProductDetailsTab() {
 	return (
 		<section className='product__details--tab__section section--padding'>
 			<div className='container'>
 				<div className='row row-cols-1'>
 					<div className='col'>
+
+
+
+
+{/* 						
 						<ul className='product__details--tab d-flex mb-30'>
 							<li className='product__details--tab__list active' data-toggle='tab' data-target='#description'>
 								Description
@@ -21,6 +27,7 @@ export default function productDetailsTab() {
 								Custom Content
 							</li>
 						</ul>
+
 						<div className='product__details--tab__inner border-radius-10'>
 							<div className='tab_content'>
 								<div id='description' className='tab_pane active show'>
@@ -74,63 +81,7 @@ export default function productDetailsTab() {
 										<div className='product__reviews--header'>
 											<h2 className='product__reviews--header__title h3 mb-20'>Customer Reviews</h2>
 											<div className='reviews__ratting d-flex align-items-center'>
-												<ul className='rating d-flex'>
-													<li className='rating__list'>
-														<span className='rating__list--icon'>
-															<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																<path
-																	data-name='star - Copy'
-																	d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																	transform='translate(0 -0.018)'
-																	fill='currentColor'></path>
-															</svg>
-														</span>
-													</li>
-													<li className='rating__list'>
-														<span className='rating__list--icon'>
-															<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																<path
-																	data-name='star - Copy'
-																	d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																	transform='translate(0 -0.018)'
-																	fill='currentColor'></path>
-															</svg>
-														</span>
-													</li>
-													<li className='rating__list'>
-														<span className='rating__list--icon'>
-															<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																<path
-																	data-name='star - Copy'
-																	d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																	transform='translate(0 -0.018)'
-																	fill='currentColor'></path>
-															</svg>
-														</span>
-													</li>
-													<li className='rating__list'>
-														<span className='rating__list--icon'>
-															<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																<path
-																	data-name='star - Copy'
-																	d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																	transform='translate(0 -0.018)'
-																	fill='currentColor'></path>
-															</svg>
-														</span>
-													</li>
-													<li className='rating__list'>
-														<span className='rating__list--icon'>
-															<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																<path
-																	data-name='star - Copy'
-																	d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																	transform='translate(0 -0.018)'
-																	fill='currentColor'></path>
-															</svg>
-														</span>
-													</li>
-												</ul>
+												<Rating rate={4} />
 												<span className='reviews__summary--caption'>Based on 2 reviews</span>
 											</div>
 											<Link className='actions__newreviews--btn primary__btn' href='#writereview'>
@@ -140,69 +91,13 @@ export default function productDetailsTab() {
 										<div className='reviews__comment--area'>
 											<div className='reviews__comment--list d-flex'>
 												<div className='reviews__comment--thumb'>
-													<Image src='assets/img/other/comment-thumb1.png' alt='comment-thumb' />
+													<Image src='/images/others/comment-thumb1.png' alt='comment-thumb' width={120} height={120} />
 												</div>
 												<div className='reviews__comment--content'>
 													<div className='reviews__comment--top d-flex justify-content-between'>
 														<div className='reviews__comment--top__left'>
 															<h3 className='reviews__comment--content__title h4'>Richard Smith</h3>
-															<ul className='rating reviews__comment--rating d-flex'>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-															</ul>
+															<Rating rate={5} />
 														</div>
 														<span className='reviews__comment--content__date'>February 18, 2022</span>
 													</div>
@@ -213,69 +108,13 @@ export default function productDetailsTab() {
 											</div>
 											<div className='reviews__comment--list margin__left d-flex'>
 												<div className='reviews__comment--thumb'>
-													<Image src='assets/img/other/comment-thumb2.png' alt='comment-thumb' />
+													<Image src='/images/others/comment-thumb2.png' alt='comment-thumb' width={120} height={120} />
 												</div>
 												<div className='reviews__comment--content'>
 													<div className='reviews__comment--top d-flex justify-content-between'>
 														<div className='reviews__comment--top__left'>
 															<h3 className='reviews__comment--content__title h4'>Laura Johnson</h3>
-															<ul className='rating reviews__comment--rating d-flex'>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-															</ul>
+															<Rating rate={5} />
 														</div>
 														<span className='reviews__comment--content__date'>February 18, 2022</span>
 													</div>
@@ -286,69 +125,13 @@ export default function productDetailsTab() {
 											</div>
 											<div className='reviews__comment--list d-flex'>
 												<div className='reviews__comment--thumb'>
-													<Image src='assets/img/other/comment-thumb3.png' alt='comment-thumb' />
+													<Image src='/images/others/comment-thumb3.png' alt='comment-thumb' width={120} height={120} />
 												</div>
 												<div className='reviews__comment--content'>
 													<div className='reviews__comment--top d-flex justify-content-between'>
 														<div className='reviews__comment--top__left'>
 															<h3 className='reviews__comment--content__title h4'>John Deo</h3>
-															<ul className='rating reviews__comment--rating d-flex'>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-																<li className='rating__list'>
-																	<span className='rating__list--icon'>
-																		<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																			<path
-																				data-name='star - Copy'
-																				d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																				transform='translate(0 -0.018)'
-																				fill='currentColor'></path>
-																		</svg>
-																	</span>
-																</li>
-															</ul>
+															<Rating rate={5} />
 														</div>
 														<span className='reviews__comment--content__date'>February 18, 2022</span>
 													</div>
@@ -362,63 +145,7 @@ export default function productDetailsTab() {
 											<form action='#'>
 												<h3 className='reviews__comment--reply__title mb-15'>Add a review </h3>
 												<div className='reviews__ratting d-flex align-items-center mb-20'>
-													<ul className='rating d-flex'>
-														<li className='rating__list'>
-															<span className='rating__list--icon'>
-																<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																	<path
-																		data-name='star - Copy'
-																		d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																		transform='translate(0 -0.018)'
-																		fill='currentColor'></path>
-																</svg>
-															</span>
-														</li>
-														<li className='rating__list'>
-															<span className='rating__list--icon'>
-																<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																	<path
-																		data-name='star - Copy'
-																		d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																		transform='translate(0 -0.018)'
-																		fill='currentColor'></path>
-																</svg>
-															</span>
-														</li>
-														<li className='rating__list'>
-															<span className='rating__list--icon'>
-																<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																	<path
-																		data-name='star - Copy'
-																		d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																		transform='translate(0 -0.018)'
-																		fill='currentColor'></path>
-																</svg>
-															</span>
-														</li>
-														<li className='rating__list'>
-															<span className='rating__list--icon'>
-																<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																	<path
-																		data-name='star - Copy'
-																		d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																		transform='translate(0 -0.018)'
-																		fill='currentColor'></path>
-																</svg>
-															</span>
-														</li>
-														<li className='rating__list'>
-															<span className='rating__list--icon'>
-																<svg className='rating__list--icon__svg' xmlns='http://www.w3.org/2000/svg' width='14.105' height='14.732' viewBox='0 0 10.105 9.732'>
-																	<path
-																		data-name='star - Copy'
-																		d='M9.837,3.5,6.73,3.039,5.338.179a.335.335,0,0,0-.571,0L3.375,3.039.268,3.5a.3.3,0,0,0-.178.514L2.347,6.242,1.813,9.4a.314.314,0,0,0,.464.316L5.052,8.232,7.827,9.712A.314.314,0,0,0,8.292,9.4L7.758,6.242l2.257-2.231A.3.3,0,0,0,9.837,3.5Z'
-																		transform='translate(0 -0.018)'
-																		fill='currentColor'></path>
-																</svg>
-															</span>
-														</li>
-													</ul>
+													<Rating rate={5} />
 												</div>
 												<div className='row'>
 													<div className='col-12 mb-10'>
@@ -443,7 +170,7 @@ export default function productDetailsTab() {
 									</div>
 								</div>
 								<div id='information' className='tab_pane'>
-									<div className='product__tab--conten'>
+									<div className='product__tab--content'>
 										<div className='product__tab--content__step mb-30'>
 											<h2 className='product__tab--content__title h4 mb-10'>Nam provident sequi</h2>
 											<p className='product__tab--content__desc'>
@@ -465,7 +192,7 @@ export default function productDetailsTab() {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

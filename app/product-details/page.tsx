@@ -1,13 +1,12 @@
-import Breadcrumb from '@/components/Breadcrumb'
-import ProductDetails from './productDetails'
-import Products from '@/components/Products'
+import ProductDetails from './ProductDetails'
+import ProductDetailsTab from './ProductDetailsTab'
+import ContentWrapper from '@/components/ContentWrapper'
 
 export default function Page() {
 	return (
-		<main className='main__content_wrapper'>
-			<Breadcrumb title='Product Details' />
+		<ContentWrapper title='Product Details'>
 			<ProductDetails />
-			<Products title='You may also like' />
-		</main>
+			<ProductDetailsTab />
+		</ContentWrapper>
 	)
 }
