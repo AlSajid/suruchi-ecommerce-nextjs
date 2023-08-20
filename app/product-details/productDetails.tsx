@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Link from 'next/link'
-import Rating from '@/components/ProductCard/Rating'
+import Rating from '@/components/Rating/Rating'
 
 export default function ProductDetails() {
 	return (

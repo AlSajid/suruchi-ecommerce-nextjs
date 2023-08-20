@@ -1,6 +1,6 @@
 'use client'
 
-import Rating from '@/components/ProductCard/Rating'
+import Rating from '@/components/Rating/Rating'
 import Image from 'next/image'
 import Link from 'next/link'
 import Box from '@mui/material/Box'
@@ -41,19 +41,12 @@ export default function ProductDetailsTab() {
 						</TabList>
 					</Box>
 
-					<TabPanel value='1'>
-						{/* <Products test={10} /> */}
-					</TabPanel>
+					<TabPanel value='1'>{/* <Products test={10} /> */}</TabPanel>
 
-					<TabPanel value='2'>
-						{/* <Products test={20} /> */}
-					</TabPanel>
+					<TabPanel value='2'>{/* <Products test={20} /> */}</TabPanel>
 
-					<TabPanel value='3'>
-						{/* <Products test={30} /> */}
-					</TabPanel>
+					<TabPanel value='3'>{/* <Products test={30} /> */}</TabPanel>
 				</TabContext>
-
 
 				<div className='row row-cols-1'>
 					<div className='col'>

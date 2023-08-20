@@ -7,7 +7,7 @@ export default function Blogs() {
 	const blogs = new Array(blogCount).fill(null)
 
 	return (
-		<ContentWrapper title='Blog Details'>
+		<ContentWrapper title='Blogs Grid'>
 			<section className='blog__section section--padding'>
 				<div className='container'>
 					<div className='section__heading text-center mb-50'>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Rating from './Rating'
+import Rating from '../Rating/Rating'
 import AddToCartIcon from '../SVGs/AddToCart'
 import FavoriteIcon from '../SVGs/Favorite'
 import QuickViewIcon from '../SVGs/QuickView'
