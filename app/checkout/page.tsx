@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Breadcrumb from './Breadcrumb'
 
 export default function Checkout() {
 	return (
@@ -8,11 +9,11 @@ export default function Checkout() {
 				<div className='checkout__page--inner d-flex'>
 					<div className='main checkout__mian'>
 						<header className='main__header checkout__mian--header mb-30'>
-							<h1 className='main__logo--title'>
+							{/* <h1 className='main__logo--title'>
 								<Link className='logo logo__left mb-20' href='index'>
 									<Image src='/images/logo/nav-log.png' alt='logo' width={157} height={36} />
 								</Link>
-							</h1>
+							</h1> */}
 							<details className='order__summary--mobile__version'>
 								<summary className='order__summary--toggle border-radius-5'>
 									<span className='order__summary--toggle__inner'>
@@ -134,34 +135,7 @@ export default function Checkout() {
 									</div>
 								</div>
 							</details>
-							<nav>
-								<ol className='breadcrumb checkout__breadcrumb d-flex'>
-									<li className='breadcrumb__item breadcrumb__item--completed d-flex align-items-center'>
-										<Link className='breadcrumb__link' href='cart'>
-											Cart
-										</Link>
-										<svg className='readcrumb__chevron-icon' xmlns='http://www.w3.org/2000/svg' width='17.007' height='16.831' viewBox='0 0 512 512'>
-											<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M184 112l144 144-144 144'></path>
-										</svg>
-									</li>
-
-									<li className='breadcrumb__item breadcrumb__item--current d-flex align-items-center'>
-										<span className='breadcrumb__text current'>Information</span>
-										<svg className='readcrumb__chevron-icon' xmlns='http://www.w3.org/2000/svg' width='17.007' height='16.831' viewBox='0 0 512 512'>
-											<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M184 112l144 144-144 144'></path>
-										</svg>
-									</li>
-									<li className='breadcrumb__item breadcrumb__item--blank d-flex align-items-center'>
-										<span className='breadcrumb__text'>Shipping</span>
-										<svg className='readcrumb__chevron-icon' xmlns='http://www.w3.org/2000/svg' width='17.007' height='16.831' viewBox='0 0 512 512'>
-											<path fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M184 112l144 144-144 144'></path>
-										</svg>
-									</li>
-									<li className='breadcrumb__item breadcrumb__item--blank'>
-										<span className='breadcrumb__text'>Payment</span>
-									</li>
-								</ol>
-							</nav>
+							<Breadcrumb />
 						</header>
 						<main className='main__content_wrapper'>
 							<form action='#'>
