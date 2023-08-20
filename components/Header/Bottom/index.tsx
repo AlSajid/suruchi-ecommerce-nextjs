@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import MenuItem from './MenuItem'
 
 export default function Bottom() {
 	return (
@@ -9,31 +10,11 @@ export default function Bottom() {
 					<div className='header__menu'>
 						<nav className='header__menu--navigation'>
 							<ul className='d-flex'>
-								<li className='header__menu--items'>
-									<Link className='header__menu--link' href='/'>
-										Home
-									</Link>
-								</li>
-								<li className='header__menu--items'>
-									<Link className='header__menu--link' href='shop'>
-										Shop
-									</Link>
-								</li>
-								<li className='header__menu--items'>
-									<Link className='header__menu--link' href='about'>
-										About US
-									</Link>
-								</li>
-								<li className='header__menu--items'>
-									<Link className='header__menu--link' href='blogs'>
-										Blogs
-									</Link>
-								</li>
-								<li className='header__menu--items d-none d-xl-block'>
-									<Link className='header__menu--link' href='shop'>
-										Categories
-									</Link>
-								</li>
+								<MenuItem title='Home' link='/' />
+								<MenuItem title='Shop' link='shop' />
+								<MenuItem title='About Us' link='about' />
+								<MenuItem title='Blogs' link='blogs' />
+								<MenuItem title='Categories' link='categories' />
 								<li className='header__menu--items'>
 									<Link className='header__menu--link' href='#'>
 										Pages
@@ -79,11 +60,7 @@ export default function Bottom() {
 										</li>
 									</ul>
 								</li>
-								<li className='header__menu--items'>
-									<Link className='header__menu--link' href='contact'>
-										Contact
-									</Link>
-								</li>
+								<MenuItem title='Contact Us' link='contact' />
 							</ul>
 						</nav>
 					</div>
