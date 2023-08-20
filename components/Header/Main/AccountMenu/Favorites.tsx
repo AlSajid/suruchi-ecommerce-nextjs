@@ -4,11 +4,6 @@ import HeaderButton from '@/components/Header/Button'
 export default function Favorites() {
 	return (
 		<li className='header__account--items d-none d-lg-block'>
-			{/* <Link className='header__account--btn' href='/wishlist'>
-				<FavoriteIcon />
-				<span className='header__account--btn__text'>Wish List</span>
-				<span className='items__count wishlist'>02</span>
-			</Link> */}
 			<HeaderButton icon={<FavoriteIcon />} title='Wish List' href='/wishlist'>
 				<span className='items__count wishlist'>02</span>
 			</HeaderButton>

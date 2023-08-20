@@ -1,11 +1,10 @@
-import Shipping from '@/components/Shipping'
 import Compare from './Compare'
+import ContentWrapper from '@/components/ContentWrapper'
 
 export default function Page() {
 	return (
-		<main className='main__content_wrapper'>
+		<ContentWrapper title='Compare'>
 			<Compare />
-			<Shipping />
-		</main>
+		</ContentWrapper>
 	)
 }

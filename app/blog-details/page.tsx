@@ -1,11 +1,10 @@
-import Shipping from '@/components/Shipping'
 import BlogDetails from './BlogDetails'
+import ContentWrapper from '@/components/ContentWrapper'
 
 export default function Page() {
 	return (
-		<main className='main__content_wrapper'>
+		<ContentWrapper title='Blog Details'>
 			<BlogDetails />
-			<Shipping />
-		</main>
+		</ContentWrapper>
 	)
 }

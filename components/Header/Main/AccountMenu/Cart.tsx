@@ -10,11 +10,3 @@ export default function Cart({ setIsCartOpen }: { setIsCartOpen: Function }) {
 		</li>
 	)
 }
-
-{
-	/* <Link className='header__account--btn ' href='#' data-offcanvas>
-				<CartIcon />
-				<span className='header__account--btn__text'>My cart</span>
-				<span className='items__count'>02</span>
-			</Link> */
-}
