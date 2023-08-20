@@ -5,10 +5,8 @@ import Tab from '@mui/material/Tab'
 import TabContext from '@mui/lab/TabContext'
 import TabList from '@mui/lab/TabList'
 import TabPanel from '@mui/lab/TabPanel'
-import Trending from './Trending'
-import Featured from './Featured'
-import NewArrival from './NewArrival'
 import { useState } from 'react'
+import Products from './Products'
 
 export default function NewProducts() {
 	const [value, setValue] = useState('1')
@@ -48,15 +46,15 @@ export default function NewProducts() {
 						</Box>
 
 						<TabPanel value='1'>
-							<Featured />
+							<Products />
 						</TabPanel>
 
 						<TabPanel value='2'>
-							<Trending />
+							<Products />
 						</TabPanel>
 
 						<TabPanel value='3'>
-							<NewArrival />
+							<Products />
 						</TabPanel>
 					</TabContext>
 				</Box>
