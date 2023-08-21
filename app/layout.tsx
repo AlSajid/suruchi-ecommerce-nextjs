@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import { Jost } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import QuickView from '@/components/QuickView/QuickView'
+import QuickView from '@/components/ProductCard/QuickView/QuickView'
 import Newsletter from '@/components/Newsletter'
 import ScrollToTop from '@/components/ScrollToTop'
 
@@ -29,7 +29,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<Header />
 				{children}
 				<Footer />
-				<QuickView />
 				<ScrollToTop />
 			</body>
 		</html>
