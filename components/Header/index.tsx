@@ -12,7 +12,6 @@ import { useState } from 'react'
 export default function Header() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 	const [isCartOpen, setIsCartOpen] = useState(false)
-	console.log(isCartOpen)
 
 	return (
 		<header className='header__section'>

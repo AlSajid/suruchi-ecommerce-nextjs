@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Banners2() {
 	return (
@@ -8,7 +7,7 @@ export default function Banners2() {
 				<div className='row row-cols-md-2 row-cols-1 mb--n28'>
 					<div className='col mb-28'>
 						<div className='banner__items position__relative'>
-							<Link
+							<a
 								className='banner__items--thumbnail '
 								href='shop'>
 								<Image
@@ -25,12 +24,12 @@ export default function Banners2() {
 										<u>Shop now</u>
 									</span>
 								</div>
-							</Link>
+							</a>
 						</div>
 					</div>
 					<div className='col mb-28'>
 						<div className='banner__items position__relative'>
-							<Link
+							<a
 								className='banner__items--thumbnail '
 								href='shop'>
 								<Image
@@ -44,10 +43,10 @@ export default function Banners2() {
 									<span className='banner__items--content__subtitle d-none d-lg-block'>Special offer</span>
 									<h2 className='banner__items--content__title h3'>Up to 35% Off Order Now</h2>
 									<span className='banner__items--content__link'>
-										<u>Discover Now</u>
+										<u>Discover Now</u>{' '}
 									</span>
 								</div>
-							</Link>
+							</a>
 						</div>
 					</div>
 				</div>
